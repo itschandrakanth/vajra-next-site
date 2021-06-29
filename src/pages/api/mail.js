@@ -22,7 +22,7 @@ export default (req, res) => {
   mail.send({
     to: 'chandrakanth@socialprachar.com',
     from: 'no-reply@vajra.ai',
-    subject: 'New Response!',
+    subject: 'New Response from Vajra Site!',
     text: message,
     html: message.replace(/\r\n/g, '<br>'),
   }).then(() => {

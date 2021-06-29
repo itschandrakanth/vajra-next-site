@@ -4,6 +4,8 @@ import banner from 'assets/images/bot-banner.jpg';
 import paypal from 'assets/images/paypal.png';
 import google from 'assets/images/google.png';
 import dropbox from 'assets/images/dropbox.png';
+import { Link, animateScroll as scroll } from "react-scroll";
+
 
 const Banner = () => {
   return (
@@ -17,9 +19,19 @@ const Banner = () => {
             <Text as="p" sx={styles.text}>
             Our Expert Team Technology innovations in Artificial Intelligence Helps your business to generate 200% Increase in LEADS and Double your SALES with our VajraX Business solutions.
             </Text>
-            <Button variant="primary" sx={styles.button}>
-              Start Free Trial
-            </Button>
+            <Link
+                activeClass="active"
+                to="section1"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+            >
+              <Button variant="primary" sx={styles.button}>
+                Start Free Trial
+              </Button>
+            </Link>
+            
             {/* <Box sx={styles.clients}>
               <Image src={paypal} alt="paypal" />
               <Image src={google} alt="google" />

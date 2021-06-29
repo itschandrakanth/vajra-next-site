@@ -1,3 +1,6 @@
+import { Link, animateScroll as scroll } from "react-scroll";
+
+
 function VajraPricing() {
     return (
         <div>
@@ -5,11 +8,11 @@ function VajraPricing() {
                 <div class="container px-5 py-24 mx-auto">
                     <div class="flex flex-col text-center w-full mb-20">
                     <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Pricing</h1>
-                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical.</p>
-                    <div class="flex mx-auto border-2 border-indigo-500 rounded overflow-hidden mt-6">
+                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">Get the plan that's suitable for your Business</p>
+                    {/* <div class="flex mx-auto border-2 border-indigo-500 rounded overflow-hidden mt-6">
                         <button class="py-1 px-4 bg-indigo-500 text-white focus:outline-none">Monthly</button>
                         <button class="py-1 px-4 focus:outline-none">Annually</button>
-                    </div>
+                    </div> */}
                     </div>
                     <div class="flex flex-wrap -m-4">
                     <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
@@ -37,12 +40,21 @@ function VajraPricing() {
                             </svg>
                             </span>Analytics
                         </p>
-                        <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Get Started
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
-                            <path d="M5 12h14M12 5l7 7-7 7"></path>
-                            </svg>
-                        </button>
-                        <p class="text-xs text-gray-500 mt-3">Literally you probably haven't heard of them jean shorts.</p>
+                        {/* <Link
+                            activeClass="active"
+                            to="section1"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                        > */}
+                            <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Get Started
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg>
+                            </button>
+                        {/* </Link> */}
+                        
                         </div>
                     </div>
                     <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
@@ -79,14 +91,13 @@ function VajraPricing() {
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                                 <path d="M20 6L9 17l-5-5"></path>
                             </svg>
-                            </span>Hexagon neutra unicorn
+                            </span>Chat support
                         </p>
                         <button class="flex items-center mt-auto text-white bg-indigo-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-indigo-600 rounded">Get Started
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
                             <path d="M5 12h14M12 5l7 7-7 7"></path>
                             </svg>
                         </button>
-                        <p class="text-xs text-gray-500 mt-3">Literally you probably haven't heard of them jean shorts.</p>
                         </div>
                     </div>
                     <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
@@ -122,21 +133,20 @@ function VajraPricing() {
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                                 <path d="M20 6L9 17l-5-5"></path>
                             </svg>
-                            </span>Hexagon neutra unicorn
+                            </span>Chat Support
                         </p>
                         <p class="flex items-center text-gray-600 mb-6">
                             <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                                 <path d="M20 6L9 17l-5-5"></path>
                             </svg>
-                            </span>Analytics
+                            </span>Notifications
                         </p>
                         <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Get Started
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
                             <path d="M5 12h14M12 5l7 7-7 7"></path>
                             </svg>
                         </button>
-                        <p class="text-xs text-gray-500 mt-3">Literally you probably haven't heard of them jean shorts.</p>
                         </div>
                     </div>
                     <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
@@ -172,21 +182,27 @@ function VajraPricing() {
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                                 <path d="M20 6L9 17l-5-5"></path>
                             </svg>
-                            </span>Hexagon neutra unicorn
+                            </span>Chat support
+                        </p>
+                        <p class="flex items-center text-gray-600 mb-2">
+                            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                <path d="M20 6L9 17l-5-5"></path>
+                            </svg>
+                            </span>Notifications
                         </p>
                         <p class="flex items-center text-gray-600 mb-6">
                             <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                                 <path d="M20 6L9 17l-5-5"></path>
                             </svg>
-                            </span>Analytics
+                            </span>Priority support
                         </p>
                         <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Get Started
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
                             <path d="M5 12h14M12 5l7 7-7 7"></path>
                             </svg>
                         </button>
-                        <p class="text-xs text-gray-500 mt-3">Literally you probably haven't heard of them jean shorts.</p>
                         </div>
                     </div>
                     </div>
