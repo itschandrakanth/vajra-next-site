@@ -36,7 +36,12 @@
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-optipng": "^8.0.0",
     "imagemin-svgo": "^8.0.0",
-    "prettier": "^2.1.2",
-    "next-sitemap": "^1.2.4"
-  }
+    "next-sitemap": "^1.2.4",
+    "prettier": "^2.1.2"
+  },
+  "description": "Build and Deploy a custom chatbot",
+  "main": "index.js",
+  "repository": "git@github.com:itschandrakanth/vajra-next-site.git",
+  "author": "itschandrakanth <chandrakanth@socialprachar.com>",
+  "license": "MIT"
 }
