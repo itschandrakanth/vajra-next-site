@@ -4,16 +4,27 @@ import SectionHeading from 'components/section-heading';
 import { LearnMore } from 'components/link';
 import Image from 'components/image';
 
-import banner from 'assets/images/vajra_3.jpg';
+import banner from 'assets/images/vajra-dash-snap.jpg';
 import checkFilledCircle from 'assets/images/icons/check-circle-filled.png';
+import Lottie from "react-lottie";
+import animationData from "../assets/animations/analytics.json";
 
 const Widgets = () => {
+  const LottieDefaultOptions = {
+    loop: false,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
   return (
     <Box as="section" id="widgets" variant="section.features">
       <Container>
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.leftContent}>
-            <Image src={banner} alt="widgets" />
+            {/* <Image src={banner} alt="widgets" /> */}
+            <Lottie options={LottieDefaultOptions} height={400} width={400} />
           </Box>
           <Box sx={styles.rightContent}>
             <SectionHeading
@@ -55,7 +66,7 @@ const styles = {
   heading: {
     textAlign: 'left',
     mb: ['20px'],
-    mt: [0, 0, 0, 0, '-70px'],
+    mt: [0, 0, 0, 0, '-20px'],
     h2: {
       fontSize: ['24px', '24px', '24px', '28px', '32px', '40px'],
       lineHeight: [1.45, 1.5],

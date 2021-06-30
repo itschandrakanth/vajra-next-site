@@ -5,9 +5,18 @@ import paypal from 'assets/images/paypal.png';
 import google from 'assets/images/google.png';
 import dropbox from 'assets/images/dropbox.png';
 import { Link, animateScroll as scroll } from "react-scroll";
-
+import Lottie from "react-lottie";
+import animationData from "../assets/animations/bot-3d.json";
 
 const Banner = () => {
+  const LottieDefaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
   return (
     <Box id="home" as="section" variant="section.banner">
       <Container>
@@ -38,9 +47,10 @@ const Banner = () => {
               <Image src={dropbox} alt="dropbox" />
             </Box> */}
           </Box>
-          <Box sx={styles.illustration}>
+          {/* <Box sx={styles.illustration}>
             <Image src={banner} alt="banner" />
-          </Box>
+          </Box> */}
+          <Lottie options={LottieDefaultOptions} height={400} width={400} />
         </Box>
       </Container>
     </Box>
