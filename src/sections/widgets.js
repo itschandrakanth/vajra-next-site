@@ -11,7 +11,7 @@ import animationData from "../assets/animations/analytics.json";
 
 const Widgets = () => {
   const LottieDefaultOptions = {
-    loop: false,
+    loop: true,
     autoplay: true,
     animationData: animationData,
     rendererSettings: {
@@ -24,7 +24,7 @@ const Widgets = () => {
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.leftContent}>
             {/* <Image src={banner} alt="widgets" /> */}
-            <Lottie options={LottieDefaultOptions} height={400} width={400} />
+            <Lottie options={LottieDefaultOptions} height={500} width={500} />
           </Box>
           <Box sx={styles.rightContent}>
             <SectionHeading

@@ -3,7 +3,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 function VajraPricing() {
     return (
-        <div>
+        <div id = "pricing">
             <section class="text-gray-600 body-font overflow-hidden">
                 <div class="container px-5 py-24 mx-auto">
                     <div class="flex flex-col text-center w-full mb-20">

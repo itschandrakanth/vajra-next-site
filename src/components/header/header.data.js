@@ -11,4 +11,8 @@ export default [
     path: 'useful-features',
     label: 'How it Works',
   },
+  {
+    path: 'pricing',
+    label: 'Pricing',
+  },
 ];
