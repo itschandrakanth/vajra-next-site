@@ -15,7 +15,7 @@ const Contact = () => {
 
     async function handleOnSubmit(e) {
         e.preventDefault();
-        setSubmitted(true)
+        
       
         const formData = {
             name,
@@ -46,6 +46,8 @@ const Contact = () => {
                 setBusinessCategory('')
             }
         })
+
+        setSubmitted(true)
         
     }
 

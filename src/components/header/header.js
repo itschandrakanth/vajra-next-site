@@ -57,18 +57,13 @@ export default function Header() {
                     </li>
                   ))}
                 </Box>
-                <Link
-                    activeClass="active"
-                    to="section1"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
+                <a
+                    href = "https://app.vajra.ai"
                 >
                   <Button variant="secondarySm" sx={styles.explore}>
                     Get Started
                   </Button>
-                </Link>
+                </a>
                   
                 
               </Flex>
