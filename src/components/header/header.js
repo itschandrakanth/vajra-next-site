@@ -61,7 +61,7 @@ export default function Header() {
                     href = "https://app.vajra.ai"
                 >
                   <Button variant="secondarySm" sx={styles.explore}>
-                    Get Started
+                    Login
                   </Button>
                 </a>
                   
