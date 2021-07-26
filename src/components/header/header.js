@@ -57,12 +57,8 @@ export default function Header() {
                     </li>
                   ))}
                 </Box>
-                <a
-                    href = "https://app.vajra.ai"
-                >
-                  <Button variant="secondarySm" sx={styles.explore}>
-                    Login
-                  </Button>
+                <a href = "https://app.vajra.ai">
+                  <Button variant="secondarySm" sx={styles.explore}>Login</Button>
                 </a>
                   
                 

@@ -13,9 +13,9 @@ const Banner = () => {
     loop: true,
     autoplay: true,
     animationData: animationData,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
+    // rendererSettings: {
+    //   preserveAspectRatio: "xMidYMid slice",
+    // },
   };
   return (
     <Box id="home" as="section" variant="section.banner">
@@ -50,7 +50,7 @@ const Banner = () => {
           {/* <Box sx={styles.illustration}>
             <Image src={banner} alt="banner" />
           </Box> */}
-          <Lottie options={LottieDefaultOptions} height={400} width={400} />
+          <Lottie options={LottieDefaultOptions} />
         </Box>
       </Container>
     </Box>

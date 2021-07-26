@@ -14,9 +14,9 @@ const Widgets = () => {
     loop: true,
     autoplay: true,
     animationData: animationData,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
+    // rendererSettings: {
+    //   preserveAspectRatio: "xMidYMid slice",
+    // },
   };
   return (
     <Box as="section" id="widgets" variant="section.features">
@@ -24,7 +24,7 @@ const Widgets = () => {
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.leftContent}>
             {/* <Image src={banner} alt="widgets" /> */}
-            <Lottie options={LottieDefaultOptions} height={500} width={500} />
+            <Lottie options={LottieDefaultOptions} />
           </Box>
           <Box sx={styles.rightContent}>
             <SectionHeading
