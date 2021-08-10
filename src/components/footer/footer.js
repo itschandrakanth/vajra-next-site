@@ -1,10 +1,10 @@
 /** @jsx jsx */
 import { jsx, Box, Text, Container } from 'theme-ui';
 import Logo from 'components/logo';
-import { Link } from 'components/link';
 import FooterWidget from 'components/footer-widget';
 import { menuItems, footerNav } from './footer.data';
 import { rgba } from 'polished';
+import Link from 'next/link'
 
 export default function Footer() {
   return (
@@ -28,7 +28,9 @@ export default function Footer() {
           <Box as="ul" sx={styles.footerNav}>
             {footerNav.map(({ path, label }, i) => (
               <li key={i}>
-                <Link path={path} key={i} label={label} variant="footer" />
+                <Link href={path}>
+                  {label}
+                </Link>  
               </li>
             ))}
           </Box>

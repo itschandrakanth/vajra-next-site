@@ -9,7 +9,8 @@ import menuItems from './header.data';
 // import { Link } from 'react-router-dom';
 // import { useHistory } from "react-router-dom";
 import { scroller } from "react-scroll";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { animateScroll as scroll } from "react-scroll";
+import Link from "next/link";
 
 export default function Header() {
   const [mobileMenu, setMobileMenu] = useState(false);
@@ -54,6 +55,9 @@ export default function Header() {
                         label={label}
                         onClick={closeMobileMenu}
                       />
+                      {/* <Link href={path} onClick={closeMobileMenu}>
+                        {label}
+                      </Link>  */}
                     </li>
                   ))}
                 </Box>

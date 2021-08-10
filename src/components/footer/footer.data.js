@@ -129,15 +129,15 @@ export const menuItems = [
 
 export const footerNav = [
   {
-    path: '#!',
+    path: 'terms-and-conditions',
     label: 'Terms and Conditions',
   },
   {
-    path: '#!',
+    path: 'privacy-policy',
     label: 'Privacy Policy',
   },
   {
-    path: '#!',
+    path: 'https://help.vajra.ai/',
     label: 'Help',
   },
 ];
