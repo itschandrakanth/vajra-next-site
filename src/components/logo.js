@@ -12,7 +12,7 @@ export default function Logo({ isWhite }) {
         variant: 'links.logo',
       }}
     >
-      <Image src={isWhite ? logoWhite : logo} alt="startup landing logo" width={130} height={80}/>
+      <Image src={isWhite ? logoWhite : logo} alt="vajra logo" width={130} height={80} className="cursor-pointer"/>
     </Link>
   );
 }

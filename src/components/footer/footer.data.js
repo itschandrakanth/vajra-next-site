@@ -137,6 +137,14 @@ export const footerNav = [
     label: 'Privacy Policy',
   },
   {
+    path: 'refund-shipping-policy',
+    label: 'Refund & Shipping Policy',
+  },
+  {
+    path: 'contact',
+    label: 'Contact',
+  },
+  {
     path: 'https://help.vajra.ai/',
     label: 'Help',
   },
