@@ -137,11 +137,14 @@ function index() {
                                     <p><b>HOW TO CONTACT US</b></p>
                                     <p><b>10.1.</b><span style={{fontWeight: 400}}> Please also feel free to contact us using the </span><b>Contact Us</b><span style={{fontWeight: 400}}> option if you have any questions about this Privacy Policy.</span></p>
                                     <p>&nbsp;</p>
-                                    <p><span style={{fontWeight: 400}}>Last Edited on 08-08-2021</span></p>
                                     <p>&nbsp;</p>
+
+                                    <br></br><br></br>
+                                    <strong>Last Update: </strong>12-10-2021
                                 
                                 </div>
                             </div>
+                            
                             
                             
                             </div>

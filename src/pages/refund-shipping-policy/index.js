@@ -33,8 +33,11 @@ function index() {
                                     <p>We consider digitally delivered goods to be information or content that you can download from our website or receive by email. Delivery means the digital download of subscribed content to the customers. At present we have only one mode of delivery - a subscription plan for accessing chatbots. Online digital delivery of content is through the internet, i.e., downloading the subscribed content from the www.vajra.ai website.</p>  
                                     &nbsp;&nbsp;&nbsp;&nbsp;  
                                     &nbsp;&nbsp;&nbsp;&nbsp; 
+                                    <br></br><br></br>
+                                    <strong>Last Update: </strong>12-10-2021
                                     &nbsp;&nbsp;&nbsp;&nbsp;                          
                                 </div>
+                                
                             </div>
                             </div>
                         </div>

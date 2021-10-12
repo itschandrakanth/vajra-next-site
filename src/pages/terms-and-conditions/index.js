@@ -121,8 +121,8 @@ function index() {
                                 <ol start="12">
                                 <li><b></b><span style={{fontWeight: 400}}> You agree to indemnify and hold the Vajra.ai Parties harmless from any claim or demand, including reasonable attorneys&#8217; fees, made by any third party due to or arising out of (A) your use of the Service or the Content; (B) your violation of these Terms of Service; or (C) your violation of any law or your violation or infringement of any rights of another party. </span></li>
                                 </ol>
-                                <p>&nbsp;</p>
-                                <p><span style={{fontWeight: 400}}>Last Edited on 08-08-2021</span></p>
+                                <p>&nbsp;</p><br></br><br></br>
+                                <strong>Last Update: </strong>12-10-2021
                                 
                                 </div>
                             </div>
