@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react';
 
-const Contact = () => {
+const OfferContact = () => {
 
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
@@ -11,11 +11,10 @@ const Contact = () => {
     const [businessCategory, setBusinessCategory] = useState('')
     const [submitted, setSubmitted] = useState(false)
 
-
-
     async function handleOnSubmit(e) {
         e.preventDefault();
         
+      
         const formData = {
             name,
             email,
@@ -25,9 +24,7 @@ const Contact = () => {
             message,
             businessCategory,
         };
-      
-        
-      
+
         await fetch('/api/mail', {
           method: 'POST',
           body: JSON.stringify(formData)
@@ -54,7 +51,7 @@ const Contact = () => {
         <section className="text-gray-600 body-font relative" id="section1" >
             <div className="container px-5 py-24 mx-auto">
                 <div className="flex flex-col text-center w-full mb-12">
-                <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Get Early Access</h1>
+                <h1 className="text-3xl text-5xl font-medium title-font mb-4 text-gray-900">Pay just ₹1 for first month</h1>
                 <p className="lg:w-2/3 mx-auto leading-relaxed text-base">The Next Generation AI Chatbot is here. We would love to have you as our Valued Customer. <br/>Sign up with us to get the early access and special discounts.</p>
                 </div>
                 <form method="post" onSubmit={handleOnSubmit}>
@@ -104,7 +101,7 @@ const Contact = () => {
                             </div>
                             </div>
                             <div className="p-2 w-full">
-                            <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" onClick={handleOnSubmit}>Submit</button>
+                            <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" onClick={handleOnSubmit}>Grab Offer</button>
                             </div>
                             {submitted && 
                                 <div class="px-4 py-3 leading-normal text-green-700 bg-green-100 rounded-lg content-center" role="alert">
@@ -116,10 +113,9 @@ const Contact = () => {
                     </div>
                 </form>
                 
-                
             </div>
         </section>
     );
   };
   
-  export default Contact;
+  export default OfferContact;
