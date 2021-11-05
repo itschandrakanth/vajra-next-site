@@ -1,6 +1,6 @@
 const mail = require('@sendgrid/mail');
 
-export default (req, res) => {
+export default async (req, res) => {
   res.status(200).json({ status: 'Ok' })
 
   mail.setApiKey(process.env.SENDGRID_API_KEY);
@@ -19,7 +19,7 @@ export default (req, res) => {
     Message: ${body.message}\r\n
   `;
 
-  mail.send({
+  await mail.send({
     to: 'chandrakanth@socialprachar.com',
     from: 'no-reply@vajra.ai',
     subject: 'New Response from Vajra Site!',
