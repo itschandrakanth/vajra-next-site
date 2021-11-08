@@ -6,9 +6,10 @@ const OfferContact = () => {
     const [email, setEmail] = useState('')
     const [phone, setPhone] = useState('')
     const [homepage, setHomepage] = useState('')
-    const [businessName, setBusinessName] = useState('')
-    const [message, setMessage] = useState('')
-    const [businessCategory, setBusinessCategory] = useState('')
+    const [usedBot, setUsedBot] = useState('')
+    // const [businessName, setBusinessName] = useState('')
+    // const [message, setMessage] = useState('')
+    // const [businessCategory, setBusinessCategory] = useState('')
     const [submitted, setSubmitted] = useState(false)
 
     async function handleOnSubmit(e) {
@@ -20,9 +21,7 @@ const OfferContact = () => {
             email,
             phone,
             homepage,
-            businessName,
-            message,
-            businessCategory,
+            usedBot,
         };
 
         await fetch('/api/mail', {
@@ -37,9 +36,7 @@ const OfferContact = () => {
                 setEmail('')
                 setPhone('')
                 setHomepage('')
-                setBusinessName('')
-                setMessage('')
-                setBusinessCategory('')
+                setUsedBot('')
             }
         })
 
@@ -52,7 +49,7 @@ const OfferContact = () => {
             <div className="container px-5 py-24 mx-auto">
                 <div className="flex flex-col text-center w-full mb-12">
                 <h1 className="text-3xl text-5xl font-medium title-font mb-4 text-gray-900">Pay just ₹1 for first month</h1>
-                <p className="lg:w-2/3 mx-auto leading-relaxed text-base">The Next Generation AI Chatbot is here. We would love to have you as our Valued Customer. <br/>Sign up with us to get the early access and special discounts.</p>
+                <p className="lg:w-2/3 mx-auto leading-relaxed text-base"><br/>Sign up with us to get the early access and special discounts.</p>
                 </div>
                 <form method="post" onSubmit={handleOnSubmit}>
                     <div className="lg:w-1/2 md:w-2/3 mx-auto">
@@ -69,35 +66,22 @@ const OfferContact = () => {
                                 <input type="email" id="email" name="email" onChange={(e)=>{setEmail(e.target.value)}} required className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                             </div>
                             </div>
-                            <div className="p-2 w-1/2">
+                            <div className="p-2 w-1/3">
                             <div className="relative">
                                 <label htmlFor="phone" className="leading-7 text-sm text-gray-600">Phone*</label>
                                 <input type="tel" id="phone" name="phone" onChange={(e)=>{setPhone(e.target.value)}} required className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                             </div>
                             </div>
-                            <div className="p-2 w-1/2">
+                            <div className="p-2 w-1/3">
                             <div className="relative">
                                 <label htmlFor="homepage" className="leading-7 text-sm text-gray-600">Website Url</label>
                                 <input type="url" id="url" name="homepage" onChange={(e)=>{setHomepage(e.target.value)}} className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                             </div>
                             </div>
-                            <div className="p-2 w-1/2">
+                            <div className="p-2 w-1/3">
                             <div className="relative">
-                                <label htmlFor="business-name" className="leading-7 text-sm text-gray-600">Business Name</label>
-                                <input type="text" id="business-name" onChange={(e)=>{setBusinessName(e.target.value)}} name="business_name" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
-                            </div>
-                            </div>
-                            <div className="p-2 w-1/2">
-                            <div className="relative">
-                                <label htmlFor="Category" className="leading-7 text-sm text-gray-600">Business Category</label>
-                                <input id="url" name="business_category" onChange={(e)=>{setBusinessCategory(e.target.value)}} className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" /> 
-                            </div>
-                            </div>
-                            
-                            <div className="p-2 w-full">
-                            <div className="relative">
-                                <label htmlFor="message" className="leading-7 text-sm text-gray-600">Message</label>
-                                <textarea id="message" name="message" onChange={(e)=>{setMessage(e.target.value)}} className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                                <label htmlFor="botbefore" className="leading-7 text-sm text-gray-600">Used any Bot before?</label>
+                                <input type="text" id="botbefore" name="bot_before" onChange={(e)=>{setUsedBot(e.target.value)}} className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                             </div>
                             </div>
                             <div className="p-2 w-full">
