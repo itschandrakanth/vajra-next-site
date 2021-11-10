@@ -77,7 +77,7 @@ export default function IndexPage() {
               <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
               Get 5X increase in your Sales & Customer Engagement with our 24/7 AI Live Chatbot - No Coding skills Required
               </p>
-              <a href="#">
+              {/* <a href="#">
                 <button id="open-vajra" class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow mx-10 my-10">
                   Try Vajra Demo
                 </button>
@@ -87,7 +87,7 @@ export default function IndexPage() {
                 <button class="bg-green-500 hover:bg-indigo-500 text-white font-bold py-2 px-4 rounded shadow mx-10">
                   Whatsapp us
                 </button>  
-              </a>
+              </a> */}
                
             </div>
 
