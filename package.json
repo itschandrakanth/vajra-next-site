@@ -10,6 +10,7 @@
     "postbuild": "next-sitemap"
   },
   "dependencies": {
+    "@headlessui/react": "^1.4.2",
     "@heroicons/react": "^1.0.5",
     "@next/env": "^11.0.1",
     "@sendgrid/mail": "^7.4.5",
