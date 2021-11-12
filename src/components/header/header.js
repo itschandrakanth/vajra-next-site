@@ -11,6 +11,7 @@ import menuItems from './header.data';
 import { scroller } from "react-scroll";
 import { animateScroll as scroll } from "react-scroll";
 import Link from "next/link";
+import NextLink from 'next/link';
 
 export default function Header() {
   const [mobileMenu, setMobileMenu] = useState(false);
@@ -64,6 +65,8 @@ export default function Header() {
                 <a href = "https://app.vajra.ai">
                   <Button variant="secondarySm" sx={styles.explore}>Login</Button>
                 </a>
+                {/* <NextLink href="https://vajra.ai#how-it-works">Google
+                </NextLink> */}
                   
                 
               </Flex>

@@ -4,11 +4,11 @@ export default [
     label: 'Home',
   },
   {
-    path: 'ultimate-feature',
+    path: 'ultimate-features',
     label: 'Features',
   },
   {
-    path: 'useful-features',
+    path: 'how-it-works',
     label: 'How it Works',
   },
   {

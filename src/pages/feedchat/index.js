@@ -11,7 +11,6 @@ function FeedChatMain() {
             <Layout>
                 <SEO title="Vajra.ai FeedChat" /> 
                 <FeedChat />
-                {/* <FeedChat /> */}
             </Layout>
         </ThemeProvider>
     )
