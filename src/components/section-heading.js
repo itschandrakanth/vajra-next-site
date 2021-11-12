@@ -23,7 +23,7 @@ const styles = {
   title: {
     color: 'heading',
     fontWeight: 500,
-    fontSize: ['24px', '30px'],
+    fontSize: ['24px', '44px'],
     lineHeight: [1.25, 1.5],
     letterSpacing: 'heading',
   },

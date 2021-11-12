@@ -13,6 +13,7 @@ import OfferHeading from 'sections/offer/offer-heading';
 import OfferLeftImg from 'sections/offer/offer-left-img'
 import OfferFeatureGrid from 'sections/offer/offer-feature-grid'
 import Dashboard from 'sections/offer/offer-dashboard';
+import OfferContact from 'sections/offer-contact';
 import OfferForm from 'sections/offer/offer-form';
 
 const navigation = [
@@ -41,6 +42,7 @@ export default function Example() {
             <OfferLeftImg />
             <OfferFeatureGrid />
             {/* <Dashboard /> */}
+            {/* <OfferContact /> */}
             <OfferForm />
 
         </Layout>
