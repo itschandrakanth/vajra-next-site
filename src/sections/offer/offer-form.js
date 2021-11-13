@@ -14,16 +14,16 @@ const OfferForm = () => {
     // },
   };
   return (
-    <Box id="home" as="section" variant="section.features">
+    <Box id="request" as="section" variant="section.features">
       <Container>
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.content}>
             <Heading sx={styles.title}>
-            Why Wait? <br />Try for just <span sx={styles.spanColor}>₹1</span> for first month. 
+            Try All our AI products at just <span sx={styles.spanColor}>1 rupee</span> for first month. 
             </Heading>
             <div id="open-vajra"></div>
             <Text as="p" sx={styles.text}>
-                Get a free trial of our app and get access to all the features.
+            24/7 Human-like AI chatbot. Get access to all the features.
             </Text>
             <Link
                 activeClass="active"
@@ -34,7 +34,7 @@ const OfferForm = () => {
                 duration={500}
             >
               <Button variant="primary" sx={styles.button}>
-                Try vajra.ai
+                See in action
               </Button>
             </Link>
             

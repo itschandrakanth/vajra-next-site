@@ -38,7 +38,7 @@ const OfferBanner = () => {
                 duration={500}
             >
               <Button variant="primary" sx={styles.button}>
-                Try vajra.ai
+                See in action
               </Button>
             </Link>
             

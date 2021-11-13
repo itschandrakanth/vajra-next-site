@@ -2,13 +2,15 @@
 import { jsx, Box, Container, Heading, Text, Button, Image } from 'theme-ui';
 import { Link, animateScroll as scroll } from "react-scroll";
 import Lottie from "react-lottie";
-import feedChat from "../../assets/animations/offer-vajra.json";
+import brands from "../../assets/animations/brands.json";
+import VajraChatbot from "../../assets/images/chatbot-showcase.png";
+import VajraPricing from 'sections/vajra-pricing';
 
-const OfferBanner = () => {
+const OfferRightImg = () => {
   const LottieDefaultOptions = {
     loop: true,
     autoplay: true,
-    animationData: feedChat,
+    animationData: brands,
     // rendererSettings: {
     //   preserveAspectRatio: "xMidYMid slice",
     // },
@@ -17,13 +19,15 @@ const OfferBanner = () => {
     <Box id="home" as="section" variant="section.banner">
       <Container>
         <Box sx={styles.contentWrapper}>
+          {/* <Lottie options={LottieDefaultOptions} /> */}
+          
           <Box sx={styles.content}>
             <Heading sx={styles.title}>
-            Automate <span sx={styles.spanColor}>Lead </span>Generation and Customer <span sx={styles.spanColor}>Service</span> in no time with our Vajra Bot 
+            100+ Brands already using <span sx={styles.spanColor}>vajra.ai</span> platform
             </Heading>
             <div id="open-vajra"></div>
             <Text as="p" sx={styles.text}>
-            Get 5X increase in your Sales & Customer Engagement with our 24/7 AI Live Chatbot <br />- No Coding skills Required
+            Leverage your business with the best in class AI chatbot that increases your sales and customer engagement.
             </Text>
             <Link
                 activeClass="active"
@@ -33,23 +37,24 @@ const OfferBanner = () => {
                 offset={-70}
                 duration={500}
             >
-              <Button variant="primary" sx={styles.button} id="open-vajra">
-                See Vajra Bot in action
-              </Button>
-              {/* <Button variant="primary" sx={styles.button} id="open-vajra">
-                Request Demo
-              </Button> */}
+              <a href="#request">
+                <Button variant="primary" sx={styles.button}>
+                    Request a Demo
+                </Button>
+              </a>
+              
             </Link>
             
           </Box>
           <Lottie options={LottieDefaultOptions} />
+          
         </Box>
       </Container>
     </Box>
   );
 };
 
-export default OfferBanner;
+export default OfferRightImg;
 
 const styles = {
   spanColor: {
@@ -80,7 +85,7 @@ const styles = {
     mt: ['14px', '19px'],
   },
   button: {
-    display: ['flex'],
+    display: ['none', 'flex'],
     mt: [45, 45, 45, 25, 25],
   },
   clients: {

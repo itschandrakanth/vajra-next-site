@@ -5,7 +5,7 @@ import SectionHeading from 'components/section-heading';
 import Image from 'components/image';
 import { LearnMore } from 'components/link';
 import videoBanner from 'assets/images/video.png';
-import dashboardImage from 'assets/images/dashboard-vajra.png';
+import dashboardImage from 'assets/images/dashboard-vajra3.png';
 import Play from 'assets/images/icons/play.png';
 import Modal, { CloseButton } from 'components/modal/modal';
 import ResponsiveIframe from 'components/responsive-iframe';
