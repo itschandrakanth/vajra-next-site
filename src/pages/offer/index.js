@@ -37,13 +37,13 @@ export default function Example() {
   return (
     <ThemeProvider theme={theme}>
         <Layout>
-            <SEO title="Vajra.ai FeedChat" /> 
+            <SEO title="Vajra.ai - AI and ML Business Solutions" /> 
             <Offer />
             <OfferHeading />
             <OfferLeftImg />
             <OfferFeatureGrid />
             <OfferRightImg />
-            <OfferLeftImg />
+            {/* <OfferLeftImg /> */}
             <Services />
 
             {/* <Dashboard /> */}

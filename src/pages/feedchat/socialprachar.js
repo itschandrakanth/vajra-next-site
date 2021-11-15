@@ -21,13 +21,16 @@ const FeedChat = () => {
   return (
     <ThemeProvider theme={theme}>
     <Layout>
-        <SEO title="Vajra.ai FeedChat" /> 
+        <SEO title="Social Prachar FeedChat - vajra.ai" /> 
         <Box id="home" as="section" variant="section.banner">
             <Container>
                 <Box sx={styles.contentWrapper}>
-                  <a href = "#" id="open-vajra">
-                    <Button variant="secondarySm" sx={styles.explore}>Open Social Prachar FeedChat</Button>
-                  </a>
+                  <div id="open-vajra">
+                    <a href = "#">
+                      <Button variant="secondarySm" sx={styles.explore}>Open Social Prachar FeedChat</Button>
+                    </a>
+                  </div>
+                  
                 </Box>
             </Container>
         </Box>
