@@ -2,30 +2,56 @@ import { useRef, useState } from 'react';
 
 const OfferContact = () => {
 // export default function OfferContact() {
-    // const [name, setName] = useState('')
-    // const [email, setEmail] = useState('')
-    // const [phone, setPhone] = useState('')
-    // const [homepage, setHomepage] = useState('')
-    // const [usedBot, setUsedBot] = useState('')
-    // const [businessName, setBusinessName] = useState('')
-    // const [message, setMessage] = useState('')
-    // const [businessCategory, setBusinessCategory] = useState('')
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+    const [phone, setPhone] = useState('')
+    const [homepage, setHomepage] = useState('')
+    const [usedBot, setUsedBot] = useState('')
+    const [businessName, setBusinessName] = useState('')
+    const [message, setMessage] = useState('')
+    const [businessCategory, setBusinessCategory] = useState('')
     const [submitted, setSubmitted] = useState(false)
 
     async function handleOnSubmit(e) {
         e.preventDefault();
 
-        const formData = {}
+        const formData = {
+            name,
+            email,
+            phone,
+            homepage,
+            usedBot,
+            businessName,
+            message,
+            businessCategory,
+        };
         // console.log("ELEMENTS",e.currentTarget.elements)
         Array.from(e.currentTarget.elements).forEach(field => {
             if ( !field.name ) return;
             formData[field.name] = field.value
             
         });
-        await fetch('/api/mail', { 
-            method: 'post',
+        fetch('../api/sheet', {
+            method: 'POST',
             body: JSON.stringify(formData),
-        })
+            headers: {
+              'Content-Type': 'application/json',
+            },
+        }).then((res) => {
+            console.log('Response received')
+            if (res.status === 200) {
+                console.log('Response Succeeded')
+                setSubmitted(true)
+                setName('')
+                setEmail('')
+                setPhone('')
+                setHomepage('')
+                setUsedBot('')
+                setBusinessName('')
+                setMessage('')
+                setBusinessCategory('')
+            }
+        });
         setSubmitted(true)
         // console.log(formData)
         

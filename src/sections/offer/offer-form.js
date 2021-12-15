@@ -3,8 +3,74 @@ import { jsx, Box, Container, Heading, Text, Button, Image } from 'theme-ui';
 import { Link, animateScroll as scroll } from "react-scroll";
 import Lottie from "react-lottie";
 import feedChat from "../../assets/animations/offer-vajra.json";
+import { useState } from 'react';
 
 const OfferForm = () => {
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+    const [phone, setPhone] = useState('')
+    const [homepage, setHomepage] = useState('')
+    const [usedBot, setUsedBot] = useState('')
+    const [businessName, setBusinessName] = useState('')
+    const [message, setMessage] = useState('')
+    const [businessCategory, setBusinessCategory] = useState('')
+    const [submitted, setSubmitted] = useState(false)
+    const [timestamp, setTimestamp] = useState(new Date().toDateString() + " " + new Date().toLocaleTimeString())
+
+    // function handleInputChanged(e) {
+    //   setTimestamp(new Date());
+    // }
+
+    async function handleOnSubmit(e) {
+      e.preventDefault();
+      // const timestamp = new Date();
+      // console.log(timestamp)
+
+      const formData = {
+          name,
+          email,
+          phone,
+          homepage,
+          usedBot,
+          businessName,
+          message,
+          businessCategory,
+          timestamp
+      };
+      // console.log("ELEMENTS",e.currentTarget.elements)
+      Array.from(e.currentTarget.elements).forEach(field => {
+          if ( !field.name ) return;
+          formData[field.name] = field.value
+          
+      });
+      fetch('../api/sheetlanding', {
+          method: 'POST',
+          body: JSON.stringify(formData),
+          headers: {
+            'Content-Type': 'application/json',
+          },
+      }).then((res) => {
+          console.log('Response received')
+          if (res.status === 200) {
+              console.log('Response Succeeded')
+              setSubmitted(true)
+              setName('')
+              setEmail('')
+              setPhone('')
+              setHomepage('')
+              setUsedBot('')
+              setBusinessName('')
+              setMessage('')
+              setBusinessCategory('')
+              setTimestamp(new Date())
+          }
+      });
+
+      setSubmitted(true)
+      
+      
+  }
+
   const LottieDefaultOptions = {
     loop: true,
     autoplay: true,
@@ -45,46 +111,56 @@ const OfferForm = () => {
                 <div class=" bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
                 <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Contact us</h2>
                 <p class="leading-relaxed mb-5 text-gray-600">Take the first step to benefit your business</p>
-                <form action="">
-                    
+                <form onSubmit={handleOnSubmit}>
+                  <div className="flex flex-wrap -m-2">
+                              <div className="p-2 w-full">
+                              <div className="relative">
+                                  <label htmlFor="name" className="leading-7 text-sm text-gray-600">Name*</label>
+                                  <input type="text" id="name" name="name" required className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                              </div>
+                              </div>
+                              <div className="p-2 w-full">
+                              <div className="relative">
+                                  <label htmlFor="email" className="leading-7 text-sm text-gray-600">Email*</label>
+                                  <input type="email" id="email" name="email" required className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                              </div>
+                              </div>
+                              <div className="p-2 w-1/2">
+                              <div className="relative">
+                                  <label htmlFor="phone" className="leading-7 text-sm text-gray-600">Phone*</label>
+                                  <input type="tel" id="phone" name="phone" required className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                              </div>
+                              </div>
+                              <div className="p-2 w-1/2">
+                              <div className="relative">
+                                  <label htmlFor="homepage" className="leading-7 text-sm text-gray-600">Website Url</label>
+                                  <input type="url" id="url" name="homepage" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                              </div>
+                              </div>
+                              
+                              <div className="p-2 w-full">
+                              <div className="relative">
+                                  {/* <input type="time" name="timestamp" value={handleInputChanged} hidden/> */}
+                              </div>
+                              {/* <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" >Grab Offer</button> */}
+                              </div>
+                              {/* {submitted && 
+                                  <div class="px-4 py-3 leading-normal text-green-700 bg-green-100 rounded-lg content-center" role="alert">
+                                  <p class="font-bold">Success</p>
+                                  <p>Form has been submitted successfully. One of our friendly team will contact you soon</p>
+                                </div>
+                              } */}
+                              <button  class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Let me in!</button>
+                          </div>
+                          
                 </form>
-                    <div className="flex flex-wrap -m-2">
-                            <div className="p-2 w-full">
-                            <div className="relative">
-                                <label htmlFor="name" className="leading-7 text-sm text-gray-600">Name*</label>
-                                <input type="text" id="name" name="name" required className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
-                            </div>
-                            </div>
-                            <div className="p-2 w-full">
-                            <div className="relative">
-                                <label htmlFor="email" className="leading-7 text-sm text-gray-600">Email*</label>
-                                <input type="email" id="email" name="email" required className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
-                            </div>
-                            </div>
-                            <div className="p-2 w-1/2">
-                            <div className="relative">
-                                <label htmlFor="phone" className="leading-7 text-sm text-gray-600">Phone*</label>
-                                <input type="tel" id="phone" name="phone" required className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
-                            </div>
-                            </div>
-                            <div className="p-2 w-1/2">
-                            <div className="relative">
-                                <label htmlFor="homepage" className="leading-7 text-sm text-gray-600">Website Url</label>
-                                <input type="url" id="url" name="homepage" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
-                            </div>
-                            </div>
-                            
-                            <div className="p-2 w-full">
-                            {/* <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" >Grab Offer</button> */}
-                            </div>
-                            {/* {submitted && 
+                {submitted && 
                                 <div class="px-4 py-3 leading-normal text-green-700 bg-green-100 rounded-lg content-center" role="alert">
                                 <p class="font-bold">Success</p>
                                 <p>Form has been submitted successfully. One of our friendly team will contact you soon</p>
                               </div>
-                            } */}
-                        </div>
-                        <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Let me in!</button>
+                }
+                        
                
                     </div>
             </div>

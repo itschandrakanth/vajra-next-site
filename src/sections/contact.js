@@ -25,6 +25,14 @@ const Contact = () => {
             message,
             businessCategory,
         };
+
+        fetch('../api/sheet', {
+            method: 'POST',
+            body: JSON.stringify(formData),
+            headers: {
+              'Content-Type': 'application/json',
+            },
+        });
       
         
       
@@ -47,6 +55,7 @@ const Contact = () => {
         })
 
         setSubmitted(true)
+        
         
     }
 
