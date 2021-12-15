@@ -17,6 +17,7 @@ export default ServiceCard;
 const styles = {
   service: {
     border: (theme) => `1px solid #EDEFF6`,
+    backgroundColor: ['white'],
     borderRadius: 5,
     display: 'flex',
     flexDirection: 'column',
@@ -27,7 +28,7 @@ const styles = {
     ':hover': {
       boxShadow: '0px 11px 30px rgba(51, 83, 145, 0.07)',
       borderColor: 'transparent',
-      backgroundColor: 'azure'
+      backgroundColor: '#8546ff24'
     },
     p: {
       fontWeight: 500,

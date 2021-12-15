@@ -47,7 +47,7 @@ export default function Example() {
             <Services />
 
             {/* <Dashboard /> */}
-            <OfferForm />
+            <OfferForm id="section1" />
 
         </Layout>
     </ThemeProvider>

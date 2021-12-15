@@ -48,7 +48,8 @@ export default Services;
 const styles = {
   section: {
     pt: ['70px', null, null, null, '100px', null, '140px'],
-    pb: [12, null, null, null, null, 15],
+    pb: ['70px', null, null, null, null, '140px'],
+    backgroundColor: 'aliceblue',
   },
   grid: {
     gap: [3, null, null, 4],

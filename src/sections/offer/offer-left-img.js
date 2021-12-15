@@ -37,9 +37,9 @@ const OfferBanner = () => {
                 offset={-70}
                 duration={500}
             >
-              <Button variant="primary" sx={styles.button}>
+              {/* <Button variant="primary" sx={styles.button}>
                 See in action
-              </Button>
+              </Button> */}
             </Link>
             
           </Box>

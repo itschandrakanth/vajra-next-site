@@ -33,9 +33,9 @@ const OfferBanner = () => {
                 offset={-70}
                 duration={500}
             >
-              <Button variant="primary" sx={styles.button} id="open-vajra">
+              {/* <Button variant="primary" sx={styles.button} id="open-vajra">
                 See Vajra Bot in action
-              </Button>
+              </Button> */}
               {/* <Button variant="primary" sx={styles.button} id="open-vajra">
                 Request Demo
               </Button> */}

@@ -37,11 +37,11 @@ const OfferRightImg = () => {
                 offset={-70}
                 duration={500}
             >
-              <a href="#request">
-                <Button variant="primary" sx={styles.button}>
+              
+                {/* <Button variant="primary" sx={styles.button}>
                     Request a Demo
-                </Button>
-              </a>
+                </Button> */}
+              
               
             </Link>
             
