@@ -3,7 +3,9 @@ import { jsx, Box, Container, Heading, Text, Button, Image } from 'theme-ui';
 import { Link, animateScroll as scroll } from "react-scroll";
 import Lottie from "react-lottie";
 import feedChat from "../../assets/animations/offer-vajra.json";
+import contact from "../../assets/animations/contact.json";
 import { useState } from 'react';
+import SectionHeading from 'components/section-heading';
 
 const OfferForm = () => {
     const [name, setName] = useState('')
@@ -74,7 +76,7 @@ const OfferForm = () => {
   const LottieDefaultOptions = {
     loop: true,
     autoplay: true,
-    animationData: feedChat,
+    animationData: contact,
     // rendererSettings: {
     //   preserveAspectRatio: "xMidYMid slice",
     // },
@@ -82,15 +84,21 @@ const OfferForm = () => {
   return (
     <Box id="request" as="section" variant="section.features">
       <Container>
+        <Heading sx={styles.badaTitle}>
+            Try All our AI products at just <span sx={styles.spanColor}>1 rupee</span> for first month. 
+        </Heading>
+        <p className="text-2xl text-center p-2">Get access to all the features</p>
         <Box sx={styles.contentWrapper}>
+        
           <Box sx={styles.content}>
-            <Heading sx={styles.title}>
+            <Lottie options={LottieDefaultOptions} />
+            {/* <Heading sx={styles.title}>
             Try All our AI products at just <span sx={styles.spanColor}>1 rupee</span> for first month. 
             </Heading>
             <div id="open-vajra"></div>
             <Text as="p" sx={styles.text}>
             24/7 Human-like AI chatbot. Get access to all the features.
-            </Text>
+            </Text> */}
             <Link
                 activeClass="active"
                 to="section1"
@@ -105,7 +113,7 @@ const OfferForm = () => {
             </Link>
             
           </Box>
-          {/* <Lottie options={LottieDefaultOptions} /> */}
+          
           <div>
             <div class="container px-5 py-24 mx-auto flex">
                 <div class=" bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
@@ -193,6 +201,14 @@ const styles = {
     fontSize: ['30px', null, null, null, '30px', '30px', '35px'],
     lineHeight: 1.33,
     letterSpacing: '-1px',
+    color: 'textSecondary',
+  },
+  badaTitle: {
+    fontWeight: 'bold',
+    fontSize: ['48px', null, null, null, '48px', '48px', '48px'],
+    lineHeight: 1.33,
+    letterSpacing: '-1px',
+    alignItems: 'center',
     color: 'textSecondary',
   },
   text: {

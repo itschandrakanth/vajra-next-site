@@ -4,24 +4,34 @@ import { jsx, Box, Container } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import ServiceCard from 'components/service-card';
 import ai from 'assets/images/artificial-intelligence.png'
+import businessCard from 'assets/images/business-card.png'
+import visitor from 'assets/images/visitor.png'
+import feedbackImg from 'assets/images/feedback.png'
 
 const services = [
   {
     title: 'Human like  ',
     price: 'AI chatbot',
-    image: ai
+    image: ai,
+    description: '24x7 Human like chatbot to engage with your customers',
   },
   {
     title: 'AI Feedchat',
     price: 'Forms',
+    image: feedbackImg,
+    description: 'Create Stunning Feedback forms for Customer Behavior Insights',
   },
   {
     title: 'AI integrated',
     price: 'Visitor Management',
+    image: visitor,
+    description: 'Make Vajra as your 24x7 Front Office Executive',
   },
   {
     title: ' Create AI powered',
     price: 'Business cards',
+    image: businessCard,
+    description: 'Give your Clients the Virtual touch with Profile Cards',
   },
 ];
 
