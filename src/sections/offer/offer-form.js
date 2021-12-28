@@ -6,6 +6,8 @@ import feedChat from "../../assets/animations/offer-vajra.json";
 import contact from "../../assets/animations/contact.json";
 import { useState } from 'react';
 import SectionHeading from 'components/section-heading';
+import whatsappLogo from '../../assets/images/whatsapp.png';
+import calendlyLogo from '../../assets/images/calendly.png';
 
 const OfferForm = () => {
     const [name, setName] = useState('')
@@ -99,6 +101,28 @@ const OfferForm = () => {
             <Text as="p" sx={styles.text}>
             24/7 Human-like AI chatbot. Get access to all the features.
             </Text> */}
+            <div class="flex md:ml-auto md:mr-0 mx-auto items-center flex-shrink-0 space-x-4">
+                <a href="https://api.whatsapp.com/send?phone=918919185995">
+                  <button class="bg-green-200 hover:bg-green-500 hover:text-white inline-flex py-3 px-10 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
+                    <img src={whatsappLogo} alt="whatsapp" className="w-6 h-6" />
+                    <span class="ml-4 flex items-left flex-col leading-none">
+                      <span class="text-xs text-gray-600 mb-1">For Quick Support</span>
+                      <span class="title-font font-medium">Whatsapp Now</span>
+                    </span>
+                  </button>
+                </a>
+                
+                <a href="https://calendly.com/vajra-ai/15min" target="_blank">
+                  <button class="bg-blue-200 hover:bg-blue-400 hover:text-white inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
+                    <img src={calendlyLogo} alt="whatsapp" className="w-8 h-8" />
+                    <span class="ml-4 flex items-left flex-col leading-none">
+                      <span class="-ml-2 text-xs text-gray-600 mb-1">For 1-1 session</span>
+                      <span class="-ml-2 title-font font-medium">Book on Calendly</span>
+                    </span>
+                  </button>
+                </a>
+                
+              </div>
             <Link
                 activeClass="active"
                 to="section1"
