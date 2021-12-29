@@ -16,6 +16,7 @@ import Dashboard from 'sections/offer/offer-dashboard';
 import OfferForm from 'sections/offer/offer-form';
 import OfferRightImg from 'sections/offer/offer-right-img'
 import Services from 'sections/services'
+import Faq from 'sections/faq'
 
 const navigation = [
   { name: 'Product', href: '#' },
@@ -41,6 +42,7 @@ export default function Example() {
             <Offer />
             <OfferHeading />
             <OfferLeftImg />
+            <Faq />
             <OfferFeatureGrid />
             <OfferRightImg />
             {/* <OfferLeftImg /> */}

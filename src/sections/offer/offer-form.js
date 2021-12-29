@@ -89,7 +89,7 @@ const OfferForm = () => {
         <Heading sx={styles.badaTitle}>
             Try All our AI products at just <span sx={styles.spanColor}>1 rupee</span> for first month. 
         </Heading>
-        <p className="text-2xl text-center p-2">Get access to all the features</p>
+        <p classNameName="text-2xl text-center p-2">Get access to all the features</p>
         <Box sx={styles.contentWrapper}>
         
           <Box sx={styles.content}>
@@ -101,30 +101,30 @@ const OfferForm = () => {
             <Text as="p" sx={styles.text}>
             24/7 Human-like AI chatbot. Get access to all the features.
             </Text> */}
-            <div class="flex md:ml-auto md:mr-0 mx-auto items-center flex-shrink-0 space-x-4">
+            <div className="flex md:ml-auto md:mr-0 mx-auto items-center flex-shrink-0 space-x-4">
                 <a href="https://api.whatsapp.com/send?phone=918919185995">
-                  <button class="bg-green-200 hover:bg-green-500 hover:text-white inline-flex py-3 px-10 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
-                    <img src={whatsappLogo} alt="whatsapp" className="w-6 h-6" />
-                    <span class="ml-4 flex items-left flex-col leading-none">
-                      <span class="text-xs text-gray-600 mb-1">For Quick Support</span>
-                      <span class="title-font font-medium">Whatsapp Now</span>
+                  <button className="bg-green-200 hover:bg-green-500 hover:text-white inline-flex py-3 px-10 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
+                    <img src={whatsappLogo} alt="whatsapp" classNameName="w-6 h-6" />
+                    <span className="ml-4 flex items-left flex-col leading-none">
+                      <span className="text-xs text-gray-600 mb-1">For Quick Support</span>
+                      <span className="title-font font-medium">Whatsapp Now</span>
                     </span>
                   </button>
                 </a>
                 
                 <a href="https://calendly.com/vajra-ai/15min" target="_blank">
-                  <button class="bg-blue-200 hover:bg-blue-400 hover:text-white inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
-                    <img src={calendlyLogo} alt="whatsapp" className="w-8 h-8" />
-                    <span class="ml-4 flex items-left flex-col leading-none">
-                      <span class="-ml-2 text-xs text-gray-600 mb-1">For 1-1 session</span>
-                      <span class="-ml-2 title-font font-medium">Book on Calendly</span>
+                  <button className="bg-blue-200 hover:bg-blue-400 hover:text-white inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
+                    <img src={calendlyLogo} alt="whatsapp" classNameName="w-8 h-8" />
+                    <span className="ml-4 flex items-left flex-col leading-none">
+                      <span className="-ml-2 text-xs text-gray-600 mb-1">For 1-1 session</span>
+                      <span className="-ml-2 title-font font-medium">Book on Calendly</span>
                     </span>
                   </button>
                 </a>
                 
               </div>
             <Link
-                activeClass="active"
+                activeclassName="active"
                 to="section1"
                 spy={true}
                 smooth={true}
@@ -139,56 +139,56 @@ const OfferForm = () => {
           </Box>
           
           <div>
-            <div class="container px-5 py-24 mx-auto flex">
-                <div class=" bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
-                <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Contact us</h2>
-                <p class="leading-relaxed mb-5 text-gray-600">Take the first step to benefit your business</p>
+            <div className="container px-5 py-24 mx-auto flex">
+                <div className=" bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
+                <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Contact us</h2>
+                <p className="leading-relaxed mb-5 text-gray-600">Take the first step to benefit your business</p>
                 <form onSubmit={handleOnSubmit}>
-                  <div className="flex flex-wrap -m-2">
-                              <div className="p-2 w-full">
-                              <div className="relative">
-                                  <label htmlFor="name" className="leading-7 text-sm text-gray-600">Name*</label>
-                                  <input type="text" id="name" name="name" required className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                  <div classNameName="flex flex-wrap -m-2">
+                              <div classNameName="p-2 w-full">
+                              <div classNameName="relative">
+                                  <label htmlFor="name" classNameName="leading-7 text-sm text-gray-600">Name*</label>
+                                  <input type="text" id="name" name="name" required classNameName="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                               </div>
                               </div>
-                              <div className="p-2 w-full">
-                              <div className="relative">
-                                  <label htmlFor="email" className="leading-7 text-sm text-gray-600">Email*</label>
-                                  <input type="email" id="email" name="email" required className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                              <div classNameName="p-2 w-full">
+                              <div classNameName="relative">
+                                  <label htmlFor="email" classNameName="leading-7 text-sm text-gray-600">Email*</label>
+                                  <input type="email" id="email" name="email" required classNameName="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                               </div>
                               </div>
-                              <div className="p-2 w-1/2">
-                              <div className="relative">
-                                  <label htmlFor="phone" className="leading-7 text-sm text-gray-600">Phone*</label>
-                                  <input type="tel" id="phone" name="phone" required className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                              <div classNameName="p-2 w-1/2">
+                              <div classNameName="relative">
+                                  <label htmlFor="phone" classNameName="leading-7 text-sm text-gray-600">Phone*</label>
+                                  <input type="tel" id="phone" name="phone" required classNameName="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                               </div>
                               </div>
-                              <div className="p-2 w-1/2">
-                              <div className="relative">
-                                  <label htmlFor="homepage" className="leading-7 text-sm text-gray-600">Website Url</label>
-                                  <input type="url" id="url" name="homepage" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                              <div classNameName="p-2 w-1/2">
+                              <div classNameName="relative">
+                                  <label htmlFor="homepage" classNameName="leading-7 text-sm text-gray-600">Website Url</label>
+                                  <input type="url" id="url" name="homepage" classNameName="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                               </div>
                               </div>
                               
-                              <div className="p-2 w-full">
-                              <div className="relative">
+                              <div classNameName="p-2 w-full">
+                              <div classNameName="relative">
                                   {/* <input type="time" name="timestamp" value={handleInputChanged} hidden/> */}
                               </div>
-                              {/* <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" >Grab Offer</button> */}
+                              {/* <button classNameName="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" >Grab Offer</button> */}
                               </div>
                               {/* {submitted && 
-                                  <div class="px-4 py-3 leading-normal text-green-700 bg-green-100 rounded-lg content-center" role="alert">
-                                  <p class="font-bold">Success</p>
+                                  <div className="px-4 py-3 leading-normal text-green-700 bg-green-100 rounded-lg content-center" role="alert">
+                                  <p className="font-bold">Success</p>
                                   <p>Form has been submitted successfully. One of our friendly team will contact you soon</p>
                                 </div>
                               } */}
-                              <button  class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Let me in!</button>
+                              <button  className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Let me in!</button>
                           </div>
                           
                 </form>
                 {submitted && 
-                                <div class="px-4 py-3 leading-normal text-green-700 bg-green-100 rounded-lg content-center" role="alert">
-                                <p class="font-bold">Success</p>
+                                <div className="px-4 py-3 leading-normal text-green-700 bg-green-100 rounded-lg content-center" role="alert">
+                                <p className="font-bold">Success</p>
                                 <p>Form has been submitted successfully. One of our friendly team will contact you soon</p>
                               </div>
                 }
