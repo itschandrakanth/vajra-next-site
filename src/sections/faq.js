@@ -43,7 +43,7 @@ const faqs = [
         <img src={easy} width="100px" />
       </div>
       <div className="w-3/4">
-      Our intuitive no-code conversational AI platform empowers frontline teams to automate customer service without tech support. Because with boost.ai, you don’t need developers to automate.
+      Our intuitive no-code conversational AI platform empowers frontline teams to automate customer service without tech support. Because with vajra.ai, you don’t need developers to automate.
       </div>
     </div>
     ),
