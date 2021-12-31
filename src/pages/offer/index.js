@@ -19,6 +19,9 @@ import OfferRightImg from 'sections/offer/offer-right-img'
 import RightDash from 'sections/offer/right-dash'
 import Services from 'sections/services'
 import Faq from 'sections/faq'
+import Banner from '../../sections/banner';
+import analyticsAnim from '../../assets/animations/analytics2.json';
+import Lottie from 'react-lottie';
 
 
 const navigation = [
@@ -38,23 +41,41 @@ export default function Example() {
   const closeMobileMenu = () => {
     setMobileMenu(false);
   };
+
+  const LottieDefaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: analyticsAnim,
+    // rendererSettings: {
+    //   preserveAspectRatio: "xMidYMid slice",
+    // },
+  };
   return (
     <ThemeProvider theme={theme}>
         <Layout>
             <SEO title="Vajra.ai - AI and ML Business Solutions" /> 
             <Offer />
             <OfferHeading />
+            <Banner />
             <LeftDash />
             <RightDash />
             <OfferLeftImg />
-            <Faq />
+            <div className="flex">
+              <div className="w-1/3 p-10">
+                <Lottie options={LottieDefaultOptions} />
+              </div>
+              <div className="w-2/3">
+                <Faq />
+              </div>
+            </div>
+            
             <OfferFeatureGrid />
             <OfferRightImg />
             {/* <OfferLeftImg /> */}
             <Services />
 
             {/* <Dashboard /> */}
-            <OfferForm id="section1" />
+            <OfferForm id="form" />
 
         </Layout>
     </ThemeProvider>

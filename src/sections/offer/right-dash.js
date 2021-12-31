@@ -16,7 +16,7 @@ const OfferRightImg = () => {
     // },
   };
   return (
-    <Box id="home" as="section" variant="section.banner">
+    <Box id="home" as="section" variant="section.banner" style={{backgroundColor: "#F9FBFD"}}>
       <Container>
         <Box sx={styles.contentWrapper}>
           {/* <Lottie options={LottieDefaultOptions} /> */}

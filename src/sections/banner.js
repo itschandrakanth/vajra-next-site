@@ -29,9 +29,9 @@ const Banner = () => {
             <Text as="p" sx={styles.text}>
             Our Expert Team Technology innovations in Artificial Intelligence Helps your business to generate 200% Increase in LEADS and Double your SALES with our VajraX Business solutions.
             </Text>
-            <Link
+            {/* <Link
                 activeClass="active"
-                to="section1"
+                to="form"
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -40,7 +40,7 @@ const Banner = () => {
               <Button variant="primary" sx={styles.button}>
                 Start Free Trial
               </Button>
-            </Link>
+            </Link> */}
             
             {/* <Box sx={styles.clients}>
               <Image src={paypal} alt="paypal" />
