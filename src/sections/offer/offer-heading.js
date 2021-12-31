@@ -15,7 +15,7 @@ const OfferHeading = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <Box as="section" sx={styles.section} variant="section.features">
+    <Box as="section" sx={styles.section} variant="section.features" style={{ marginBottom: "-50px", paddingBottom: "40px"}}>
       <Container>
         <SectionHeading
           sx={styles.heading}

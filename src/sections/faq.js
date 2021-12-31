@@ -10,7 +10,7 @@ import scalable from '../assets/images/scalable.png';
 import liveAgent from '../assets/images/live-agent.png';
 const faqs = [
   {
-    title: 'No Code ',
+    title: 'Ready to use No Code Platform',
     contents: (
       <div className="sm:flex ">
         <div className="sm:hidden md:block w-1/4">
@@ -93,7 +93,7 @@ export default function Faq() {
     <Box as="section" id="faq" variant="section.faq">
       <Container>
         <SectionHeader
-          title="Why Vajra.ai is the best solution for business"
+          title="Vajra.ai is the best solution for your business"
         />
         <Box
           sx={{
