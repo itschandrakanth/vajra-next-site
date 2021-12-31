@@ -60,14 +60,15 @@ export default function Example() {
             <LeftDash />
             <RightDash />
             <OfferLeftImg />
-            <div className="flex">
-              <div className="w-1/3 p-10">
-                <Lottie options={LottieDefaultOptions} />
+            
+              {/* <div className="p-10">
+                <Lottie options={LottieDefaultOptions}/>
               </div>
-              <div className="w-2/3">
+              <div className="">
                 <Faq />
-              </div>
-            </div>
+              </div> */}
+              <Faq />
+            
             
             <OfferFeatureGrid />
             <OfferRightImg />

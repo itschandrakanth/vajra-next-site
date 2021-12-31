@@ -98,7 +98,7 @@ export default function Faq() {
         <Box
           sx={{
             display: 'flex',
-            width: ['100%', null, null, '650px', '745px'],
+            width: ['100%', null, null, '650px', '1020px'],
             flexDirection: 'column',
             mx: 'auto',
             my: -4,
