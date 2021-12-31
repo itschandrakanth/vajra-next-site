@@ -6,6 +6,7 @@ import Image from 'components/image';
 import { LearnMore } from 'components/link';
 import videoBanner from 'assets/images/video.png';
 import dashboardImage from 'assets/images/dashboard-vajra3.png';
+import clicksImage from 'assets/images/clicks.png';
 import Play from 'assets/images/icons/play.png';
 import Modal, { CloseButton } from 'components/modal/modal';
 import ResponsiveIframe from 'components/responsive-iframe';
@@ -37,10 +38,13 @@ const OfferHeading = () => {
           </Modal> */}
 
           <Image
-            src={dashboardImage}
+            src={clicksImage}
             className="video-banner"
             alt="video banner"
           />
+          <br /><br />
+          <p>This chart will offer you with indepth analysis of bot tiggers and corresponding interactions .Helps you to better understand user behaviour over different time frames. </p>
+<p className="text-2xl">More interactions means Higher Conversion Rate.</p>
           {/* <Button
             variant="text"
             sx={styles.playPause}

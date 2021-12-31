@@ -3,7 +3,8 @@ import { jsx, Box, Container, Heading, Text, Button, Image } from 'theme-ui';
 import { Link, animateScroll as scroll } from "react-scroll";
 import Lottie from "react-lottie";
 import feedChat from "../../assets/animations/offer-vajra.json";
-
+import weeklyInteractions from "../../assets/images/weekly.png";
+import VajraPricing from 'sections/vajra-pricing';
 
 const OfferBanner = () => {
   const LottieDefaultOptions = {
@@ -18,13 +19,15 @@ const OfferBanner = () => {
     <Box id="home" as="section" variant="section.banner">
       <Container>
         <Box sx={styles.contentWrapper}>
-          <Box sx={styles.content}>
+          {/* <Lottie options={LottieDefaultOptions} /> */}
+          <Image src={weeklyInteractions} sx={styles.image} className="p-10" />
+          <Box sx={styles.content} className="p-5">
             <Heading sx={styles.title}>
-            Automate <span sx={styles.spanColor}>Lead </span>Generation and Customer <span sx={styles.spanColor}>Service</span> in no time with our Vajra Bot 
+            Interactions.
             </Heading>
             <div id="open-vajra"></div>
             <Text as="p" sx={styles.text}>
-            Get 5X increase in your Sales & Customer Engagement with our 24/7 AI Live Chatbot <br />- No Coding skills Required
+            Analyses and offer complete details about users interaction rate over multiple weekdays. Provide your user with excellent experience by analysing and building deep human-like customer-relationship.
             </Text>
             <Link
                 activeClass="active"
@@ -34,16 +37,13 @@ const OfferBanner = () => {
                 offset={-70}
                 duration={500}
             >
-              {/* <Button variant="primary" sx={styles.button} id="open-vajra">
-                See Vajra Bot in action
-              </Button> */}
-              {/* <Button variant="primary" sx={styles.button} id="open-vajra">
-                Request Demo
+              {/* <Button variant="primary" sx={styles.button}>
+                See in action
               </Button> */}
             </Link>
             
           </Box>
-          <Lottie options={LottieDefaultOptions} />
+          
         </Box>
       </Container>
     </Box>
@@ -81,7 +81,7 @@ const styles = {
     mt: ['14px', '19px'],
   },
   button: {
-    display: ['flex'],
+    display: ['none', 'flex'],
     mt: [45, 45, 45, 25, 25],
   },
   clients: {

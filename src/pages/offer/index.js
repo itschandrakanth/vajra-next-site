@@ -11,12 +11,15 @@ import SEO from 'components/seo';
 import Layout from 'components/layout';
 import OfferHeading from 'sections/offer/offer-heading';
 import OfferLeftImg from 'sections/offer/offer-left-img'
+import LeftDash from 'sections/offer/left-dash';
 import OfferFeatureGrid from 'sections/offer/offer-feature-grid'
 import Dashboard from 'sections/offer/offer-dashboard';
 import OfferForm from 'sections/offer/offer-form';
 import OfferRightImg from 'sections/offer/offer-right-img'
+import RightDash from 'sections/offer/right-dash'
 import Services from 'sections/services'
 import Faq from 'sections/faq'
+
 
 const navigation = [
   { name: 'Product', href: '#' },
@@ -41,6 +44,8 @@ export default function Example() {
             <SEO title="Vajra.ai - AI and ML Business Solutions" /> 
             <Offer />
             <OfferHeading />
+            <LeftDash />
+            <RightDash />
             <OfferLeftImg />
             <Faq />
             <OfferFeatureGrid />

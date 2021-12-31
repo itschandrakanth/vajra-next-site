@@ -60,7 +60,7 @@ export default function KeyFeature() {
       <Container>
         <SectionHeading
           slogan="Quality features"
-          title="vajra.ai is available for"
+          title="vajra.ai bot works as"
         />
 
         <Grid sx={styles.grid}>
