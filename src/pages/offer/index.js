@@ -22,6 +22,7 @@ import Faq from 'sections/faq'
 import Banner from '../../sections/banner';
 import analyticsAnim from '../../assets/animations/analytics2.json';
 import Lottie from 'react-lottie';
+// import Script from 'next/script'
 
 
 const navigation = [
@@ -77,6 +78,16 @@ export default function Example() {
 
             {/* <Dashboard /> */}
             <OfferForm id="form" />
+            <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10824972134" strategy="beforeInteractive" />
+            <script
+              id="show-banner"
+              dangerouslySetInnerHTML={{
+                __html: `window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'AW-10824972134');`,
+                }}
+            />
 
         </Layout>
     </ThemeProvider>

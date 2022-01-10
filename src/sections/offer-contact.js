@@ -1,4 +1,5 @@
 import { useRef, useState } from 'react';
+import Router from 'next/router'
 
 const OfferContact = () => {
 // export default function OfferContact() {
@@ -53,6 +54,8 @@ const OfferContact = () => {
             }
         });
         setSubmitted(true)
+        Router.push('/thankyou')
+
         // console.log(formData)
         
       

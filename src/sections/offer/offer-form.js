@@ -8,6 +8,7 @@ import { useState } from 'react';
 import SectionHeading from 'components/section-heading';
 import whatsappLogo from '../../assets/images/whatsapp.png';
 import calendlyLogo from '../../assets/images/calendly.png';
+import Router from 'next/router'
 
 const OfferForm = () => {
     const [name, setName] = useState('')
@@ -71,6 +72,7 @@ const OfferForm = () => {
       });
 
       setSubmitted(true)
+      Router.push('/thankyou')
       
       
   }
