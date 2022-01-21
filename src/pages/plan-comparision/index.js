@@ -25,7 +25,7 @@ function VajraPricing() {
             </div>
 
             <div className="flex container px-20 mx-auto">
-                <table><tbody><tr id="pricing-table-header" class=""><th class="thead2">PLAN</th><th style={{width:'268.8px'}} class="thead">STARTER</th><th style={{width:'268.8px'}} class="thead">PLUS</th><th style={{width:'268.8px'}} class="thead">PROFESSIONAL</th><th style={{width:'268.8px'}} class="thead">PREMIUM</th></tr><tr><td>Agent Seats</td><td>5</td><td>10</td><td>12</td><td>12</td></tr><tr><td>Number of dialogs</td><td>5</td><td>10</td><td>15</td><td>Unlimited</td></tr><tr><td>Conversations</td><td>1K</td><td>2K</td><td>5K</td><td>Unlimited</td></tr><tr><td>Custom Branding</td><td></td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                <table className="mb-20"><tbody><tr class="" style={{textAlign: 'left'}}><th className="thead pt-5">PLAN</th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5">STARTER</th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5">PLUS</th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5">PROFESSIONAL</th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5">PREMIUM</th></tr><tr><td>Agent Seats</td><td>5</td><td>10</td><td>12</td><td>12</td></tr><tr><td>Number of dialogs</td><td>5</td><td>10</td><td>15</td><td>Unlimited</td></tr><tr><td>Conversations</td><td>1K</td><td>2K</td><td>5K</td><td>Unlimited</td></tr><tr><td>Custom Branding</td><td>-</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
                             <path d="M20 6L9 17l-5-5"></path>
                         </svg>
@@ -37,7 +37,7 @@ function VajraPricing() {
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
                             <path d="M20 6L9 17l-5-5"></path>
                         </svg>
-                        </span>Yes</td></tr><tr><td>IP Whitelisting</td><td></td><td></td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                        </span>Yes</td></tr><tr><td>IP Whitelisting</td><td>-</td><td>-</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
                             <path d="M20 6L9 17l-5-5"></path>
                         </svg>
@@ -45,15 +45,11 @@ function VajraPricing() {
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
                             <path d="M20 6L9 17l-5-5"></path>
                         </svg>
-                        </span>Yes</td></tr><tr><td>AI Bot Builder</td><td></td><td></td><td></td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                        </span>Yes</td></tr><tr><td>AI Bot Builder</td><td>-</td><td>-</td><td>-</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
                             <path d="M20 6L9 17l-5-5"></path>
                         </svg>
-                        </span>Yes</td></tr><tr><th style={{width:'268.8px'}} class="thead">MEETINGS</th><th style={{width:'268.8px'}} class="thead"></th><th style={{width:'268.8px'}} class="thead"></th><th style={{width:'268.8px'}} class="thead"></th><th style={{width:'268.8px'}} class="thead"></th></tr><tr><td>Auto Meet Scheduling</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
-                            <path d="M20 6L9 17l-5-5"></path>
-                        </svg>
-                        </span>Yes</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                        </span>Yes</td></tr><tr><th style={{width:'268.8px', textAlign: 'left'}} class="thead pt-5">MEETINGS</th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th></tr><tr><td>Auto Meet Scheduling</td><td>-</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
                             <path d="M20 6L9 17l-5-5"></path>
                         </svg>
@@ -81,7 +77,7 @@ function VajraPricing() {
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
                             <path d="M20 6L9 17l-5-5"></path>
                         </svg>
-                        </span>Yes</td></tr><tr><td>Smart Meet Booking</td><td></td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                        </span>Yes</td></tr><tr><td>Smart Meet Booking</td><td>-</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
                             <path d="M20 6L9 17l-5-5"></path>
                         </svg>
@@ -93,7 +89,7 @@ function VajraPricing() {
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
                             <path d="M20 6L9 17l-5-5"></path>
                         </svg>
-                        </span>Yes</td></tr><tr><th style={{width:'268.8px'}} class="thead">FEATURES</th><th style={{width:'268.8px'}} class="thead"></th><th style={{width:'268.8px'}} class="thead"></th><th style={{width:'268.8px'}} class="thead"></th><th style={{width:'268.8px'}} class="thead"></th></tr><tr><td>Add Participants</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                        </span>Yes</td></tr><tr><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5">FEATURES</th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th></tr><tr><td>Add Participants</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
                             <path d="M20 6L9 17l-5-5"></path>
                         </svg>
@@ -157,11 +153,7 @@ function VajraPricing() {
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
                             <path d="M20 6L9 17l-5-5"></path>
                         </svg>
-                        </span>Yes</td></tr><tr><td>Send Agent's Calendar</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
-                            <path d="M20 6L9 17l-5-5"></path>
-                        </svg>
-                        </span>Yes</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                        </span>Yes</td></tr><tr><td>Send Agent's Calendar</td><td>-</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
                             <path d="M20 6L9 17l-5-5"></path>
                         </svg>
@@ -205,7 +197,7 @@ function VajraPricing() {
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
                             <path d="M20 6L9 17l-5-5"></path>
                         </svg>
-                        </span>Yes</td></tr><tr><th style={{width:'268.8px'}} class="thead">MARKETING</th><th style={{width:'268.8px'}} class="thead"></th><th style={{width:'268.8px'}} class="thead"></th><th style={{width:'268.8px'}} class="thead"></th><th style={{width:'268.8px'}} class="thead"></th></tr><tr><td>Campaign Landing Pages</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                        </span>Yes</td></tr><tr><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5">MARKETING</th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th></tr><tr><td>Campaign Landing Pages</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
                             <path d="M20 6L9 17l-5-5"></path>
                         </svg>
@@ -253,7 +245,7 @@ function VajraPricing() {
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
                             <path d="M20 6L9 17l-5-5"></path>
                         </svg>
-                        </span>Yes</td></tr><tr><th style={{width:'268.8px'}} class="thead">INTEGRATIONS</th><th style={{width:'268.8px'}} class="thead"></th><th style={{width:'268.8px'}} class="thead"></th><th style={{width:'268.8px'}} class="thead"></th><th style={{width:'268.8px'}} class="thead"></th></tr><tr><td>Google Analytics</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                        </span>Yes</td></tr><tr><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5">INTEGRATIONS</th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th></tr><tr><td>Google Analytics</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
                             <path d="M20 6L9 17l-5-5"></path>
                         </svg>
@@ -301,7 +293,71 @@ function VajraPricing() {
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
                             <path d="M20 6L9 17l-5-5"></path>
                         </svg>
-                        </span>Yes</td></tr><tr><td>Salesforce</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                        </span>Yes</td></tr><tr><td>Salesforce</td><td>-</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                            <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                        </span>Yes</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                            <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                        </span>Yes</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                            <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                        </span>Yes</td></tr><tr><td>HubSpot</td><td>-</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                            <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                        </span>Yes</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                            <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                        </span>Yes</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                            <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                        </span>Yes</td></tr><tr><td>Zapier</td><td>-</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                            <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                        </span>Yes</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                            <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                        </span>Yes</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                            <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                        </span>Yes</td></tr><tr><td>Slack</td><td>-</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                            <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                        </span>Yes</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                            <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                        </span>Yes</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                            <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                        </span>Yes</td></tr><tr><td>WhatsApp</td><td>-</td><td>-</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                            <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                        </span>Yes</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                            <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                        </span>Yes</td></tr><tr><td>Webhooks</td><td>-</td><td>-</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                            <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                        </span>Yes</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                            <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                        </span>Yes</td></tr><tr><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5">REPORTS</th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th></tr><tr><td>Overall Analytics</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
                             <path d="M20 6L9 17l-5-5"></path>
                         </svg>
@@ -317,7 +373,7 @@ function VajraPricing() {
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
                             <path d="M20 6L9 17l-5-5"></path>
                         </svg>
-                        </span>Yes</td></tr><tr><td>HubSpot</td><td></td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                        </span>Yes</td></tr><tr><td>Individual Reports</td><td>-</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
                             <path d="M20 6L9 17l-5-5"></path>
                         </svg>
@@ -329,83 +385,7 @@ function VajraPricing() {
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
                             <path d="M20 6L9 17l-5-5"></path>
                         </svg>
-                        </span>Yes</td></tr><tr><td>Zapier</td><td></td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
-                            <path d="M20 6L9 17l-5-5"></path>
-                        </svg>
-                        </span>Yes</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
-                            <path d="M20 6L9 17l-5-5"></path>
-                        </svg>
-                        </span>Yes</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
-                            <path d="M20 6L9 17l-5-5"></path>
-                        </svg>
-                        </span>Yes</td></tr><tr><td>Slack</td><td></td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
-                            <path d="M20 6L9 17l-5-5"></path>
-                        </svg>
-                        </span>Yes</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
-                            <path d="M20 6L9 17l-5-5"></path>
-                        </svg>
-                        </span>Yes</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
-                            <path d="M20 6L9 17l-5-5"></path>
-                        </svg>
-                        </span>Yes</td></tr><tr><td>WhatsApp</td><td></td><td></td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
-                            <path d="M20 6L9 17l-5-5"></path>
-                        </svg>
-                        </span>Yes</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
-                            <path d="M20 6L9 17l-5-5"></path>
-                        </svg>
-                        </span>Yes</td></tr><tr><td>Webhooks</td><td></td><td></td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
-                            <path d="M20 6L9 17l-5-5"></path>
-                        </svg>
-                        </span>Yes</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
-                            <path d="M20 6L9 17l-5-5"></path>
-                        </svg>
-                        </span>Yes</td></tr><tr><th style={{width:'268.8px'}} class="thead">REPORTS</th><th style={{width:'268.8px'}} class="thead"></th><th style={{width:'268.8px'}} class="thead"></th><th style={{width:'268.8px'}} class="thead"></th><th style={{width:'268.8px'}} class="thead"></th></tr><tr><td>Overall Analytics</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
-                            <path d="M20 6L9 17l-5-5"></path>
-                        </svg>
-                        </span>Yes</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
-                            <path d="M20 6L9 17l-5-5"></path>
-                        </svg>
-                        </span>Yes</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
-                            <path d="M20 6L9 17l-5-5"></path>
-                        </svg>
-                        </span>Yes</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
-                            <path d="M20 6L9 17l-5-5"></path>
-                        </svg>
-                        </span>Yes</td></tr><tr><td>Individual Reports</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
-                            <path d="M20 6L9 17l-5-5"></path>
-                        </svg>
-                        </span>Yes</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
-                            <path d="M20 6L9 17l-5-5"></path>
-                        </svg>
-                        </span>Yes</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
-                            <path d="M20 6L9 17l-5-5"></path>
-                        </svg>
-                        </span>Yes</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
-                            <path d="M20 6L9 17l-5-5"></path>
-                        </svg>
-                        </span>Yes</td></tr><tr><td>Meeting Reports</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
-                            <path d="M20 6L9 17l-5-5"></path>
-                        </svg>
-                        </span>Yes</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                        </span>Yes</td></tr><tr><td>Meeting Reports</td><td>-</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
                             <path d="M20 6L9 17l-5-5"></path>
                         </svg>
@@ -434,8 +414,6 @@ function VajraPricing() {
                             <path d="M20 6L9 17l-5-5"></path>
                         </svg>
                         </span>Yes</td></tr></tbody></table>
-                        <br /><br />
-                        <div className="mb-20"><br /><br /></div>
             </div>
 
             
