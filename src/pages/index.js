@@ -14,6 +14,7 @@ import Faq from 'sections/faq';
 import Contact from 'sections/contact';
 import { useRef } from 'react';
 import VajraPricing from 'sections/vajra-pricing';
+import VajraPricingNew from 'sections/vajra-pricing-new';
 
 export default function IndexPage() {
 
@@ -30,6 +31,7 @@ export default function IndexPage() {
         {/* <Pricing /> */}
         <Faq />
         <VajraPricing />
+        {/* <VajraPricingNew /> */}
         <Contact id="section1" />
       </Layout>
     </ThemeProvider>
