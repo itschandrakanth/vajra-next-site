@@ -14,7 +14,7 @@ function VajraPricing() {
                 <section class="text-gray-600 body-font">
             <div class="container px-10 py-24 mx-auto">
                 <div class="text-center">
-                <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-indigo-700 mb-4">Pricing Plan Comparision</h1>
+                <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-indigo-700 mb-4">Plan Comparision</h1>
                 {/* <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug.</p> */}
                 </div>
                 <div class="flex flex-wrap -m-4">
