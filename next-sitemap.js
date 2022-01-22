@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: 'https://startup-saas-classic.vercel.app',
+  siteUrl: 'https://vajra.ai',
   generateRobotsTxt: true,
   // optional
   // robotsTxtOptions: {
