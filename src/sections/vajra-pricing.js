@@ -18,7 +18,12 @@ function VajraPricing() {
                     <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
                         <div className="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
                         <h2 className="text-sm tracking-widest title-font mb-1 font-medium">START</h2>
-                        <h1 className="text-5xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">Free</h1>
+                        <div className="border-b border-gray-200 pb-4 mb-4">
+                            <h1 className="text-5xl text-gray-900 leading-none flex items-center">
+                                <span>Free</span>
+                            </h1>
+                            <h2 className="text-lg tracking-widest title-font mb-1 ml-1 font-medium">Forever</h2>
+                        </div>
                         <p className="flex items-center text-gray-600 mb-2">
                             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
@@ -96,10 +101,14 @@ function VajraPricing() {
                         <div className="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
                         {/* <span className="bg-indigo-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPULAR</span> */}
                         <h2 className="text-sm tracking-widest title-font mb-1 font-medium">PLUS</h2>
-                        <h1 className="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
-                            <span>₹1499</span>
-                            <span className="text-lg ml-1 font-normal text-gray-500">/mo</span>
-                        </h1>
+                        <div className="border-b border-gray-200 pb-4 mb-4">
+                            <h1 className="text-5xl text-gray-900 leading-none flex items-center">
+                                <span>₹1499</span>
+                                <span className="text-lg ml-1 font-normal text-gray-500">/mo</span>
+                            </h1>
+                            <h2 className="text-lg tracking-widest title-font mb-1 font-medium line-through">₹1799</h2>
+                        </div>
+                        
                         <p className="flex items-center text-gray-600 mb-2">
                             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
@@ -195,10 +204,13 @@ function VajraPricing() {
                         <div className="h-full p-6 rounded-lg border-2 border-indigo-500 flex flex-col relative overflow-hidden">
                         <span className="bg-indigo-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPULAR</span>
                         <h2 className="text-sm tracking-widest title-font mb-1 font-medium">PROFESSIONAL</h2>
-                        <h1 className="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
-                            <span>₹3499</span>
-                            <span className="text-lg ml-1 font-normal text-gray-500">/mo</span>
-                        </h1>
+                        <div className="border-b border-gray-200 pb-4 mb-4">
+                            <h1 className="text-5xl text-gray-900 leading-none flex items-center">
+                                <span>₹3499</span>
+                                <span className="text-lg ml-1 font-normal text-gray-500">/mo</span>
+                            </h1>
+                            <h2 className="text-lg tracking-widest title-font mb-1 font-medium line-through">₹4499</h2>
+                        </div>
                         <p className="flex items-center text-gray-600 mb-2">
                             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
@@ -293,10 +305,13 @@ function VajraPricing() {
                     <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
                         <div className="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
                         <h2 className="text-sm tracking-widest title-font mb-1 font-medium">PREMIUM</h2>
-                        <h1 className="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
-                            <span>₹8999</span>
-                            <span className="text-lg ml-1 font-normal text-gray-500">/mo</span>
-                        </h1>
+                        <div className="border-b border-gray-200 pb-4 mb-4">
+                            <h1 className="text-5xl text-gray-900 leading-none flex items-center">
+                                <span>₹8999</span>
+                                <span className="text-lg ml-1 font-normal text-gray-500">/mo</span>
+                            </h1>
+                            <h2 className="text-lg tracking-widest title-font mb-1 font-medium line-through">₹10499</h2>
+                        </div>
                         <p className="flex items-center text-gray-600 mb-2">
                             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
@@ -389,6 +404,7 @@ function VajraPricing() {
                         </div>
                     </div>
                     </div>
+                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500 mt-5 text-center">We also offer Custom plans for Businesses. Please contact us.</p>
                     <a href="plan-comparision">
                     <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Plan Comparision</button>
                     </a>
