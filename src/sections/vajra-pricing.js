@@ -17,7 +17,7 @@ function VajraPricing() {
                     <div className="flex flex-wrap -m-4">
                     <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
                         <div className="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
-                        <h2 className="text-sm tracking-widest title-font mb-1 font-medium">START</h2>
+                        <h2 className="text-sm tracking-widest title-font mb-1 font-medium">STARTER</h2>
                         <div className="border-b border-gray-200 pb-4 mb-4">
                             <h1 className="text-5xl text-gray-900 leading-none flex items-center">
                                 <span>Free</span>
@@ -78,7 +78,7 @@ function VajraPricing() {
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                                 <path d="M20 6L9 17l-5-5"></path>
                             </svg>
-                            </span>5 Unlocked Profile Cards
+                            </span>1 Unlocked Profile Card
                         </p>
                         {/* <Link
                             activeclassName="active"
@@ -114,14 +114,117 @@ function VajraPricing() {
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                                 <path d="M20 6L9 17l-5-5"></path>
                             </svg>
-                            </span>200 Conversations/Bot/Month
+                            </span>500 Conversations/Bot/Month
                         </p>
                         <p className="flex items-center text-gray-600 mb-2">
                             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                                 <path d="M20 6L9 17l-5-5"></path>
                             </svg>
-                            </span>1 Custom AI Bot
+                            </span>1 Custom Bot
+                        </p>
+                        <p className="flex items-center text-gray-600 mb-2">
+                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                                <path d="M20 6L9 17l-5-5"></path>
+                            </svg>
+                            </span>Email support & Chat support
+                        </p>
+                        <p className="flex items-center text-gray-600 mb-2">
+                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                                <path d="M20 6L9 17l-5-5"></path>
+                            </svg>
+                            </span>Analytics 
+                        </p>
+                        <p className="flex items-center text-gray-600 mb-2">
+                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                                <path d="M20 6L9 17l-5-5"></path>
+                            </svg>
+                            </span>All New CRM Dashboard
+                        </p>
+                        <p className="flex items-center text-gray-600 mb-2">
+                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                                <path d="M20 6L9 17l-5-5"></path>
+                            </svg>
+                            </span>Lead Pipeline
+                        </p>
+                        <p className="flex items-center text-gray-600 mb-2">
+                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                                <path d="M20 6L9 17l-5-5"></path>
+                            </svg>
+                            </span>Smart URLs
+                        </p>
+                        <p className="flex items-center text-gray-600 mb-2">
+                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                                <path d="M20 6L9 17l-5-5"></path>
+                            </svg>
+                            </span>5 Unlocked Profile Cards
+                        </p>
+                        
+                        <p className="flex items-center text-gray-600 mb-2">
+                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                                <path d="M20 6L9 17l-5-5"></path>
+                            </svg>
+                            </span>Leads Validation(Email)
+                        </p>
+                        <p className="flex items-center text-gray-600 mb-2">
+                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                                <path d="M20 6L9 17l-5-5"></path>
+                            </svg>
+                            </span>1 Live Agent
+                        </p>
+                        <p className="flex items-center text-gray-600 mb-2">
+                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                                <path d="M20 6L9 17l-5-5"></path>
+                            </svg>
+                            </span>SmartMeet Bookings
+                        </p>
+                        <p className="flex items-center text-gray-600 mb-6">
+                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                                <path d="M20 6L9 17l-5-5"></path>
+                            </svg>
+                            </span>Android / ios App
+                        </p>
+                        <button className="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Get Started
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
+                        <div className="h-full p-6 rounded-lg border-2 border-indigo-500 flex flex-col relative overflow-hidden">
+                        <span className="bg-indigo-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPULAR</span>
+                        <h2 className="text-sm tracking-widest title-font mb-1 font-medium">PROFESSIONAL</h2>
+                        <div className="border-b border-gray-200 pb-4 mb-4">
+                            <h1 className="text-5xl text-gray-900 leading-none flex items-center">
+                                <span>₹3499</span>
+                                <span className="text-lg ml-1 font-normal text-gray-500">/mo</span>
+                            </h1>
+                            <h2 className="text-lg tracking-widest title-font mb-1 font-medium line-through">₹4499</h2>
+                        </div>
+                        <p className="flex items-center text-gray-600 mb-2">
+                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                                <path d="M20 6L9 17l-5-5"></path>
+                            </svg>
+                            </span>2000 Conversations/Bot/Month
+                        </p>
+                        <p className="flex items-center text-gray-600 mb-2">
+                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                                <path d="M20 6L9 17l-5-5"></path>
+                            </svg>
+                            </span>3 Custom Bots
                         </p>
                         <p className="flex items-center text-gray-600 mb-2">
                             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
@@ -165,115 +268,7 @@ function VajraPricing() {
                             </svg>
                             </span>15 Unlocked Profile Cards
                         </p>
-                        <p className="flex items-center text-gray-600 mb-2">
-                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
-                                <path d="M20 6L9 17l-5-5"></path>
-                            </svg>
-                            </span>AI Recommendations
-                        </p>
-                        <p className="flex items-center text-gray-600 mb-2">
-                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
-                                <path d="M20 6L9 17l-5-5"></path>
-                            </svg>
-                            </span>Leads Validation(Email)
-                        </p>
-                        <p className="flex items-center text-gray-600 mb-2">
-                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
-                                <path d="M20 6L9 17l-5-5"></path>
-                            </svg>
-                            </span>1 Live Agent
-                        </p>
-                        <p className="flex items-center text-gray-600 mb-6">
-                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
-                                <path d="M20 6L9 17l-5-5"></path>
-                            </svg>
-                            </span>Smart Meet Bookings
-                        </p>
-                        <button className="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Get Started
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
-                                <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                </svg>
-                            </button>
-                        </div>
-                    </div>
-                    <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
-                        <div className="h-full p-6 rounded-lg border-2 border-indigo-500 flex flex-col relative overflow-hidden">
-                        <span className="bg-indigo-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPULAR</span>
-                        <h2 className="text-sm tracking-widest title-font mb-1 font-medium">PROFESSIONAL</h2>
-                        <div className="border-b border-gray-200 pb-4 mb-4">
-                            <h1 className="text-5xl text-gray-900 leading-none flex items-center">
-                                <span>₹3499</span>
-                                <span className="text-lg ml-1 font-normal text-gray-500">/mo</span>
-                            </h1>
-                            <h2 className="text-lg tracking-widest title-font mb-1 font-medium line-through">₹4499</h2>
-                        </div>
-                        <p className="flex items-center text-gray-600 mb-2">
-                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
-                                <path d="M20 6L9 17l-5-5"></path>
-                            </svg>
-                            </span>1000 Conversations/Bot/Month
-                        </p>
-                        <p className="flex items-center text-gray-600 mb-2">
-                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
-                                <path d="M20 6L9 17l-5-5"></path>
-                            </svg>
-                            </span>3 Custom AI Bots
-                        </p>
-                        <p className="flex items-center text-gray-600 mb-2">
-                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
-                                <path d="M20 6L9 17l-5-5"></path>
-                            </svg>
-                            </span>Email support & Chat support
-                        </p>
-                        <p className="flex items-center text-gray-600 mb-2">
-                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
-                                <path d="M20 6L9 17l-5-5"></path>
-                            </svg>
-                            </span>Analytics 
-                        </p>
-                        <p className="flex items-center text-gray-600 mb-2">
-                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
-                                <path d="M20 6L9 17l-5-5"></path>
-                            </svg>
-                            </span>All New CRM Dashboard
-                        </p>
-                        <p className="flex items-center text-gray-600 mb-2">
-                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
-                                <path d="M20 6L9 17l-5-5"></path>
-                            </svg>
-                            </span>Lead Pipeline
-                        </p>
-                        <p className="flex items-center text-gray-600 mb-2">
-                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
-                                <path d="M20 6L9 17l-5-5"></path>
-                            </svg>
-                            </span>Smart URLs
-                        </p>
-                        <p className="flex items-center text-gray-600 mb-2">
-                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
-                                <path d="M20 6L9 17l-5-5"></path>
-                            </svg>
-                            </span>45 Unlocked Profile Cards
-                        </p>
-                        <p className="flex items-center text-gray-600 mb-2">
-                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
-                                <path d="M20 6L9 17l-5-5"></path>
-                            </svg>
-                            </span>AI Recommendations
-                        </p>
+                        
                         <p className="flex items-center text-gray-600 mb-2">
                             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
@@ -288,12 +283,26 @@ function VajraPricing() {
                             </svg>
                             </span>3 Live Agents
                         </p>
-                        <p className="flex items-center text-gray-600 mb-6">
+                        <p className="flex items-center text-gray-600 mb-2">
                             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                                 <path d="M20 6L9 17l-5-5"></path>
                             </svg>
                             </span>Smart Meet Bookings
+                        </p>
+                        <p className="flex items-center text-gray-600 mb-2">
+                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                                <path d="M20 6L9 17l-5-5"></path>
+                            </svg>
+                            </span>Android / ios App
+                        </p>
+                        <p className="flex items-center text-gray-600 mb-6">
+                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                                <path d="M20 6L9 17l-5-5"></path>
+                            </svg>
+                            </span>AI Recommendations
                         </p>
                         <button className="flex items-center mt-auto text-white bg-indigo-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-indigo-600 rounded">Get Started
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
@@ -317,14 +326,14 @@ function VajraPricing() {
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                                 <path d="M20 6L9 17l-5-5"></path>
                             </svg>
-                            </span>2000 Conversations/Bot/Month
+                            </span>5000 Conversations/Bot/Month
                         </p>
                         <p className="flex items-center text-gray-600 mb-2">
                             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                                 <path d="M20 6L9 17l-5-5"></path>
                             </svg>
-                            </span>10 Custom AI Bots
+                            </span>10 Custom Bots
                         </p>
                         <p className="flex items-center text-gray-600 mb-2">
                             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
@@ -366,15 +375,9 @@ function VajraPricing() {
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                                 <path d="M20 6L9 17l-5-5"></path>
                             </svg>
-                            </span>150 Unlocked Profile Cards
+                            </span>50 Unlocked Profile Cards
                         </p>
-                        <p className="flex items-center text-gray-600 mb-2">
-                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
-                                <path d="M20 6L9 17l-5-5"></path>
-                            </svg>
-                            </span>AI Recommendations
-                        </p>
+                        
                         <p className="flex items-center text-gray-600 mb-2">
                             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
@@ -389,12 +392,26 @@ function VajraPricing() {
                             </svg>
                             </span>10 Live Agents
                         </p>
-                        <p className="flex items-center text-gray-600 mb-6">
+                        <p className="flex items-center text-gray-600 mb-2">
                             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                                 <path d="M20 6L9 17l-5-5"></path>
                             </svg>
                             </span>Smart Meet Bookings
+                        </p>
+                        <p className="flex items-center text-gray-600 mb-2">
+                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                                <path d="M20 6L9 17l-5-5"></path>
+                            </svg>
+                            </span>Android / ios App
+                        </p>
+                        <p className="flex items-center text-gray-600 mb-6">
+                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                                <path d="M20 6L9 17l-5-5"></path>
+                            </svg>
+                            </span>AI Recommendations
                         </p>
                         <button className="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Get Started
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">

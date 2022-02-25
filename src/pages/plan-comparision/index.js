@@ -25,7 +25,15 @@ function VajraPricing() {
             </div>
 
             <div className="flex container px-20 mx-auto">
-                <table className="mb-20"><tbody><tr class="" style={{textAlign: 'left'}}><th className="thead pt-5">PLAN</th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5">STARTER</th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5">PLUS</th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5">PROFESSIONAL</th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5">PREMIUM</th></tr><tr><td>Agent Seats</td><td>5</td><td>10</td><td>12</td><td>12</td></tr><tr><td>Number of dialogs</td><td>5</td><td>10</td><td>15</td><td>Unlimited</td></tr><tr><td>Conversations</td><td>1K</td><td>2K</td><td>5K</td><td>Unlimited</td></tr><tr><td>Custom Branding</td><td>-</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                <table className="mb-20"><tbody><tr class="" style={{textAlign: 'left', paddingBottom: '10px'}}><th className="thead pt-5 pb-5 pb-5">FEATURE</th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5 pb-5">STARTER</th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5 pb-5">PLUS</th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5 pb-5">PROFESSIONAL</th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5 pb-5">PREMIUM</th></tr><tr><td>Agent Seats</td><td>-</td><td>2</td><td>5</td><td>15</td></tr><tr><td>Custom AI Bots</td><td>-</td><td>1</td><td>2</td><td>6</td></tr><tr><td>Conversations</td><td>100</td><td>500</td><td>2000</td><td>5000</td></tr><tr><td>Custom Branding</td><td>-</td><td>-</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                            <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                        </span>Yes</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                            <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                        </span>Yes</td></tr><tr><td>AI Bot Builder</td><td>-</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
                             <path d="M20 6L9 17l-5-5"></path>
                         </svg>
@@ -37,19 +45,7 @@ function VajraPricing() {
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
                             <path d="M20 6L9 17l-5-5"></path>
                         </svg>
-                        </span>Yes</td></tr><tr><td>IP Whitelisting</td><td>-</td><td>-</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
-                            <path d="M20 6L9 17l-5-5"></path>
-                        </svg>
-                        </span>Yes</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
-                            <path d="M20 6L9 17l-5-5"></path>
-                        </svg>
-                        </span>Yes</td></tr><tr><td>AI Bot Builder</td><td>-</td><td>-</td><td>-</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
-                            <path d="M20 6L9 17l-5-5"></path>
-                        </svg>
-                        </span>Yes</td></tr><tr><th style={{width:'268.8px', textAlign: 'left'}} class="thead pt-5">MEETINGS</th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th></tr><tr><td>Auto Meet Scheduling</td><td>-</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                        </span>Yes</td></tr><tr><th style={{width:'268.8px', textAlign: 'left'}} class="thead pt-5">SMART MEET</th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th></tr><tr><td>Auto Meet Scheduling</td><td>-</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
                             <path d="M20 6L9 17l-5-5"></path>
                         </svg>
@@ -89,7 +85,8 @@ function VajraPricing() {
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
                             <path d="M20 6L9 17l-5-5"></path>
                         </svg>
-                        </span>Yes</td></tr><tr><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5">FEATURES</th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th></tr><tr><td>Add Participants</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                        </span>Yes</td></tr>
+                        {/* <tr><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5">FEATURES</th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th></tr><tr><td>Add Participants</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
                             <path d="M20 6L9 17l-5-5"></path>
                         </svg>
@@ -197,7 +194,8 @@ function VajraPricing() {
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
                             <path d="M20 6L9 17l-5-5"></path>
                         </svg>
-                        </span>Yes</td></tr><tr><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5">MARKETING</th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th></tr><tr><td>Campaign Landing Pages</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                        </span>Yes</td></tr> */}
+                        <tr><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5">SMART URL</th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th></tr><tr><td>Campaign Landing Pages</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
                             <path d="M20 6L9 17l-5-5"></path>
                         </svg>
@@ -245,7 +243,8 @@ function VajraPricing() {
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
                             <path d="M20 6L9 17l-5-5"></path>
                         </svg>
-                        </span>Yes</td></tr><tr><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5">INTEGRATIONS</th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th></tr><tr><td>Google Analytics</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                        </span>Yes</td></tr>
+                        {/* <tr><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5">INTEGRATIONS</th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th></tr><tr><td>Google Analytics</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
                             <path d="M20 6L9 17l-5-5"></path>
                         </svg>
@@ -357,7 +356,8 @@ function VajraPricing() {
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
                             <path d="M20 6L9 17l-5-5"></path>
                         </svg>
-                        </span>Yes</td></tr><tr><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5">REPORTS</th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th></tr><tr><td>Overall Analytics</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                        </span>Yes</td></tr> */}
+                        <tr><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5">REPORTS</th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th><th style={{width:'268.8px', textAlign: 'left'}} className="thead pt-5"></th></tr><tr><td>Overall Analytics</td><td><span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
                             <path d="M20 6L9 17l-5-5"></path>
                         </svg>

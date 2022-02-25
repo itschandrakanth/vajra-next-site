@@ -258,7 +258,7 @@ const Pricing = () => {
         />
         <Flex sx={styles.priceSwitcher}>
           <Text as="span" className="discount">
-            Save 20%
+            Save 16.67%
           </Text>
           <Button
             variant="text"
