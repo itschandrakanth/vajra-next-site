@@ -5,12 +5,13 @@ import { jsx, Box, Grid, Container, Flex, Text, Button } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import PriceTable from 'components/cards/price-table';
 import { rgba } from 'polished';
+import Link from 'next/link'
 
 const monthly = [
   {
     id: 1,
-    title: 'Free Plan',
-    subtitle: 'For Small teams or office',
+    title: 'Free',
+    subtitle: 'For Small team',
     amount: 0,
     isRecommended: false,
     buttonText: 'Start free trail',
@@ -18,204 +19,515 @@ const monthly = [
       {
         id: 1,
         isAvailable: true,
-        title: 'Ultimate access to all course, exercises and assessments',
+        title: '100 Conversations /Bot/Month',
       },
       {
         id: 2,
         isAvailable: true,
-        title: `Free access for all kind of exercise corrections with downloads.`,
+        title: `1 Bot`,
       },
       {
         id: 3,
         isAvailable: true,
-        title: `Total assessment corrections with free download access system`,
+        title: `Email support`,
       },
       {
         id: 4,
-        isAvailable: false,
-        title: `Unlimited download of courses on the mobile app contents`,
+        isAvailable: true,
+        title: `Analytics`,
       },
       {
         id: 5,
+        isAvailable: true,
+        title: `Lead Pipeline`,
+      },
+      {
+        id: 6,
+        isAvailable: true,
+        title: `1 Unlocked Profile Card`,
+      },
+      {
+        id: 7,
         isAvailable: false,
-        title: `Download and print courses and exercises in PDF`,
+        title: `Leads Validation(Email Only)`,
+      },
+      {
+        id: 8,
+        isAvailable: false,
+        title: `1 Live Agent`,
+      },
+      {
+        id: 9,
+        isAvailable: false,
+        title: `SmartMeet Bookings`,
+      },
+      {
+        id: 10,
+        isAvailable: false,
+        title: `Android / ios App`,
+      },
+      {
+        id: 11,
+        isAvailable: false,
+        title: `AI Recommendations`,
       },
     ],
   },
   {
     id: 2,
-    title: 'Premium',
-    subtitle: 'For startup enterprise',
-    amount: 89.99,
-    isRecommended: true,
-    buttonText: 'Subscribe Now',
+    title: 'Plus',
+    subtitle: 'For startup',
+    amount: 1499,
+    isRecommended: false,
+    buttonText: 'Get Started',
     features: [
       {
         id: 1,
         isAvailable: true,
-        title: 'Ultimate access to all course, exercises and assessments',
+        title: '500 Conversations /Bot/Month',
       },
       {
         id: 2,
         isAvailable: true,
-        title: `Free access for all kind of exercise corrections with downloads.`,
+        title: `1 Custom Bot`,
       },
       {
         id: 3,
         isAvailable: true,
-        title: `Total assessment corrections with free download access system`,
+        title: `Email & Chat support`,
       },
       {
         id: 4,
         isAvailable: true,
-        title: `Unlimited download of courses on the mobile app contents`,
+        title: `Analytics`,
       },
       {
         id: 5,
         isAvailable: true,
-        title: `Download and print courses and exercises in PDF`,
+        title: `Lead Pipeline`,
+      },
+      {
+        id: 6,
+        isAvailable: true,
+        title: `5 Unlocked Profile Cards`,
+      },
+      {
+        id: 7,
+        isAvailable: true,
+        title: `Leads Validation(Email Only)`,
+      },
+      {
+        id: 8,
+        isAvailable: true,
+        title: `1 Live Agent`,
+      },
+      {
+        id: 9,
+        isAvailable: true,
+        title: `SmartMeet Bookings`,
+      },
+      {
+        id: 10,
+        isAvailable: true,
+        title: `Android / ios App`,
+      },
+      {
+        id: 11,
+        isAvailable: false,
+        title: `AI Recommendations`,
       },
     ],
   },
   {
     id: 3,
-    title: 'Premium 3',
-    subtitle: 'For startup enterprise',
-    amount: 89.99,
+    title: 'Professional',
+    subtitle: 'For mid-size',
+    amount: 3499,
     isRecommended: true,
-    buttonText: 'Subscribe Now',
+    buttonText: 'Get Started',
     features: [
       {
         id: 1,
         isAvailable: true,
-        title: 'Ultimate access to all course, exercises and assessments',
+        title: '2000 Conversations /Bot/Month',
       },
       {
         id: 2,
         isAvailable: true,
-        title: `Free access for all kind of exercise corrections with downloads.`,
+        title: `3 Custom Bots`,
       },
       {
         id: 3,
         isAvailable: true,
-        title: `Total assessment corrections with free download access system`,
+        title: `Email & Chat support`,
       },
       {
         id: 4,
         isAvailable: true,
-        title: `Unlimited download of courses on the mobile app contents`,
+        title: `Analytics`,
       },
       {
         id: 5,
         isAvailable: true,
-        title: `Download and print courses and exercises in PDF`,
+        title: `Lead Pipeline`,
+      },
+      {
+        id: 6,
+        isAvailable: true,
+        title: `15 Unlocked Profile Cards`,
+      },
+      {
+        id: 7,
+        isAvailable: true,
+        title: `Leads Validation(Email & OTP)`,
+      },
+      {
+        id: 8,
+        isAvailable: true,
+        title: `3 Live Agents`,
+      },
+      {
+        id: 9,
+        isAvailable: true,
+        title: `SmartMeet Bookings`,
+      },
+      {
+        id: 10,
+        isAvailable: true,
+        title: `Android / ios App`,
+      },
+      {
+        id: 11,
+        isAvailable: true,
+        title: `AI Recommendations`,
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: 'Premium',
+    subtitle: 'For large enterprise',
+    amount: 8999,
+    isRecommended: false,
+    buttonText: 'Get Started',
+    features: [
+      {
+        id: 1,
+        isAvailable: true,
+        title: '5000 Conversations /Bot/Month',
+      },
+      {
+        id: 2,
+        isAvailable: true,
+        title: `10 Custom Bots`,
+      },
+      {
+        id: 3,
+        isAvailable: true,
+        title: `Email & Chat support`,
+      },
+      {
+        id: 4,
+        isAvailable: true,
+        title: `Analytics`,
+      },
+      {
+        id: 5,
+        isAvailable: true,
+        title: `Lead Pipeline`,
+      },
+      {
+        id: 6,
+        isAvailable: true,
+        title: `50 Unlocked Profile Cards`,
+      },
+      {
+        id: 7,
+        isAvailable: true,
+        title: `Leads Validation(Email & OTP)`,
+      },
+      {
+        id: 8,
+        isAvailable: true,
+        title: `10 Live Agents`,
+      },
+      {
+        id: 9,
+        isAvailable: true,
+        title: `SmartMeet Bookings`,
+      },
+      {
+        id: 10,
+        isAvailable: true,
+        title: `Android / ios App`,
+      },
+      {
+        id: 11,
+        isAvailable: true,
+        title: `AI Recommendations`,
       },
     ],
   },
 ];
+
 const annual = [
   {
     id: 1,
-    title: 'Free Plan',
+    title: 'Free',
     subtitle: 'For Small teams or office',
     amount: 0,
     isRecommended: false,
-    buttonText: 'Start free trail',
+    buttonText: 'Start free trial',
     features: [
       {
         id: 1,
         isAvailable: true,
-        title: 'Ultimate access to all course, exercises and assessments',
+        title: '100 Conversations /Bot/Month',
       },
       {
         id: 2,
         isAvailable: true,
-        title: `Free access for all kind of exercise corrections with downloads.`,
+        title: `1 Bot`,
       },
       {
         id: 3,
         isAvailable: true,
-        title: `Total assessment corrections with free download access system`,
+        title: `Email support`,
       },
       {
         id: 4,
-        isAvailable: false,
-        title: `Unlimited download of courses on the mobile app contents`,
+        isAvailable: true,
+        title: `Analytics`,
       },
       {
         id: 5,
+        isAvailable: true,
+        title: `Lead Pipeline`,
+      },
+      {
+        id: 6,
+        isAvailable: true,
+        title: `1 Unlocked Profile Card`,
+      },
+      {
+        id: 7,
         isAvailable: false,
-        title: `Download and print courses and exercises in PDF`,
+        title: `Leads Validation(Email Only)`,
+      },
+      {
+        id: 8,
+        isAvailable: false,
+        title: `1 Live Agent`,
+      },
+      {
+        id: 9,
+        isAvailable: false,
+        title: `SmartMeet Bookings`,
+      },
+      {
+        id: 10,
+        isAvailable: false,
+        title: `Android / ios App`,
+      },
+      {
+        id: 11,
+        isAvailable: false,
+        title: `AI Recommendations`,
       },
     ],
   },
   {
     id: 2,
-    title: 'Premium',
+    title: 'Plus',
     subtitle: 'For startup enterprise',
-    amount: 89.99 * 12 - 10,
-    isRecommended: true,
-    buttonText: 'Subscribe Now',
+    amount: 14990,
+    isRecommended: false,
+    buttonText: 'Get Started',
     features: [
       {
         id: 1,
         isAvailable: true,
-        title: 'Ultimate access to all course, exercises and assessments',
+        title: '500 Conversations /Bot/Month',
       },
       {
         id: 2,
         isAvailable: true,
-        title: `Free access for all kind of exercise corrections with downloads.`,
+        title: `1 Custom Bot`,
       },
       {
         id: 3,
         isAvailable: true,
-        title: `Total assessment corrections with free download access system`,
+        title: `Email & Chat support`,
       },
       {
         id: 4,
         isAvailable: true,
-        title: `Unlimited download of courses on the mobile app contents`,
+        title: `Analytics`,
       },
       {
         id: 5,
         isAvailable: true,
-        title: `Download and print courses and exercises in PDF`,
+        title: `Lead Pipeline`,
+      },
+      {
+        id: 6,
+        isAvailable: true,
+        title: `5 Unlocked Profile Cards`,
+      },
+      {
+        id: 7,
+        isAvailable: true,
+        title: `Leads Validation(Email Only)`,
+      },
+      {
+        id: 8,
+        isAvailable: true,
+        title: `1 Live Agent`,
+      },
+      {
+        id: 9,
+        isAvailable: true,
+        title: `SmartMeet Bookings`,
+      },
+      {
+        id: 10,
+        isAvailable: true,
+        title: `Android / ios App`,
+      },
+      {
+        id: 11,
+        isAvailable: false,
+        title: `AI Recommendations`,
       },
     ],
   },
   {
     id: 3,
-    title: 'Premium 3',
+    title: 'Professional',
     subtitle: 'For startup enterprise',
-    amount: 89.99 * 12 - 10,
+    amount: 34990,
     isRecommended: true,
-    buttonText: 'Subscribe Now',
+    buttonText: 'Get Started',
     features: [
       {
         id: 1,
         isAvailable: true,
-        title: 'Ultimate access to all course, exercises and assessments',
+        title: '2000 Conversations /Bot/Month',
       },
       {
         id: 2,
         isAvailable: true,
-        title: `Free access for all kind of exercise corrections with downloads.`,
+        title: `3 Custom Bots`,
       },
       {
         id: 3,
         isAvailable: true,
-        title: `Total assessment corrections with free download access system`,
+        title: `Email & Chat support`,
       },
       {
         id: 4,
         isAvailable: true,
-        title: `Unlimited download of courses on the mobile app contents`,
+        title: `Analytics`,
       },
       {
         id: 5,
         isAvailable: true,
-        title: `Download and print courses and exercises in PDF`,
+        title: `Lead Pipeline`,
+      },
+      {
+        id: 6,
+        isAvailable: true,
+        title: `15 Unlocked Profile Cards`,
+      },
+      {
+        id: 7,
+        isAvailable: true,
+        title: `Leads Validation(Email & OTP)`,
+      },
+      {
+        id: 8,
+        isAvailable: true,
+        title: `3 Live Agents`,
+      },
+      {
+        id: 9,
+        isAvailable: true,
+        title: `SmartMeet Bookings`,
+      },
+      {
+        id: 10,
+        isAvailable: true,
+        title: `Android / ios App`,
+      },
+      {
+        id: 11,
+        isAvailable: true,
+        title: `AI Recommendations`,
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: 'Premium',
+    subtitle: 'For startup enterprise',
+    amount: 89990,
+    isRecommended: false,
+    buttonText: 'Get Started',
+    features: [
+      {
+        id: 1,
+        isAvailable: true,
+        title: '5000 Conversations /Bot/Month',
+      },
+      {
+        id: 2,
+        isAvailable: true,
+        title: `10 Custom Bots`,
+      },
+      {
+        id: 3,
+        isAvailable: true,
+        title: `Email & Chat support`,
+      },
+      {
+        id: 4,
+        isAvailable: true,
+        title: `Analytics`,
+      },
+      {
+        id: 5,
+        isAvailable: true,
+        title: `Lead Pipeline`,
+      },
+      {
+        id: 6,
+        isAvailable: true,
+        title: `50 Unlocked Profile Cards`,
+      },
+      {
+        id: 7,
+        isAvailable: true,
+        title: `Leads Validation(Email & OTP)`,
+      },
+      {
+        id: 8,
+        isAvailable: true,
+        title: `10 Live Agents`,
+      },
+      {
+        id: 9,
+        isAvailable: true,
+        title: `SmartMeet Bookings`,
+      },
+      {
+        id: 10,
+        isAvailable: true,
+        title: `Android / ios App`,
+      },
+      {
+        id: 11,
+        isAvailable: true,
+        title: `AI Recommendations`,
       },
     ],
   },
@@ -253,8 +565,8 @@ const Pricing = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="What deal suit you perfect"
-          description="Focus only on the meaning, we take care of the design. As soon as the meeting end you can export in one click into your preferred format."
+          title="Pricing"
+          description="Best Solution. Best Price. Get the plan that's suitable for your Business"
         />
         <Flex sx={styles.priceSwitcher}>
           <Text as="span" className="discount">
@@ -265,14 +577,14 @@ const Pricing = () => {
             onClick={() => handlePlan('monthly')}
             className={`${plan.active === 'monthly' ? 'active' : ''}`}
           >
-            Monthly Plan
+            Monthly
           </Button>
           <Button
             variant="text"
             onClick={() => handlePlan('annual')}
             className={`${plan.active === 'annual' ? 'active' : ''}`}
           >
-            Annual Plan
+            Annually
           </Button>
         </Flex>
         <Grid sx={styles.priceWrapper}>
@@ -280,6 +592,10 @@ const Pricing = () => {
             <PriceTable price={price} key={`${plan.active}-${index}`} />
           ))}
         </Grid>
+        <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500 mt-8 text-center">We also offer Custom plans for Businesses. Please contact us.</p>
+        <Link href="plan-comparision">
+                    <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Plan Comparision</button>
+                    </Link>
       </Container>
     </Box>
   );
@@ -353,10 +669,10 @@ const styles = {
       'repeat(1, 340px)',
       'repeat(1, 340px)',
       'repeat(1, 340px)',
-      'repeat(2,1fr)',
-      'repeat(2, 430px)',
-      'repeat(2, 440px)',
-      'repeat(2, 480px)',
+      'repeat(4,1fr)',
+      // 'repeat(4, 430px)',
+      // 'repeat(4, 440px)',
+      // 'repeat(4, 480px)',
     ],
     justifyContent: 'center',
     '.priceCard': {

@@ -19,20 +19,22 @@ const PriceTable = ({ price, isMonthly }) => {
           <Heading as="h3" sx={styles.title}>
             {price.title}
           </Heading>
-          <Text as="p" sx={styles.subtitle}>
+          {/* <Text as="p" sx={styles.subtitle}>
             {price.subtitle}
-          </Text>
+          </Text> */}
+          <Text as="p" sx={styles.priceAmount}>
+          ₹{price?.amount?.toFixed(0)}
+            </Text>
         </Box>
         {price?.amount !== 0 && (
           <Box className="priceAmount">
-            <Text as="p" sx={styles.priceLabel}>
+            {/* <Text as="p" sx={styles.priceLabel}>
               Starting from
-            </Text>
+            </Text> */}
 
-            <Text as="p" sx={styles.priceAmount}>
-              {price?.amount?.toFixed(0)}
-              /mo
-            </Text>
+            {/* <Text as="p" sx={styles.priceAmount}>
+              ${price?.amount?.toFixed(0)}
+            </Text> */}
           </Box>
         )}
       </Box>
@@ -40,9 +42,9 @@ const PriceTable = ({ price, isMonthly }) => {
         {price?.features?.map((feat) => (
           <li key={feat.id} className={!feat.isAvailable ? 'unavailable' : ''}>
             {feat.isAvailable ? (
-              <IoMdCheckmarkCircle color="#3FDBB1" size="30px" />
+              <IoMdCheckmarkCircle color="#3FDBB1" size="20px" />
             ) : (
-              <IoIosCloseCircle color="#CED7E1" size="30px" />
+              <IoIosCloseCircle color="#9A9A9A" size="20px" />
             )}
             <span>{feat.title}</span>
           </li>
@@ -102,25 +104,27 @@ const styles = {
   priceAmount: {
     color: 'primary',
     fontWeight: 'bold',
-    fontSize: '26px',
+    fontSize: '46px',
     lineHeight: 1.39,
-    textAlign: 'right',
+    textAlign: 'left',
     letterSpacing: 'heading',
+    
   },
   recommended: {
-    backgroundColor: 'secondary',
-    minHeight: '31px',
+    backgroundColor: 'primary',
+    minHeight: '20px',
     alignItems: 'center',
     display: 'inline-flex',
     color: '#fff',
-    fontSize: '14px',
-    fontWeight: 700,
+    fontSize: '12px',
+    textTransform: 'uppercase',
+    // fontWeight: 700,
     padding: '0 8px',
-    letterSpacing: '-0.14px',
+    letterSpacing: '0.14px',
     borderRadius: '3px',
     position: 'absolute',
     top: 17,
-    left: [20, null, null, null, 40],
+    // left: [20, null, null, null, 40],
   },
   list: {
     listStyle: 'none',
@@ -133,11 +137,11 @@ const styles = {
       fontSize: 16,
       lineHeight: 1.62,
       '+ li ': {
-        mt: 30,
+        mt: 10,
       },
       svg: {
         mr: '13px',
-        mt: '5px',
+        // mt: '5px',
       },
     },
     '.unavailable': {
@@ -146,13 +150,16 @@ const styles = {
   },
   button: {
     backgroundColor: '#FCF2E8',
-    color: 'secondary',
+    color: 'primary',
     paddingLeft: 45,
     paddingRight: 45,
     marginTop: [35, null, null, 70],
     ':hover': {
-      backgroundColor: 'secondary',
+      backgroundColor: 'primary',
       color: '#fff',
     },
+    // position: 'absolute',
+    // marginBottom: '20px',
+    // bottom: '0'
   },
 };

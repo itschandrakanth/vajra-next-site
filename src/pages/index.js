@@ -28,9 +28,10 @@ export default function IndexPage() {
         {/* <IntroVideo /> */}
         <HowItWorks />
         <Widgets />
-        {/* <Pricing /> */}
+        
         <Faq />
-        <VajraPricing />
+        <Pricing />
+        {/* <VajraPricing /> */}
         {/* <VajraPricingNew /> */}
         <Contact id="section1" />
       </Layout>
