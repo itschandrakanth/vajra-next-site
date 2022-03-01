@@ -25,11 +25,14 @@ const PriceTable = ({ price, isMonthly }) => {
           <Text as="p" sx={styles.priceAmount}>
           ₹{price?.amount?.toFixed(0)}
             </Text>
-            <sub>
-            <Text as="p" sx={styles.priceLabel}>
-              + GST
-            </Text>
-            </sub>
+            {price?.amount !== 0 && (
+              <sub>
+              <Text as="p" sx={styles.priceLabel}>
+                + GST
+              </Text>
+              </sub>
+            )}
+            
             
         </Box>
         {price?.amount !== 0 && (
