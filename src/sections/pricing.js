@@ -675,19 +675,19 @@ const styles = {
       // 'repeat(4, 480px)',
     ],
     justifyContent: 'center',
-    '.priceCard': {
-      '.priceHeader': {
-        animation: `${fadeIn} 0.8s linear`,
-      },
-      'ul > li': {
-        animation: `${fadeIn2} 0.7s linear`,
-      },
-      '.priceAmount': {
-        animation: `${fadeIn} 0.9s linear`,
-      },
-      '.priceButton': {
-        animation: `${fadeIn2} 0.7s linear`,
-      },
-    },
+    // '.priceCard': {
+    //   '.priceHeader': {
+    //     animation: `${fadeIn} 0.8s linear`,
+    //   },
+    //   'ul > li': {
+    //     animation: `${fadeIn2} 0.7s linear`,
+    //   },
+    //   '.priceAmount': {
+    //     animation: `${fadeIn} 0.9s linear`,
+    //   },
+    //   '.priceButton': {
+    //     animation: `${fadeIn2} 0.7s linear`,
+    //   },
+    // },
   },
 };
