@@ -60,15 +60,27 @@ const PriceTable = ({ price, isMonthly }) => {
         ))}
       </Box>
       <Box sx={{ textAlign: 'center' }} className="priceButton">
-        <Button sx={styles.button} variant="primaryMd">
-          {price.buttonText}
-        </Button>
+        {price.buttonText === 'Start Free Trial' ? 
+          ( <a href="https://app.vajra.ai/accounts/signin/">
+            <Button sx={styles.button} variant="primaryMd">
+            Start Free Trial
+          </Button>
+          </a>
+          ) : (
+            <a href="https://app.vajra.ai/billing">
+              <Button sx={styles.button} variant="primaryMd">
+              {price.buttonText}
+            </Button>
+            </a>
+          )
+        }
+        
       </Box>
     </Box>
   );
 };
 
-export default PriceTable;
+export default PriceTable;``
 
 const styles = {
   priceTable: {

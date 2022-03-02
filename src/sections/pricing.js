@@ -14,7 +14,7 @@ const monthly = [
     subtitle: 'For Small team',
     amount: 0,
     isRecommended: false,
-    buttonText: 'Start free trail',
+    buttonText: 'Start Free Trial',
     features: [
       {
         id: 1,
@@ -277,7 +277,7 @@ const annual = [
     subtitle: 'For Small teams or office',
     amount: 0,
     isRecommended: false,
-    buttonText: 'Start free trial',
+    buttonText: 'Start Free Trial',
     features: [
       {
         id: 1,
