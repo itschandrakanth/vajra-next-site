@@ -631,7 +631,7 @@ const styles = {
     borderRadius: '5px',
     border: `1px solid ${rgba('#fff', 0.2)}`,
     margin: ['0 auto 40px', null, null, '0 auto 50px'],
-    maxWidth: 300,
+    maxWidth: 250,
     position: 'relative',
     p: 2,
     '.discount': {
@@ -646,7 +646,7 @@ const styles = {
       fontWeight: 700,
       textTransform: 'unset',
       borderRadius: 25,
-      right: 38,
+      right: 18,
       top: '-17px',
     },
     button: {

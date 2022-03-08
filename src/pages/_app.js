@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { useRouter } from 'next/router'
 import 'components/modal/modal.css';
 import 'typeface-dm-sans';
+import './styles.css'
 
 import * as ga from '../lib/ga'
 
