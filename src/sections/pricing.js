@@ -587,7 +587,7 @@ const Pricing = () => {
             Annually
           </Button>
         </Flex>
-        <Flex sx={styles.priceSwitcher}>
+        {/* <Flex sx={styles.priceSwitcher}>
           <Button
             variant="text"
             onClick={() => handlePlan('monthly')}
@@ -609,7 +609,7 @@ const Pricing = () => {
           >
             Pounds
           </Button>
-        </Flex>
+        </Flex> */}
         <Grid sx={styles.priceWrapper}>
           {plan.pricingPlan.map((price, index) => (
             <PriceTable price={price} key={`${plan.active}-${index}`} />
