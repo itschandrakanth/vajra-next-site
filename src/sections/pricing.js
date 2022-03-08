@@ -587,6 +587,29 @@ const Pricing = () => {
             Annually
           </Button>
         </Flex>
+        <Flex sx={styles.priceSwitcher}>
+          <Button
+            variant="text"
+            onClick={() => handlePlan('monthly')}
+            className={`${plan.active === 'monthly' ? 'active' : ''}`}
+          >
+            Rupees
+          </Button>
+          <Button
+            variant="text"
+            onClick={() => handlePlan('annual')}
+            className={`${plan.active === 'annual' ? 'active' : ''}`}
+          >
+            Dollars
+          </Button>
+          <Button
+            variant="text"
+            onClick={() => handlePlan('annual')}
+            className={`${plan.active === 'annual' ? 'active' : ''}`}
+          >
+            Pounds
+          </Button>
+        </Flex>
         <Grid sx={styles.priceWrapper}>
           {plan.pricingPlan.map((price, index) => (
             <PriceTable price={price} key={`${plan.active}-${index}`} />
