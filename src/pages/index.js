@@ -34,6 +34,7 @@ export default function IndexPage() {
         {/* <VajraPricing /> */}
         {/* <VajraPricingNew /> */}
         <Contact id="section1" />
+        <script src="https://cloud.vajra.ai/vajra-support-demo.js"></script> 
       </Layout>
     </ThemeProvider>
   );
