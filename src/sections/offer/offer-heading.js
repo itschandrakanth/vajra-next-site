@@ -20,7 +20,7 @@ const OfferHeading = () => {
         <SectionHeading
           sx={styles.heading}
           title="One Platform - Multiple Use Cases"
-          description="Get precise leads with our AI powered chatbot that works everytime even while you Sleep"
+          description="Get precise leads with our AI platform that works everytime even while you Sleep"
         />
         
         <Box sx={styles.videoWrapper}>
