@@ -79,13 +79,15 @@ export default function Example() {
             {/* <Dashboard /> */}
             <OfferForm id="form" />
             <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10824972134"></script>
-            <script>										
-                window.dataLayer = window.dataLayer || [];										
-                function gtag(){dataLayer.push(arguments)}										
-                gtag('js', new Date());										
-                                    
-                gtag('config', 'AW-10824972134');										
-            </script>		
+            <script
+              id="show-banner"
+              dangerouslySetInnerHTML={{
+                __html: `window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'AW-10824972134');`,
+                }}
+            />
             <script src="https://cloud.vajra.ai/vajra-offer-bot-mar.js"></script>
 
         </Layout>
