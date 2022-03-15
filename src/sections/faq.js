@@ -2,7 +2,7 @@
 import { jsx, Container, Box } from 'theme-ui';
 import SectionHeader from 'components/section-heading';
 import Accordion from 'components/accordion/accordion';
-import noCode from '../assets/images/no-code.png';
+import noCode from '../assets/images/coding.png';
 import easy from '../assets/images/easy.png';
 import fast from '../assets/images/fast.png';
 import customerExperience from '../assets/images/customer-experience.png';

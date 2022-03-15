@@ -19,7 +19,7 @@ const OfferHeading = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Chatbot that works for You."
+          title="One Platform - Multiple Use Cases"
           description="Get precise leads with our AI powered chatbot that works everytime even while you Sleep"
         />
         
@@ -53,6 +53,117 @@ const OfferHeading = () => {
             <Image src={Play} alt="play" /> Watch Full video
           </Button> */}
         </Box>
+        <section class="text-gray-600 body-font">
+  <div class="container px-5 py-10 mx-auto">
+    
+    <div class="flex flex-wrap -m-4">
+      <div class="xl:w-1/3 md:w-1/2 p-4">
+        <div class="border border-gray-200 p-6 rounded-lg">
+          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+            </svg>
+          </div>
+          <h2 class="text-lg text-gray-900 font-medium title-font mb-2">AI Chatbots For Your Websites/Apps  </h2>
+          <p class="leading-relaxed text-base">Bring the advanced bot to your website and generate 3x leads</p>
+        </div>
+      </div>
+      <div class="xl:w-1/3 md:w-1/2 p-4">
+        <div class="border border-gray-200 p-6 rounded-lg">
+          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+              <circle cx="6" cy="6" r="3"></circle>
+              <circle cx="6" cy="18" r="3"></circle>
+              <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+            </svg>
+          </div>
+          <h2 class="text-lg text-gray-900 font-medium title-font mb-2">WhatsApp Business Services</h2>
+          <p class="leading-relaxed text-base">Say No to Email - Send Notifications directly to your customers</p>
+        </div>
+      </div>
+      <div class="xl:w-1/3 md:w-1/2 p-4">
+        <div class="border border-gray-200 p-6 rounded-lg">
+          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+              <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+          </div>
+          <h2 class="text-lg text-gray-900 font-medium title-font mb-2">SmartURL For Paid Ads ROI tracking</h2>
+          <p class="leading-relaxed text-base">Track your paid ads with Smart URL Builder</p>
+        </div>
+      </div>
+      <div class="xl:w-1/3 md:w-1/2 p-4">
+        <div class="border border-gray-200 p-6 rounded-lg">
+          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+              <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zM4 22v-7"></path>
+            </svg>
+          </div>
+          <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Dynamic CRM</h2>
+          <p class="leading-relaxed text-base">Analyse and Organise your Customer Relationships</p>
+        </div>
+      </div>
+      <div class="xl:w-1/3 md:w-1/2 p-4">
+        <div class="border border-gray-200 p-6 rounded-lg">
+          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+              <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+            </svg>
+          </div>
+          <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Profile cards(Alternate to websites)</h2>
+          <p class="leading-relaxed text-base">Show your Identity with ONE card - Profile Cards</p>
+        </div>
+      </div>
+      <div class="xl:w-1/3 md:w-1/2 p-4">
+        <div class="border border-gray-200 p-6 rounded-lg">
+          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+          </div>
+          <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Lead Funnels</h2>
+          <p class="leading-relaxed text-base">Lead Funnel lets you track the user journey and lead conversions</p>
+        </div>
+      </div>
+      <div class="xl:w-1/3 md:w-1/2 p-4">
+        <div class="border border-gray-200 p-6 rounded-lg">
+          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+            </svg>
+          </div>
+          <h2 class="text-lg text-gray-900 font-medium title-font mb-2">AI-Enabled Review System</h2>
+          <p class="leading-relaxed text-base">Understand AI driven insights through Advanced Engine. </p>
+        </div>
+      </div>
+      <div class="xl:w-1/3 md:w-1/2 p-4">
+        <div class="border border-gray-200 p-6 rounded-lg">
+          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+              <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+          </div>
+          <h2 class="text-lg text-gray-900 font-medium title-font mb-2">AI Recommendations</h2>
+          <p class="leading-relaxed text-base">Get Customised user's feedback about your Business</p>
+        </div>
+      </div>
+      <div class="xl:w-1/3 md:w-1/2 p-4">
+        <div class="border border-gray-200 p-6 rounded-lg">
+          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+          </div>
+          <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Lead Management</h2>
+          <p class="leading-relaxed text-base">Manage your Leads with advanced filtering techniques</p>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+</section>
         {/* <Box sx={styles.explore}>
           <LearnMore path="https://app.vajra.ai" label="Login to Dashboard" />
         </Box> */}
@@ -65,7 +176,7 @@ export default OfferHeading;
 
 const styles = {
   heading: {
-    maxWidth: '620px',
+    maxWidth: '720px',
     mb: [5],
     h2: {
       letterSpacing: 'heading',
