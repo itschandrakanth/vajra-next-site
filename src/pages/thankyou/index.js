@@ -18,10 +18,11 @@ function index() {
             <script
               id="gad-conversion"
               dangerouslySetInnerHTML={{
-                __html: `gtag('event', 'conversion', {'send_to': 'AW-10824972134/pQoeCLSl3Y0DEObu36ko'});`,
+                __html: `gtag('event', 'conversion', {'send_to': 'AW-10824972134/BQkQCIiMtqkDEObu36ko'});`,
                 }}
             />
         </div>
+
     )
 }
 
