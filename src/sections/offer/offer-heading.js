@@ -57,8 +57,8 @@ const OfferHeading = () => {
   <div class="container px-5 py-10 mx-auto">
     
     <div class="flex flex-wrap -m-4">
-      <div class="xl:w-1/3 md:w-1/2 p-4">
-        <div class="border border-gray-200 p-6 rounded-lg">
+      <div class="xl:w-1/3 md:w-1/2 p-4 ">
+        <div class="border border-gray-200 p-6 rounded-lg hover:bg-red-50 hover:transition-colors duration-200 ease-in-out">
           <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
@@ -69,7 +69,7 @@ const OfferHeading = () => {
         </div>
       </div>
       <div class="xl:w-1/3 md:w-1/2 p-4">
-        <div class="border border-gray-200 p-6 rounded-lg">
+        <div class="border border-gray-200 p-6 rounded-lg hover:bg-blue-50 hover:transition-colors duration-200 ease-in-out">
           <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
               <circle cx="6" cy="6" r="3"></circle>
@@ -82,7 +82,7 @@ const OfferHeading = () => {
         </div>
       </div>
       <div class="xl:w-1/3 md:w-1/2 p-4">
-        <div class="border border-gray-200 p-6 rounded-lg">
+        <div class="border border-gray-200 p-6 rounded-lg hover:bg-indigo-50 hover:transition-colors duration-200 ease-in-out">
           <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
               <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
@@ -94,7 +94,7 @@ const OfferHeading = () => {
         </div>
       </div>
       <div class="xl:w-1/3 md:w-1/2 p-4">
-        <div class="border border-gray-200 p-6 rounded-lg">
+        <div class="border border-gray-200 p-6 rounded-lg hover:bg-green-50 hover:transition-colors duration-200 ease-in-out">
           <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
               <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zM4 22v-7"></path>
@@ -105,7 +105,7 @@ const OfferHeading = () => {
         </div>
       </div>
       <div class="xl:w-1/3 md:w-1/2 p-4">
-        <div class="border border-gray-200 p-6 rounded-lg">
+        <div class="border border-gray-200 p-6 rounded-lg hover:bg-pink-50 hover:transition-colors duration-200 ease-in-out">
           <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
               <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
@@ -116,7 +116,7 @@ const OfferHeading = () => {
         </div>
       </div>
       <div class="xl:w-1/3 md:w-1/2 p-4">
-        <div class="border border-gray-200 p-6 rounded-lg">
+        <div class="border border-gray-200 p-6 rounded-lg hover:bg-yellow-50 hover:transition-colors duration-200 ease-in-out">
           <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
               <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
@@ -127,7 +127,7 @@ const OfferHeading = () => {
         </div>
       </div>
       <div class="xl:w-1/3 md:w-1/2 p-4">
-        <div class="border border-gray-200 p-6 rounded-lg">
+        <div class="border border-gray-200 p-6 rounded-lg hover:bg-red-50 hover:transition-colors duration-200 ease-in-out">
           <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
@@ -138,7 +138,7 @@ const OfferHeading = () => {
         </div>
       </div>
       <div class="xl:w-1/3 md:w-1/2 p-4">
-        <div class="border border-gray-200 p-6 rounded-lg">
+        <div class="border border-gray-200 p-6 rounded-lg hover:bg-green-50 hover:transition-colors duration-200 ease-in-out">
           <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
               <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
@@ -150,7 +150,7 @@ const OfferHeading = () => {
         </div>
       </div>
       <div class="xl:w-1/3 md:w-1/2 p-4">
-        <div class="border border-gray-200 p-6 rounded-lg">
+        <div class="border border-gray-200 p-6 rounded-lg hover:bg-blue-50 hover:transition-colors duration-200 ease-in-out">
           <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
               <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
@@ -160,6 +160,15 @@ const OfferHeading = () => {
           <p class="leading-relaxed text-base">Manage your Leads with advanced filtering techniques</p>
         </div>
       </div>
+    </div>
+    <div class="flex justify-center">
+      <a href="#request">
+        <button class="flex m-12 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Request Demo</button>
+      </a>
+      <a href="https://app.vajra.ai?utm_source=vajra-offer-page" target="_blank">
+        <button class="flex m-12 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Try for Free</button>
+      </a>
+      
     </div>
   
   </div>
