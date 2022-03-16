@@ -89,7 +89,7 @@ const OfferForm = () => {
     <Box id="request" as="section" variant="section.features">
       <Container>
         <Heading sx={styles.badaTitle}>
-            Try All our AI products at just <span sx={styles.spanColor}>1 rupee</span> for first month. 
+            Try All our AI products <span sx={styles.spanColor}>Free</span> for 30 days. 
         </Heading>
         <p className="text-2xl text-center p-2">Get access to all the features</p>
         <Box sx={styles.contentWrapper}>
@@ -235,6 +235,7 @@ const styles = {
     lineHeight: 1.33,
     letterSpacing: '-1px',
     alignItems: 'center',
+    textAlign: 'center',
     color: 'textSecondary',
   },
   text: {
