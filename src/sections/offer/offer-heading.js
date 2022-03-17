@@ -163,10 +163,10 @@ const OfferHeading = () => {
     </div>
     <div class="flex justify-center">
       <a href="#request">
-        <button class="flex m-12 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Request Demo</button>
+        <button class="mt-12 text-white bg-indigo-500 border-0 mx-2 my-2 p-3 focus:outline-none hover:bg-indigo-600 rounded text-lg">Request Demo</button>
       </a>
       <a href="https://app.vajra.ai?utm_source=vajra-offer-page" target="_blank">
-        <button class="flex m-12 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Try for Free</button>
+        <button class="mt-12 text-white bg-indigo-500 border-0 mx-2 my-2 p-3 focus:outline-none hover:bg-indigo-600 rounded text-lg">Try for Free</button>
       </a>
       
     </div>
