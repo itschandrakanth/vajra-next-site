@@ -25,7 +25,7 @@ export default function IndexPage() {
         <Banner />
         <Features />
         <WhyVajra />
-        {/* <IntroVideo /> */}
+        <IntroVideo />
         <HowItWorks />
         <Widgets />
         

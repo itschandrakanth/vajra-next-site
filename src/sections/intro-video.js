@@ -4,8 +4,9 @@ import { jsx, Box, Container, Button } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import Image from 'components/image';
 import { LearnMore } from 'components/link';
-import videoBanner from 'assets/images/video.png';
-import Play from 'assets/images/icons/play.png';
+// import videoBanner from 'assets/images/video.png';
+import videoThumb from 'assets/images/video-thumb.png';
+import Play from 'assets/images/play-button.png';
 import Modal, { CloseButton } from 'components/modal/modal';
 import ResponsiveIframe from 'components/responsive-iframe';
 
@@ -17,11 +18,11 @@ const IntroVideo = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Leading companies trust us to develop most powerful software with our talent team"
-          description="Every email, web page, and social media post makes an impression on your customers. With our software you can be confident it's impression."
+          title=""
+          description=""
         />
         <Box sx={styles.explore}>
-          <LearnMore path="#!" label="Explore More" />
+          {/* <LearnMore path="#!" label="Explore More" /> */}
         </Box>
         <Box sx={styles.videoWrapper}>
           <Modal isOpen={isOpen}>
@@ -31,14 +32,14 @@ const IntroVideo = () => {
               color="#fff"
             />
             <ResponsiveIframe
-              src="https://player.vimeo.com/video/394343710?autoplay=1&color=28DDB2&title=0&byline=0&portrait=0"
+              src="https://player.vimeo.com/video/689254974?autoplay=1&color=28DDB2&title=0&byline=0&portrait=0"
               allow="autoplay; fullscreen"
               allowFullScreen
             />
           </Modal>
 
           <Image
-            src={videoBanner}
+            src={videoThumb}
             className="video-banner"
             alt="video banner"
           />
@@ -47,7 +48,7 @@ const IntroVideo = () => {
             sx={styles.playPause}
             onClick={() => setIsOpen(true)}
           >
-            <Image src={Play} alt="play" /> Watch Full video
+            <Image src={Play} alt="play" width="50" /> Watch Full video
           </Button>
         </Box>
       </Container>
@@ -77,7 +78,7 @@ const styles = {
     },
   },
   playPause: {
-    color: 'white',
+    color: 'gray',
     fontWeight: 700,
     position: 'absolute',
     padding: '0px',
