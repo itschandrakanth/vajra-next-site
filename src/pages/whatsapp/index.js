@@ -200,7 +200,7 @@ export default function Example() {
               <div class="container px-5 py-24 mx-auto">
                 <div class="text-center mb-20">
                   <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">WhatsApp Business use Cases</h1>
-                  <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug.</p>
+                  {/* <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug.</p> */}
                 </div>
                 <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
                   <div class="p-2 sm:w-1/2 w-full">
