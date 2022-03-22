@@ -12,6 +12,7 @@ import { scroller } from "react-scroll";
 import { animateScroll as scroll } from "react-scroll";
 import Link from "next/link";
 import NextLink from 'next/link';
+import { HeaderLinks } from './header.links';
 
 export default function Header() {
   const [mobileMenu, setMobileMenu] = useState(false);
@@ -49,19 +50,53 @@ export default function Header() {
                   sx={styles.navList}
                   className={mobileMenu ? 'active' : ''}
                 >
-                  {menuItems.map(({ path, label }, i) => (
+                  {/* {menuItems.map(({ path, label }, i) => (
                     <li key={i}>
                       <NavLink
                         path={path}
                         label={label}
                         onClick={closeMobileMenu}
                       />
-                      {/* <Link href={path} onClick={closeMobileMenu}>
+                      <Link href={path} onClick={closeMobileMenu}>
                         {label}
-                      </Link>  */}
+                      </Link> 
                     </li>
-                  ))}
+                  ))} */}
+
+
+                  {/* <div className="nav-item">
+                  <Link href="/"  onClick={closeMobileMenu}>
+                        Home
+                  </Link>
+                  <Link href="/offer" onClick={closeMobileMenu}>
+                        Chatbot
+                  </Link> 
+                  <Link href="/whatsapp" onClick={closeMobileMenu}>
+                        WhatsApp
+                  </Link> 
+                  </div> */}
+                  
+                  
                 </Box>
+                <Box as="ul" sx={styles.footerNav}>
+                    {HeaderLinks.map(({ path, label }, i) => (
+                      <li key={i}>
+                        <Link href={path}>
+                          {label}
+                        </Link>  
+                      </li>
+                    ))}
+                  {/* {menuItems.map(({ path, label }, i) => (
+                    <li key={i}>
+                      <NavLink
+                        path={path}
+                        label={label}
+                        onClick={closeMobileMenu}
+                      />
+                    </li>
+                  ))} */}
+                    
+                  </Box>
                 <a href = "https://app.vajra.ai">
                   <Button variant="secondarySm" sx={styles.explore}>Login</Button>
                 </a>
@@ -181,4 +216,37 @@ const styles = {
       stroke: '#fff',
     },
   },
+    learnMore: {
+      color: 'link',
+      cursor: 'pointer',
+      fontWeight: 500,
+      display: 'inline-flex',
+      alignItems: 'center',
+      svg: {
+        transition: 'margin-left 0.3s ease-in-out 0s',
+        ml: '3px',
+      },
+      ':hover': {
+        svg: {
+          ml: '8px',
+        },
+      },
+    },
+    footerNav: {
+      listStyle: 'none',
+      margin: ['15px 0 0', '15px 0 0', '0'],
+      padding: 0,
+      display: ['flex'],
+      flexWrap: ['wrap', null, null, 'unset'],
+      justifyContent: ['center', null, 'flex-start'],
+      'li + li': {
+        ml: ['18px', '18px', '20px'],
+        '@media only screen and (max-width: 400px)': {
+          mb: '10px',
+        },
+      },
+      a: {
+        color: 'textSecondary',
+      },
+    },
 };

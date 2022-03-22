@@ -1,9 +1,5 @@
 export default [
   {
-    path: 'home',
-    label: 'Home',
-  },
-  {
     path: 'ultimate-features',
     label: 'Features',
   },
