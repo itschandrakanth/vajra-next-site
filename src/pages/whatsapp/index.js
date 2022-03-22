@@ -97,7 +97,7 @@ export default function Example() {
                   </div>
                 </div>
                 <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                <Lottie className="py-5 mt-20" options={chatWa} height={480} width={360} /><br />
+                <Lottie className="py-5 mt-20" options={chatWa} height={480} width={320} /><br />
                 </div>
               </div>
             </section>
