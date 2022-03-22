@@ -28,6 +28,7 @@ import Lottie from 'react-lottie';
 import logo from '../../assets/images/vajra-logo.png';
 import Video from '../../sections/intro-video'
 import WhatsappForm from '../../sections/whatsapp/contact'
+import WaBgContainer from '../../assets/images/Icon-Grid.svg'
 
 
 const navigation = [
@@ -78,14 +79,15 @@ export default function Example() {
         <Layout>
             <SEO title="Vajra.ai - AI and ML Business Solutions" /> 
 
-            <section class="text-gray-600 body-font">
-              <div class="container mx-auto flex px-5 py-36 md:flex-row flex-col items-center">
+            <section class="text-gray-600 body-font bg-green-50" style={styles.waContainer}>
+              <div class="container mx-auto flex px-5 py-36 md:flex-row flex-col items-center bg-gradient-to-r from-cyan-500 to-blue-500">
                 <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                  <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Meet your customers where they already are !!
+                  <h1 class="leading-6 title-font font-bold sm:text-5xl text-3xl mb-4 font-medium text-gray-900">Meet your customers where they<span className="text-green-500"> already are!</span>
                   </h1>
-                  <p class="mb-8 leading-relaxed">A fast and versatile two-way customer communication tool for businesses supporting unlimited users and devices.
-                  Scalable, Reliable & Affordable Fully Managed WhatsApp Official Messaging Solution, we take care Onboarding, Support, Billing and fully managed services</p>
-                  <div class="flex justify-center">
+                  <p class="leading-6 pt-5">A fast and versatile two-way customer communication tool for businesses supporting unlimited users and devices.
+                  Scalable, Reliable & Affordable Fully Managed WhatsApp Official Messaging Solution.</p><br />
+                  <p className="mb-8">We take care <span className="text-green-600 font-bold">Onboarding, Support, Billing and fully managed services.</span></p>
+                  <div class="flex justify-center mt-10">
                   <a href="#request">
                       <button class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Request Demo</button>
                     </a>
@@ -95,7 +97,7 @@ export default function Example() {
                   </div>
                 </div>
                 <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                <Lottie className="py-5 mt-20" options={chatWa} height={480} width={320} /><br />
+                <Lottie className="py-5 mt-20" options={chatWa} height={480} width={360} /><br />
                 </div>
               </div>
             </section>
@@ -242,7 +244,7 @@ export default function Example() {
                         <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                         <path d="M22 4L12 14.01l-3-3"></path>
                       </svg>
-                      <span class="title-font font-medium">Account updates </span>
+                      <span class="title-font font-medium">Event Updates </span>
                     </div>
                   </div>
                   <div class="p-2 sm:w-1/2 w-full">
@@ -304,16 +306,16 @@ export default function Example() {
             
 
             {/* 5th */}
-            <section class="text-gray-600 body-font">
+            <section class="text-gray-600 body-font bg-gray-50">
               <div class="container px-5 py-24 mx-auto">
                 <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
-                <h2 class="text-xs text-green-500 tracking-widest font-medium title-font mb-1 uppercase">Vajra Whatsapp Business</h2>
-                  <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Automate conversations with your customers, from the first touch point to closing the sale</h1>
-                  {/* <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table.</p> */}
+                {/* <h2 class="text-xs text-green-500 tracking-widest font-medium title-font mb-1 uppercase">Vajra Whatsapp Business</h2> */}
+                  <h1 class="sm:text-3xl text-3xl font-medium title-font mb-2 text-gray-900">Automate conversations with your customers, <br /> <span className="text-green-500 font-bold text-4xl">from the first Touch Point to closing the Sale.</span></h1>
+                  
                 </div>
                 <div class="flex flex-wrap -m-4">
-                  <div class="xl:w-1/3 md:w-1/2 p-4">
-                    <div class="border border-gray-200 p-6 rounded-lg">
+                  <div class="xl:w-1/3 md:w-1/2 p-4 ">
+                    <div class="border border-gray-200 p-6 rounded-lg hover:bg-green-50">
                       <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-4">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
                           <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
@@ -323,8 +325,8 @@ export default function Example() {
                       <p class="leading-relaxed text-base">Through WhatsApp, customers can initiate conversations and ask for support regarding purchase details, delivery updates, etc.</p>
                     </div>
                   </div>
-                  <div class="xl:w-1/3 md:w-1/2 p-4">
-                    <div class="border border-gray-200 p-6 rounded-lg">
+                  <div class="xl:w-1/3 md:w-1/2 p-4 ">
+                    <div class="border border-gray-200 p-6 rounded-lg hover:bg-green-50">
                       <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-4">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
                           <circle cx="6" cy="6" r="3"></circle>
@@ -337,7 +339,7 @@ export default function Example() {
                     </div>
                   </div>
                   <div class="xl:w-1/3 md:w-1/2 p-4">
-                    <div class="border border-gray-200 p-6 rounded-lg">
+                    <div class="border border-gray-200 p-6 rounded-lg hover:bg-green-50">
                       <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-4">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
                           <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
@@ -349,7 +351,7 @@ export default function Example() {
                     </div>
                   </div>
                   <div class="xl:w-1/3 md:w-1/2 p-4">
-                    <div class="border border-gray-200 p-6 rounded-lg">
+                    <div class="border border-gray-200 p-6 rounded-lg hover:bg-green-50">
                       <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-4">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
                           <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zM4 22v-7"></path>
@@ -360,7 +362,7 @@ export default function Example() {
                     </div>
                   </div>
                   <div class="xl:w-1/3 md:w-1/2 p-4">
-                    <div class="border border-gray-200 p-6 rounded-lg">
+                    <div class="border border-gray-200 p-6 rounded-lg hover:bg-green-50">
                       <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-4">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
                           <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
@@ -371,7 +373,7 @@ export default function Example() {
                     </div>
                   </div>
                   <div class="xl:w-1/3 md:w-1/2 p-4">
-                    <div class="border border-gray-200 p-6 rounded-lg">
+                    <div class="border border-gray-200 p-6 rounded-lg hover:bg-green-50">
                       <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-4">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
                           <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
@@ -382,7 +384,7 @@ export default function Example() {
                     </div>
                   </div>
                   <div class="xl:w-1/3 md:w-1/2 p-4">
-                    <div class="border border-gray-200 p-6 rounded-lg">
+                    <div class="border border-gray-200 p-6 rounded-lg hover:bg-green-50">
                       <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-4">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
                           <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
@@ -393,7 +395,7 @@ export default function Example() {
                     </div>
                   </div>
                   <div class="xl:w-1/3 md:w-1/2 p-4">
-                    <div class="border border-gray-200 p-6 rounded-lg">
+                    <div class="border border-gray-200 p-6 rounded-lg hover:bg-green-50">
                       <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-4">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
                           <circle cx="6" cy="6" r="3"></circle>
@@ -406,7 +408,7 @@ export default function Example() {
                     </div>
                   </div>
                   <div class="xl:w-1/3 md:w-1/2 p-4">
-                    <div class="border border-gray-200 p-6 rounded-lg">
+                    <div class="border border-gray-200 p-6 rounded-lg hover:bg-green-50">
                       <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-4">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
                           <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
@@ -419,7 +421,7 @@ export default function Example() {
                   </div>
                 </div>
               
-                <div class="flex justify-center mt-5">
+                <div class="flex justify-center mt-10">
                     <a href="#request">
                       <button class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Request Demo</button>
                     </a>
@@ -443,7 +445,7 @@ export default function Example() {
                     <thead>
                       <tr>
                         <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tl rounded-bl"></th>
-                        <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 text-green-600">WhatsApp Business API</th>
+                        <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 text-green-600 font-bold ">WhatsApp Business API</th>
                         <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">WhatsApp Business App</th>
                         <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">WhatsApp App</th>
                         <th class="w-10 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tr rounded-br"></th>
@@ -452,7 +454,7 @@ export default function Example() {
                     <tbody>
                       <tr>
                         <td class="px-4 py-3">Data Storage</td>
-                        <td class="px-4 py-3 border-x-2 text-green-600 ">Designated environment by enterprise</td>
+                        <td class="px-4 py-3 border-x-2 text-green-600 bg-green-50">Designated environment by enterprise</td>
                         <td class="px-4 py-3">Staff’s work phone</td>
                         <td class="px-4 py-3">Staff’s personal phone</td>
                         <td class="w-10 text-center">
@@ -461,7 +463,7 @@ export default function Example() {
                       </tr>
                       <tr>
                         <td class="border-t-2 border-gray-200 px-4 py-3">Automation</td>
-                        <td class="border-t-2 border-gray-200 px-4 py-3 text-green-600">Yes, by chatbot dialogue</td>
+                        <td class="border-t-2 border-gray-200 px-4 py-3 text-green-600 bg-green-50">Yes, by chatbot dialogue</td>
                         <td class="border-t-2 border-gray-200 px-4 py-3">Everything manual</td>
                         <td class="border-t-2 border-gray-200 px-4 py-3 ">Everything manual</td>
                         <td class="border-t-2 border-gray-200 w-10 text-center">
@@ -470,7 +472,7 @@ export default function Example() {
                       </tr>
                       <tr>
                         <td class="border-t-2 border-gray-200 px-4 py-3">Push notification</td>
-                        <td class="border-t-2 border-gray-200 px-4 py-3 text-green-600">Both automatic and manual operation</td>
+                        <td class="border-t-2 border-gray-200 px-4 py-3 text-green-600 bg-green-50">Both automatic and manual operation</td>
                         <td class="border-t-2 border-gray-200 px-4 py-3">Manual operation only</td>
                         <td class="border-t-2 border-gray-200 px-4 py-3 ">Manual operation only</td>
                         <td class="border-t-2 border-gray-200 w-10 text-center">
@@ -479,7 +481,7 @@ export default function Example() {
                       </tr>
                       <tr>
                         <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">Multi-agents</td>
-                        <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-green-600">Yes</td>
+                        <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-green-600 bg-green-50">Yes</td>
                         <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">Single admin only</td>
                         <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3 ">Single admin only</td>
                         <td class="border-t-2 border-b-2 border-gray-200 w-10 text-center">
@@ -488,7 +490,7 @@ export default function Example() {
                       </tr>
                       <tr>
                         <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">CRM Integration</td>
-                        <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-green-600">Yes</td>
+                        <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-green-600 bg-green-50">Yes</td>
                         <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">No</td>
                         <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3 ">No</td>
                         <td class="border-t-2 border-b-2 border-gray-200 w-10 text-center">
@@ -497,7 +499,7 @@ export default function Example() {
                       </tr>
                       <tr>
                         <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">Green Tick (Verification)</td>
-                        <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-green-600">Pilot program available for a small number of brands</td>
+                        <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-green-600 bg-green-50">Pilot program available for a small number of brands</td>
                         <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">No</td>
                         <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3 ">No</td>
                         <td class="border-t-2 border-b-2 border-gray-200 w-10 text-center">
@@ -521,4 +523,10 @@ export default function Example() {
     
     
   )
+}
+
+const styles = {
+  waContainer: {
+    backgroundImage: `url(${WaBgContainer})`
+   }
 }
