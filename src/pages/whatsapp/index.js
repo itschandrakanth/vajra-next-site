@@ -77,17 +77,16 @@ export default function Example() {
     <ThemeProvider theme={theme}>
         <Layout>
             <SEO title="Vajra.ai - AI and ML Business Solutions" /> 
+
             <section class="text-gray-600 body-font">
-              <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
-              <Lottie className="mt-20" options={whatsappLogoAnim} height={480} width={320} /><br />
-                <div class="text-center lg:w-2/3 w-full">
-                <h2 class="text-xs text-green-500 tracking-widest font-medium title-font mb-1 uppercase">Vajra Whatsapp Business</h2>
-                  <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"> Meet your customers where they already are !!</h1>
-                  <p class="mb-8 leading-relaxed">A fast and versatile two-way customer communication tool for businesses supporting unlimited users and devices. <br />
-                  Scalable, Reliable & Affordable Fully Managed WhatsApp Official Messaging Solution, we take care Onboarding, Support, Billing and fully managed services
-                  </p>
+              <div class="container mx-auto flex px-5 py-36 md:flex-row flex-col items-center">
+                <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                  <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Meet your customers where they already are !!
+                  </h1>
+                  <p class="mb-8 leading-relaxed">A fast and versatile two-way customer communication tool for businesses supporting unlimited users and devices.
+                  Scalable, Reliable & Affordable Fully Managed WhatsApp Official Messaging Solution, we take care Onboarding, Support, Billing and fully managed services</p>
                   <div class="flex justify-center">
-                    <a href="#request">
+                  <a href="#request">
                       <button class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Request Demo</button>
                     </a>
                     <a href="https://app.vajra.ai/?utm_source=vajra-whatsapp-page">
@@ -95,12 +94,16 @@ export default function Example() {
                     </a>
                   </div>
                 </div>
+                <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <Lottie className="py-5 mt-20" options={chatWa} height={480} width={320} /><br />
+                </div>
               </div>
             </section>
             {/* 2nd */}
+            
 
             <section class="text-gray-600 body-font">
-              <div class="container px-5 py-24 mx-auto">
+              <div class="container px-5 py-10 mx-auto">
                 <div class="flex flex-col text-center w-full mb-20">
                   <div class="flex justify-center">
                     
@@ -153,55 +156,13 @@ export default function Example() {
                 </div>
               </div>
             </section>
-
-            <Video />
-            {/* 3rd */}
+            
             <section class="text-gray-600 body-font">
-              <div class="container px-5 py-24 mx-auto">
-                <div class="flex flex-col text-center w-full mb-20">
-                  <h2 class="text-xs text-green-500 tracking-widest font-medium title-font mb-1 uppercase">Vajra Whatsapp Business</h2>
-                  <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Customer Centric Service Model.</h1>
-                  <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Unlike the free WhatsApp app and WhatsApp Business app, WhatsApp Business API is designed for brands to commit to a customer-centric service model at a 24-hour service level agreement.</p>
-                </div>
-                <div class="flex flex-wrap">
-                  <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-                    <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">100% user Engagement</h2>
-                    <p class="leading-relaxed text-base mb-4">Subscribers are more likely to open triggered messages from your bot compared to bulk campaigns.</p>
-                  </div>
-                  <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-                    <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Convert Leads to Sales</h2>
-                    <p class="leading-relaxed text-base mb-4">Convert leads into customers by sending valuable content in your automated flows.</p>
-                  </div>
-                  <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-                    <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Get Customers feedback</h2>
-                    <p class="leading-relaxed text-base mb-4">Build a better product or service by getting reviews from your customers.</p>
-                  </div>
-                  <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-                    <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">24/7 Customer Support</h2>
-                    <p class="leading-relaxed text-base mb-4">Create live chats to provide support and speedy answers 24/7.</p>
-                  </div>
-                </div>
-                <div class="flex justify-center mt-10">
-                    <a href="#request">
-                      <button class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Request Demo</button>
-                    </a>
-                    <a href="https://app.vajra.ai/?utm_source=vajra-whatsapp-page">
-                      <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Try for Free</button>
-                    </a>
-                  </div>
-              </div>
-              
-            </section>
-            {/* 4th */}
-
-            <Lottie className="mt-20" options={chatWa} height={360} width={360} /><br />
-
-            <section class="text-gray-600 body-font">
-              <div class="container px-5 py-24 mx-auto">
-                <div class="text-center mb-20">
+              <div class="container px-5 py-10 mx-auto">
+                {/* <div class="text-center mb-20">
                   <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">WhatsApp Business use Cases</h1>
-                  {/* <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug.</p> */}
-                </div>
+                  
+                </div> */}
                 <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
                   <div class="p-2 sm:w-1/2 w-full">
                     <div class="bg-gray-100 rounded flex p-4 h-full items-center">
@@ -297,6 +258,50 @@ export default function Example() {
                 
               </div>
             </section>
+            <Video />
+            
+            {/* 3rd */}
+            <section class="text-gray-600 body-font">
+              <div class="container px-5 py-24 mx-auto">
+                <div class="flex flex-col text-center w-full mb-20">
+                  <h2 class="text-xs text-green-500 tracking-widest font-medium title-font mb-1 uppercase">Vajra Whatsapp Business</h2>
+                  <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Customer Centric Service Model.</h1>
+                  <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Unlike the free WhatsApp app and WhatsApp Business app, WhatsApp Business API is designed for brands to commit to a customer-centric service model at a 24-hour service level agreement.</p>
+                </div>
+                <div class="flex flex-wrap">
+                  <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+                    <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">100% user Engagement</h2>
+                    <p class="leading-relaxed text-base mb-4">Subscribers are more likely to open triggered messages from your bot compared to bulk campaigns.</p>
+                  </div>
+                  <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+                    <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Convert Leads to Sales</h2>
+                    <p class="leading-relaxed text-base mb-4">Convert leads into customers by sending valuable content in your automated flows.</p>
+                  </div>
+                  <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+                    <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Get Customers feedback</h2>
+                    <p class="leading-relaxed text-base mb-4">Build a better product or service by getting reviews from your customers.</p>
+                  </div>
+                  <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+                    <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">24/7 Customer Support</h2>
+                    <p class="leading-relaxed text-base mb-4">Create live chats to provide support and speedy answers 24/7.</p>
+                  </div>
+                </div>
+                <div class="flex justify-center mt-10">
+                    <a href="#request">
+                      <button class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Request Demo</button>
+                    </a>
+                    <a href="https://app.vajra.ai/?utm_source=vajra-whatsapp-page">
+                      <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Try for Free</button>
+                    </a>
+                  </div>
+              </div>
+              
+            </section>
+            {/* 4th */}
+
+            {/* <Lottie className="mt-20" options={chatWa} height={360} width={360} /><br /> */}
+
+            
 
             {/* 5th */}
             <section class="text-gray-600 body-font">
