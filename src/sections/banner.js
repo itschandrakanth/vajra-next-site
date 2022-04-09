@@ -4,8 +4,9 @@ import banner from 'assets/images/bot-banner.jpg';
 import paypal from 'assets/images/paypal.png';
 import google from 'assets/images/google.png';
 import dropbox from 'assets/images/dropbox.png';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { animateScroll as scroll } from "react-scroll";
 import Lottie from "react-lottie";
+import Link from 'next/link';
 import animationData from "../assets/animations/bot-3d.json";
 
 const Banner = () => {
@@ -29,19 +30,25 @@ const Banner = () => {
             <Text as="p" sx={styles.text}>
             Our Expert Team Technology innovations in Artificial Intelligence Helps your business to generate 200% Increase in LEADS and Double your SALES with our VajraX Business solutions.
             </Text>
-            {/* <Link
-                activeClass="active"
-                to="form"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-            >
+            {/* <Link href="https://app.vajra.ai">
               <Button variant="primary" sx={styles.button}>
                 Start Free Trial
               </Button>
+            </Link>
+            <Link href="https://vajra.ai/offer#request">
+              <Button variant="primary" sx={styles.button}>
+                Talk to Sales
+              </Button>
             </Link> */}
             
+            <div class="flex mt-10">
+                <Link href="https://vajra.ai/offer#request">
+                  <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Request Demo</button>
+                </Link>
+                <Link href="https://app.vajra.ai/?utm_source=vajra-page">
+                  <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Try for Free</button>
+                </Link>
+            </div>
             {/* <Box sx={styles.clients}>
               <Image src={paypal} alt="paypal" />
               <Image src={google} alt="google" />

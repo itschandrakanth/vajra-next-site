@@ -98,7 +98,7 @@ export default function Header() {
                     
                   </Box>
                 <a href = "https://app.vajra.ai">
-                  <Button variant="secondarySm" sx={styles.explore}>Login</Button>
+                  <Button variant="secondarySm" sx={styles.mobMenu}>Login</Button>
                 </a>
                 {/* <NextLink href="https://vajra.ai#how-it-works">Google
                 </NextLink> */}
@@ -115,7 +115,13 @@ export default function Header() {
                   />
                 </Button>
               ) : (
-                <MenuButton aria-label="Toggle Menu" onClick={openMobileMenu} />
+                <>
+                  <a href = "https://app.vajra.ai/accounts/signup/?=">
+                      <Button variant="primarySm" sx={styles.explore}>Try Free</Button>
+                  </a>
+                  <MenuButton aria-label="Toggle Menu" onClick={openMobileMenu} />
+                </>
+                
               )}
             </Box>
           </Container>
@@ -196,6 +202,19 @@ const styles = {
   },
   explore: {
     display: ['block', 'block', 'block', 'block'],
+    borderRadius: 20,
+    marginLeft: 20,
+    backgroundColor: '#DCDCDC',
+    color: '#000',
+    float: 'right', 
+    // position: 'absolute',
+    // bottom: 40,
+    // left: 20,
+    justifyContent: 'justify-end',
+    outline: '0 !important'
+  },
+  mobMenu: {
+    display: ['none', 'none', 'block', 'block'],
     borderRadius: 20,
     paddingLeft: 4,
     paddingRight: 4,

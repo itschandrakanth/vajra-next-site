@@ -1,8 +1,9 @@
 /** @jsx jsx */
 import { jsx, Box, Container, Heading, Text, Button, Image } from 'theme-ui';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { animateScroll as scroll } from "react-scroll";
 import Lottie from "react-lottie";
 import feedChat from "../../assets/animations/offer-vajra.json";
+import Link from 'next/link'
 
 
 const OfferBanner = () => {
@@ -26,25 +27,33 @@ const OfferBanner = () => {
             <Text as="p" sx={styles.text}>
             Get 5X increase in your Sales & Customer Engagement with our 24/7 AI Live Chatbot <br />- No Coding skills Required
             </Text>
-            <Link
+            {/* <Link
                 activeClass="active"
                 to="section1"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
-            >
+            > */}
               {/* <Button variant="primary" sx={styles.button} id="open-vajra">
                 See Vajra Bot in action
               </Button> */}
               {/* <Button variant="primary" sx={styles.button} id="open-vajra">
                 Request Demo
               </Button> */}
-            </Link>
-            
+            {/* </Link> */}
+            <div class="flex mt-10">
+                <Link href="https://vajra.ai/offer#request">
+                  <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Request Demo</button>
+                </Link>
+                <Link href="https://app.vajra.ai/?utm_source=vajra-page">
+                  <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Try for Free</button>
+                </Link>
+        </div>
           </Box>
           <Lottie options={LottieDefaultOptions} />
         </Box>
+        
       </Container>
     </Box>
   );

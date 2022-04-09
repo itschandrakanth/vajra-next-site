@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx, Image } from 'theme-ui';
+import { jsx, Image, Button } from 'theme-ui';
 import { Link } from 'components/link';
 import logo from 'assets/images/vajra-logo.png';
 import logoWhite from 'assets/images/vajra-logo.png';

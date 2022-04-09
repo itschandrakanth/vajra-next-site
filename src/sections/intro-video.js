@@ -9,6 +9,7 @@ import videoThumb from 'assets/images/video-thumb.png';
 import Play from 'assets/images/play-button.png';
 import Modal, { CloseButton } from 'components/modal/modal';
 import ResponsiveIframe from 'components/responsive-iframe';
+import Link from 'next/link'
 
 const IntroVideo = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -51,6 +52,14 @@ const IntroVideo = () => {
             <Image src={Play} alt="play" width="50" /> Watch Full video
           </Button>
         </Box>
+        <div class="flex justify-center mt-10">
+                <Link href="https://vajra.ai/offer#request">
+                  <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Request Demo</button>
+                </Link>
+                <Link href="https://app.vajra.ai/?utm_source=vajra-page">
+                  <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Try for Free</button>
+                </Link>
+            </div>
       </Container>
     </Box>
   );
