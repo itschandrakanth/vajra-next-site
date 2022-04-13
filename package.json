@@ -36,6 +36,7 @@
     "react-slick": "^0.28.1",
     "react-stickynode": "^3.0.3",
     "responsive-embed": "^1.0.0",
+    "sass": "^1.50.0",
     "theme-ui": "^0.3.1",
     "typeface-dm-sans": "^1.1.3"
   },

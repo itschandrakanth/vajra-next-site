@@ -22,7 +22,6 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <Layout>
         <SEO title="Vajra.ai" /> 
-        <canvas id='c'></canvas>
         <Banner />
         <Features />
         <WhyVajra />
@@ -36,10 +35,6 @@ export default function IndexPage() {
         {/* <VajraPricingNew /> */}
         <Contact id="section1" />
         <script src="https://cloud.vajra.ai/vajra-support-demo.js"></script> 
-        <script src="../../birthday.js">
-          
-
-        </script>
       </Layout>
     </ThemeProvider>
   );

@@ -117,7 +117,8 @@ export default function Header() {
               ) : (
                 <>
                   <a href = "https://app.vajra.ai/accounts/signup/?=">
-                      <Button variant="primarySm" sx={styles.explore}>Try Free</Button>
+                      {/* <Button variant="primarySm" sx={styles.explore}>Try Free</Button> */}
+                      <button class="gradient-button example-8"><span>Try Free</span><span>🚀</span></button>
                   </a>
                   <MenuButton aria-label="Toggle Menu" onClick={openMobileMenu} />
                 </>
@@ -268,4 +269,5 @@ const styles = {
         color: 'textSecondary',
       },
     },
+    
 };
