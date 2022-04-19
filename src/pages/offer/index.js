@@ -88,7 +88,7 @@ export default function Example() {
                     gtag('config', 'AW-10824972134');`,
                 }}
             />
-            <script src="https://cloud.vajra.ai/vajra-offer-bot-mar.js"></script>
+            <script src="https://cloud.vajra.ai/vajra-offer-bot-apr.js"></script>
 
         </Layout>
     </ThemeProvider>
