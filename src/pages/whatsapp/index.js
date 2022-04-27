@@ -380,7 +380,7 @@ export default function Example() {
                         </svg>
                       </div>
                       <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Delivery Updates</h2>
-                      <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
+                      <p class="leading-relaxed text-base">Send instant delivery updates for your Customers and track the statuses.</p>
                     </div>
                   </div>
                   <div class="xl:w-1/3 md:w-1/2 p-4">
