@@ -104,11 +104,11 @@ const OfferForm = () => {
             24/7 Human-like AI chatbot. Get access to all the features.
             </Text> */}
             <div className="flex md:ml-auto md:mr-0 mx-auto items-center flex-shrink-0 space-x-4">
-                <a href="https://api.whatsapp.com/send?phone=918919185995">
+                <a href="https://api.whatsapp.com/send?phone=916302396226">
                   <button className="bg-green-200 hover:bg-green-500 hover:text-white inline-flex py-3 px-10 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
                     <img src={whatsappLogo} alt="whatsapp" className="w-6 h-6" />
                     <span className="ml-4 flex items-left flex-col leading-none">
-                      <span className="text-xs text-gray-600 mb-1">For Quick Support</span>
+                      <span className="text-xs text-gray-600 mb-1">Try here</span>
                       <span className="title-font font-medium">Whatsapp Now</span>
                     </span>
                   </button>

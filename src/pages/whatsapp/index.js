@@ -26,7 +26,7 @@ import whatsappGray from '../../assets/animations/whatsapp-gray.json';
 import Lottie from 'react-lottie';
 // import Script from 'next/script'
 import logo from '../../assets/images/vajra-logo.png';
-import Video from '../../sections/intro-video'
+import Video from '../../sections/whatsapp-video'
 import WhatsappForm from '../../sections/whatsapp/contact'
 import WaBgContainer from '../../assets/images/Icon-Grid.svg'
 
