@@ -88,10 +88,10 @@ export default function Example() {
                   Scalable, Reliable & Affordable Fully Managed WhatsApp Official Messaging Solution.</p><br />
                   <p className="mb-8">We take care <span className="text-green-600 font-bold">Onboarding, Support, Billing and fully managed services.</span></p>
                   <div class="flex justify-center mt-10">
-                  <a href="#request">
+                  <a href="https://api.whatsapp.com/send?phone=916302396226">
                       <button class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Request Demo</button>
                     </a>
-                    <a href="https://app.vajra.ai/?utm_source=vajra-whatsapp-page">
+                    <a href="https://api.whatsapp.com/send?phone=916302396226">
                       <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Try for Free</button>
                     </a>
                   </div>
@@ -289,10 +289,10 @@ export default function Example() {
                   </div>
                 </div>
                 <div class="flex justify-center mt-10">
-                    <a href="#request">
+                    <a href="https://api.whatsapp.com/send?phone=916302396226">
                       <button class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Request Demo</button>
                     </a>
-                    <a href="https://app.vajra.ai/?utm_source=vajra-whatsapp-page">
+                    <a href="https://api.whatsapp.com/send?phone=916302396226">
                       <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Try for Free</button>
                     </a>
                   </div>
@@ -422,10 +422,10 @@ export default function Example() {
                 </div>
               
                 <div class="flex justify-center mt-10">
-                    <a href="#request">
+                    <a href="https://api.whatsapp.com/send?phone=916302396226">
                       <button class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Request Demo</button>
                     </a>
-                    <a href="https://app.vajra.ai/?utm_source=vajra-whatsapp-page">
+                    <a href="https://api.whatsapp.com/send?phone=916302396226">
                       <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Try for Free</button>
                     </a>
                   </div>
