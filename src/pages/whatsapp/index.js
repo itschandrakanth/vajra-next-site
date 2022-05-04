@@ -517,6 +517,7 @@ export default function Example() {
 
             {/* Form */}
             <WhatsappForm />
+            <script src="https://cloud.vajra.ai/regular-bot.js" vajraRegId="ES3gNLH4yMbagE0r3Hfm"></script>
         </Layout>
     </ThemeProvider>
 
