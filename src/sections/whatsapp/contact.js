@@ -142,7 +142,7 @@ const OfferForm = () => {
           
           <div>
             <div className="container px-5 py-24 mx-auto flex">
-                <div className=" bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
+                <div className=" bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative shadow-md">
                 <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Contact us</h2>
                 <p className="leading-relaxed mb-5 text-gray-600">Take the first step to benefit your business</p>
                 <form onSubmit={handleOnSubmit}>

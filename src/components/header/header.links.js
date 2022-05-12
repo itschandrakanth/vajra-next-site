@@ -164,6 +164,10 @@ export const menuItems = [
       label: 'Whatsapp',
     },
     {
+      path: 'https://vajra.ai/use-cases',
+      label: 'Use Cases',
+    },
+    {
         path: 'https://vajra.ai/#ultimate-features',
         label: 'Features',
     },
