@@ -70,7 +70,7 @@ export default function Example() {
               </div>
               <div class="xl:w-1/3 md:w-1/2 p-4 cursor-pointer hover:scale-110">
                 <div class="bg-red-50 rounded-xl">
-                  <Link href="">
+                  <Link href="/use-case/healthcare">
                     <div class="p-6">
                       <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                         <img src={healthcareImage} alt="vajra" />
