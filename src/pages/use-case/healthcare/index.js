@@ -58,7 +58,7 @@ export default function Example() {
   return (
     <ThemeProvider theme={theme}>
         <Layout>
-            <SEO title="Vajra.ai - Education Use case" /> 
+            <SEO title="Vajra.ai - HealthCare Use case" /> 
             <Hero />
             <Section2 />
             <Section3 />

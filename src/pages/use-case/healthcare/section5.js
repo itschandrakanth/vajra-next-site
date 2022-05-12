@@ -10,14 +10,14 @@ const section5 = () => {
               ROOF PARTY POLAROID
             </h2> */}
             <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900">
-            What all You Can Do with our vajra.ai WhatsApp Business API
+            One Platform – Multiple Medicare use cases
             </h1>
           </div>
           <div class="flex flex-wrap -m-4">
             <div class="p-4 md:w-1/3">
               <div class="flex rounded-lg h-full bg-gray-50 p-8 flex-col">
                 <div class="flex items-center mb-3">
-                  <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
+                  <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-red-500 text-white flex-shrink-0">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -31,12 +31,12 @@ const section5 = () => {
                     </svg>
                   </div>
                   <h2 class="text-gray-900 text-lg title-font font-medium">
-                  Facilitate Admission Processes
+                  Automate Appointment Scheduling
                   </h2>
                 </div>
                 <div class="flex-grow">
                   <p class="leading-relaxed text-base">
-                  We provide you the option of customizing Chatbots to provide information on your admissions process from start to finish. This feature speeds up and simplifies the procedure while requiring minimal human intervention.
+                  Allow your consumers to book appointments over WhatsApp! Our intuitive WhatsApp solution gives you the chance to create a Chatbot with answers to FAQs and simple inquiries about appointments and checkups. This feature will decongest the queues in your hospitals.
                   </p>
                   {/* <a class="mt-3 text-indigo-500 inline-flex items-center">
                     Learn More
@@ -58,7 +58,7 @@ const section5 = () => {
             <div class="p-4 md:w-1/3">
               <div class="flex rounded-lg h-full bg-gray-50 p-8 flex-col">
                 <div class="flex items-center mb-3">
-                  <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
+                  <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-red-500 text-white flex-shrink-0">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -73,12 +73,12 @@ const section5 = () => {
                     </svg>
                   </div>
                   <h2 class="text-gray-900 text-lg title-font font-medium">
-                  Organize and Manage Leads
+                  Set Appointment Reminder
                   </h2>
                 </div>
                 <div class="flex-grow">
                   <p class="leading-relaxed text-base">
-                  By combining WhatsApp with CRM tools, we establish an efficient platform for facilitating Education by sending tailored broadcast messages, reminders, and announcements. Students enjoy a simplified procedure throughout their educational journey. 
+                  To guarantee that your patients do not miss their medical examinations, use the Vajra WhatsApp solution to send them reminders about their appointments beforehand.
                   </p>
                   
                 </div>
@@ -87,8 +87,8 @@ const section5 = () => {
             <div class="p-4 md:w-1/3">
               <div class="flex rounded-lg h-full bg-gray-50 p-8 flex-col">
                 <div class="flex items-center mb-3">
-                  <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
-                    <svg
+                  <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-red-500 text-white flex-shrink-0">
+                  <svg
                       fill="none"
                       stroke="currentColor"
                       stroke-linecap="round"
@@ -97,18 +97,16 @@ const section5 = () => {
                       class="w-5 h-5"
                       viewBox="0 0 24 24"
                     >
-                      <circle cx="6" cy="6" r="3"></circle>
-                      <circle cx="6" cy="18" r="3"></circle>
-                      <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                      <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
                     </svg>
                   </div>
                   <h2 class="text-gray-900 text-lg title-font font-medium">
-                  Provide 24/7 Assistance
+                  Notify your Patients of Anything
                   </h2>
                 </div>
                 <div class="flex-grow">
                   <p class="leading-relaxed text-base">
-                  You can assist and guide students at any time and from any location. Create a Chatbot to answer inquiries and Frequently Asked Questions (FAQs) with our WhatsApp solution for Education. Students can also speak with your representative to get immediate help with particular problems.
+                  Our service allows you to automatically contact your clients about sample collections, test results, and other medical concerns. It assists you in keeping them updated without having to worry.
                   </p>
                   
                 </div>
@@ -117,7 +115,7 @@ const section5 = () => {
             <div class="p-4 md:w-1/3">
               <div class="flex rounded-lg h-full bg-gray-50 p-8 flex-col">
                 <div class="flex items-center mb-3">
-                  <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
+                  <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-red-500 text-white flex-shrink-0">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -131,12 +129,12 @@ const section5 = () => {
                     </svg>
                   </div>
                   <h2 class="text-gray-900 text-lg title-font font-medium">
-                  Enhance Student Onboarding
+                  Follow up with your Pateints after Consultation 
                   </h2>
                 </div>
                 <div class="flex-grow">
                   <p class="leading-relaxed text-base">
-                  This service allows you to make student onboarding easier by providing step-by-step guides and instructional messaging. Students can quickly figure out what to do and how to do it.
+                  You may send post-consultation messages to your patients and talk with them to learn more about their health. This tool helps you and your patients develop a stronger bond.
                   </p>
                   
                 </div>
@@ -145,7 +143,7 @@ const section5 = () => {
             <div class="p-4 md:w-1/3">
               <div class="flex rounded-lg h-full bg-gray-50 p-8 flex-col">
                 <div class="flex items-center mb-3">
-                  <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
+                  <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-red-500 text-white flex-shrink-0">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -159,45 +157,18 @@ const section5 = () => {
                     </svg>
                   </div>
                   <h2 class="text-gray-900 text-lg title-font font-medium">
-                  Set Class Reminders
+                  Provide 24/7 Customer Support
                   </h2>
                 </div>
                 <div class="flex-grow">
                   <p class="leading-relaxed text-base">
-                  Vajra’s WhatsApp solution for Education can sync with students' class calendars to deliver automated class reminders to students’ registered phone numbers. This is an attempt to assist students in making the most of their time.
+                  You can create a WhatsApp Chatbot for your healthcare business to serve your patients at any time. The beauty of this function is that it allows you to assist your patients even if you don't have a live representative.
                   </p>
                   
                 </div>
               </div>
             </div>
-            <div class="p-4 md:w-1/3">
-              <div class="flex rounded-lg h-full bg-gray-50 p-8 flex-col">
-                <div class="flex items-center mb-3">
-                  <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
-                    <svg
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-5 h-5"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                    </svg>
-                  </div>
-                  <h2 class="text-gray-900 text-lg title-font font-medium">
-                  Keep Student Reports 
-                  </h2>
-                </div>
-                <div class="flex-grow">
-                  <p class="leading-relaxed text-base">
-                  With this service, you can automate and send Exam results and reports to students, parents, or guardians on their registered phone numbers. 
-                  </p>
-                  
-                </div>
-              </div>
-            </div>
+
           </div>
         </div>
       </section>

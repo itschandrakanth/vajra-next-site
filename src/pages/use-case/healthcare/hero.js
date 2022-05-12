@@ -1,7 +1,7 @@
 import WaBgContainer from '../../../assets/images/Icon-Grid.svg'
 import Lottie from 'react-lottie';
 import chatWA from '../../../assets/animations/chat-user.json';
-import studentJson from "../../../assets/animations/student.json";
+import medicalJson from "../../../assets/animations/medical.json";
 
 const chatWa = {
     loop: true,
@@ -12,10 +12,10 @@ const chatWa = {
     // },
 };
 
-const student = {
+const medical = {
     loop: true,
     autoplay: true,
-    animationData: studentJson,
+    animationData: medicalJson,
     // rendererSettings: {
     //   preserveAspectRatio: "xMidYMid slice",
     // },
@@ -26,7 +26,7 @@ const hero = () => {
   return (
     <div>
       <section
-        className="text-gray-600 body-font bg-gray-50"
+        className="text-gray-600 body-font bg-red-50"
       >
         <div className="container mx-auto flex px-5 py-36 md:flex-row flex-col items-center bg-gradient-to-r from-cyan-500 to-blue-500">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
@@ -40,12 +40,12 @@ const hero = () => {
             {/* <p className="mb-8">We take care <span className="text-green-600 font-bold">Onboarding, Support, Billing and fully managed services.</span></p> */}
             <div className="flex justify-center mt-10">
               <a href="https://api.whatsapp.com/send?phone=916302396226">
-                <button className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">
+                <button className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded-full text-lg">
                   Request Demo
                 </button>
               </a>
               <a href="https://api.whatsapp.com/send?phone=916302396226">
-                <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
+                <button className="ml-4 inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded-full text-lg">
                   Start a Free Trial
                 </button>
               </a>
@@ -54,7 +54,7 @@ const hero = () => {
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <Lottie
               className="py-5 mt-20"
-              options={student}
+              options={medical}
               height={480}
               width={320}
             />

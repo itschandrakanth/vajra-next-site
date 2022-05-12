@@ -24,7 +24,7 @@ const section2 = () => {
           </div>
           <div className="flex flex-wrap -m-8 text-center">
             <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-              <div className="border-2 bg-red-50 border-gray-200 px-4 py-6 rounded-lg">
+              <div className="bg-red-50 px-4 py-6 rounded-lg">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="text-red-500 w-12 h-12 mb-3 inline-block"
@@ -42,13 +42,13 @@ const section2 = () => {
 
                 {/* <p className="leading-relaxed uppercase">Right</p> */}
                 <h2 className="title-font text-xl text-gray-900">
-                  120 Minutes is Avg Time Spent on WhatsApp Per Person Per Day
+                  2X Speed In Seeking Medical Appointment
                   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 </h2>
               </div>
             </div>
             <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-              <div className="border-2 bg-red-50 border-gray-200 px-4 py-6 rounded-lg">
+              <div className="bg-red-50 px-4 py-6 rounded-lg">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -65,13 +65,12 @@ const section2 = () => {
 
                 {/* <p className="leading-relaxed uppercase">Right</p> */}
                 <h2 className="title-font text-xl text-gray-900">
-                  60% reduction in Manual Human intervention. Chatbots needs
-                  little supervision.
+                2X Increase In Affordable Medical Practices
                 </h2>
               </div>
             </div>
             <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-              <div className="border-2 bg-red-50 border-gray-200 px-4 py-6 rounded-lg">
+              <div className="bg-red-50 px-4 py-6 rounded-lg">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="text-red-500 w-12 h-12 mb-3 inline-block"
@@ -88,13 +87,12 @@ const section2 = () => {
                 </svg>
                 {/* <p className="leading-relaxed uppercase">Right</p> */}
                 <h2 className="title-font text-xl text-gray-900">
-                  70% reduction in expenses and 50% increase in revenues with
-                  automated admission processes
+                2X Reduction In Queues Around Hospitals
                 </h2>
               </div>
             </div>
             <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-              <div className="border-2 bg-red-50 border-gray-200 px-4 py-6 rounded-lg">
+              <div className="bg-red-50 px-4 py-6 rounded-lg">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -108,8 +106,7 @@ const section2 = () => {
                 </svg>
                 {/* <p className="leading-relaxed uppercase">Right</p> */}
                 <h2 className="title-font text-xl text-gray-900">
-                  45% of students prefer making enquiries online and using
-                  Chatbots
+                2X Increase In Serving More Patients
                 </h2>
               </div>
             </div>

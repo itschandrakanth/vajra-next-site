@@ -1,4 +1,4 @@
-
+import Link from 'next/link'
 
 const section4CTA = () => {
   return (
@@ -9,9 +9,12 @@ const section4CTA = () => {
             <h1 class="flex-grow sm:pr-16 text-2xl font-medium title-font text-gray-900">
             Order your first Advanced AI student assistance Chatbot and get a 10% annual discount!
             </h1>
-            <button class="flex-shrink-0 text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg mt-10 sm:mt-0">
+            <Link href="https://api.whatsapp.com/send?phone=916302396226">
+            <button class="flex-shrink-0 text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded-full text-lg mt-10 sm:mt-0">
               Order Now
             </button>
+            </Link>
+            
           </div>
         </div>
       </section>

@@ -24,7 +24,7 @@ const section2 = () => {
           </div>
           <div className="flex flex-wrap -m-8 text-center">
             <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-              <div className="border-2 bg-blue-50 border-gray-200 px-4 py-6 rounded-lg">
+              <div className="bg-blue-50 px-4 py-6 rounded-lg">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="text-blue-500 w-12 h-12 mb-3 inline-block"
@@ -48,7 +48,7 @@ const section2 = () => {
               </div>
             </div>
             <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-              <div className="border-2 bg-blue-50 border-gray-200 px-4 py-6 rounded-lg">
+              <div className="bg-blue-50 px-4 py-6 rounded-lg">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -71,7 +71,7 @@ const section2 = () => {
               </div>
             </div>
             <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-              <div className="border-2 bg-blue-50 border-gray-200 px-4 py-6 rounded-lg">
+              <div className="bg-blue-50 px-4 py-6 rounded-lg">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="text-blue-500 w-12 h-12 mb-3 inline-block"
@@ -94,7 +94,7 @@ const section2 = () => {
               </div>
             </div>
             <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-              <div className="border-2 bg-blue-50 border-gray-200 px-4 py-6 rounded-lg">
+              <div className="bg-blue-50 px-4 py-6 rounded-lg">
                 <svg
                   fill="none"
                   stroke="currentColor"

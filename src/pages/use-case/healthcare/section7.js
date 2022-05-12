@@ -1,24 +1,16 @@
 import Lottie from "react-lottie";
-import featuresJson from "../../../assets/animations/features_vajra.json";
-import studentJson from "../../../assets/animations/student.json";
+import medical2Json from "../../../assets/animations/medical2.json";
 
 const features = {
     loop: true,
     autoplay: true,
-    animationData: featuresJson,
+    animationData: medical2Json,
     // rendererSettings: {
     //   preserveAspectRatio: "xMidYMid slice",
     // },
 };
 
-const student = {
-    loop: true,
-    autoplay: true,
-    animationData: studentJson,
-    // rendererSettings: {
-    //   preserveAspectRatio: "xMidYMid slice",
-    // },
-};
+
 
 const section7 = () => {
   return (
@@ -55,7 +47,7 @@ const section7 = () => {
                 <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
                   <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
                 </div>
-                <div class="flex-shrink-0 w-10 h-10 rounded-full bg-blue-500 inline-flex items-center justify-center text-white relative">
+                <div class="flex-shrink-0 w-10 h-10 rounded-full bg-red-500 inline-flex items-center justify-center text-white relative">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -82,7 +74,7 @@ const section7 = () => {
                 <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
                   <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
                 </div>
-                <div class="flex-shrink-0 w-10 h-10 rounded-full bg-blue-500 inline-flex items-center justify-center text-white relative">
+                <div class="flex-shrink-0 w-10 h-10 rounded-full bg-red-500 inline-flex items-center justify-center text-white relative">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -110,7 +102,7 @@ const section7 = () => {
                 <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
                   <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
                 </div>
-                <div class="flex-shrink-0 w-10 h-10 rounded-full bg-blue-500 inline-flex items-center justify-center text-white relative">
+                <div class="flex-shrink-0 w-10 h-10 rounded-full bg-red-500 inline-flex items-center justify-center text-white relative">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -139,7 +131,7 @@ const section7 = () => {
                 <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
                   <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
                 </div>
-                <div class="flex-shrink-0 w-10 h-10 rounded-full bg-blue-500 inline-flex items-center justify-center text-white relative">
+                <div class="flex-shrink-0 w-10 h-10 rounded-full bg-red-500 inline-flex items-center justify-center text-white relative">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -169,7 +161,7 @@ const section7 = () => {
                 <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
                   <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
                 </div>
-                <div class="flex-shrink-0 w-10 h-10 rounded-full bg-blue-500 inline-flex items-center justify-center text-white relative">
+                <div class="flex-shrink-0 w-10 h-10 rounded-full bg-red-500 inline-flex items-center justify-center text-white relative">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -195,7 +187,7 @@ const section7 = () => {
                 </div>
               </div>
               <div class="flex relative">
-                <div class="flex-shrink-0 w-10 h-10 rounded-full bg-blue-500 inline-flex items-center justify-center text-white relative">
+                <div class="flex-shrink-0 w-10 h-10 rounded-full bg-red-500 inline-flex items-center justify-center text-white relative">
                   <svg
                     fill="none"
                     stroke="currentColor"

@@ -29,12 +29,12 @@ const section3 = () => {
             {/* <p className="mb-8">We take care <span className="text-green-600 font-bold">Onboarding, Support, Billing and fully managed services.</span></p> */}
             <div className="flex justify-center mt-10">
               <a href="https://api.whatsapp.com/send?phone=916302396226">
-                <button className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">
+                <button className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded-full text-lg">
                   View Templates
                 </button>
               </a>
               <a href="https://api.whatsapp.com/send?phone=916302396226">
-                <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
+                <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded-full text-lg">
                   Start a Free Trial
                 </button>
               </a>

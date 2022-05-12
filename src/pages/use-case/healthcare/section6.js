@@ -23,18 +23,18 @@ const section6 = () => {
             Our Shared Team Inbox Can Collaborate With Counselors
             </h1>
             <p className="leading-6 pt-5">
-            Guide to prospective students in choosing courses and answering complicated questions. By assigning / @mentions in our unified shared team email, counselors can get a whole picture of student dialogues and link them with appropriate academic specialists.
+            By assigning / @mentions in our unified shared team email, counselors can get a whole picture of what the patient history and link them with appropriate academic specialists.
             </p>
             <br />
             {/* <p className="mb-8">We take care <span className="text-green-600 font-bold">Onboarding, Support, Billing and fully managed services.</span></p> */}
             <div className="flex justify-center mt-10">
               <a href="https://api.whatsapp.com/send?phone=916302396226">
-                <button className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">
+                <button className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded-full text-lg">
                   Get Started
                 </button>
               </a>
               {/* <a href="https://api.whatsapp.com/send?phone=916302396226">
-                <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
+                <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded-full text-lg">
                   Start a Free Trial
                 </button>
               </a> */}
