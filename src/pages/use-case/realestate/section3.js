@@ -23,13 +23,13 @@ const section3 = () => {
             </h1>
             <p className="leading-6 pt-5">
               Vajra’s No-code Chatbot Templates and their Functions for
-              Health Care WhatsApp Chatbots.
+              Real Estate WhatsApp Chatbots.
             </p>
             <br />
             {/* <p className="mb-8">We take care <span className="text-green-600 font-bold">Onboarding, Support, Billing and fully managed services.</span></p> */}
             <div className="flex justify-center mt-10">
               <a href="https://api.whatsapp.com/send?phone=916302396226">
-                <button className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded-full text-lg">
+                <button className="inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded-full text-lg">
                   View Templates
                 </button>
               </a>

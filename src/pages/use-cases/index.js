@@ -88,7 +88,7 @@ export default function Example() {
               </div>
               <div class="xl:w-1/3 md:w-1/2 p-4 cursor-pointer hover:scale-110">
                 <div class="bg-purple-50 rounded-xl">
-                  <Link href="">
+                  <Link href="/use-case/realestate">
                     <div class="p-6">
                       <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                         <img src={realestateImage} alt="vajra" />
@@ -106,7 +106,7 @@ export default function Example() {
               </div>
               <div class="xl:w-1/3 md:w-1/2 p-4 cursor-pointer hover:scale-110">
                 <div class="bg-pink-50 rounded-xl">
-                  <Link href="">
+                  <Link href="/use-case/ecommerce">
                     <div class="p-6">
                       <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                         <img src={ecommerceImage} alt="vajra" />
