@@ -44,7 +44,7 @@ const section7 = () => {
             <Lottie
               options={features}
               height={480}
-              width={420}
+              width={340}
             />
             
             </div>

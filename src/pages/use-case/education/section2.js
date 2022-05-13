@@ -22,8 +22,8 @@ const section2 = () => {
                     <img className="mx-2 pt-0.3" src={logo} alt="logo" width="140" /></span> */}
             </div>
           </div>
-          <div className="flex flex-wrap -m-8 text-center">
-            <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
+          <div className="flex flex-wrap text-center">
+            <div className="p-4 md:w-1/4 sm:w-1/2">
               <div className="bg-blue-50 px-4 py-6 rounded-lg">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +47,7 @@ const section2 = () => {
                 </h2>
               </div>
             </div>
-            <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
+            <div className="p-4 md:w-1/4 sm:w-1/2">
               <div className="bg-blue-50 px-4 py-6 rounded-lg">
                 <svg
                   fill="none"
@@ -70,7 +70,7 @@ const section2 = () => {
                 </h2>
               </div>
             </div>
-            <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
+            <div className="p-4 md:w-1/4 sm:w-1/2 ">
               <div className="bg-blue-50 px-4 py-6 rounded-lg">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +93,7 @@ const section2 = () => {
                 </h2>
               </div>
             </div>
-            <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
+            <div className="p-4 md:w-1/4 sm:w-1/2 ">
               <div className="bg-blue-50 px-4 py-6 rounded-lg">
                 <svg
                   fill="none"

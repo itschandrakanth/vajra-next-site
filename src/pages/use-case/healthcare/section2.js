@@ -22,7 +22,7 @@ const section2 = () => {
                     <img className="mx-2 pt-0.3" src={logo} alt="logo" width="140" /></span> */}
             </div>
           </div>
-          <div className="flex flex-wrap -m-8 text-center">
+          <div className="flex flex-wrap  text-center">
             <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
               <div className="bg-red-50 px-4 py-6 rounded-lg">
                 <svg

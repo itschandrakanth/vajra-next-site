@@ -22,7 +22,7 @@ const hero = () => {
       >
         <div className="container mx-auto flex px-5 py-36 md:flex-row flex-col items-center bg-gradient-to-r from-cyan-500 to-blue-500">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 className="leading-6 title-font font-bold sm:text-5xl text-3xl mb-4 font-medium text-gray-900">
+            <h1 className="leading-6 title-font font-bold sm:text-5xl text-3xl mb-4 font-medium text-gray-900 leading-tight">
               <span className="text-blue-500">Use WhatsApp to </span> manage
               your admissions, monitor your students, and interact with them
             </h1>
@@ -51,7 +51,7 @@ const hero = () => {
               className="py-5 mt-20"
               options={student}
               height={480}
-              width={320}
+              width={340}
             />
             <br />
           </div>
