@@ -129,19 +129,19 @@ export const menuItems = [
 
 export const footerNav = [
   {
-    path: 'terms-and-conditions',
+    path: 'https://vajra.ai/terms-and-conditions',
     label: 'Terms and Conditions',
   },
   {
-    path: 'privacy-policy',
+    path: 'https://vajra.ai/privacy-policy',
     label: 'Privacy Policy',
   },
   {
-    path: 'refund-shipping-policy',
+    path: 'https://vajra.ai/refund-shipping-policy',
     label: 'Refund & Shipping Policy',
   },
   {
-    path: 'contact',
+    path: 'https://vajra.ai/contact',
     label: 'Contact',
   },
   {
