@@ -92,7 +92,8 @@ export default function Header() {
                   ))} */}
                 </Box>
                 {router.pathname === "/customer-connect" ||
-                router.pathname === "/whatsapp" ? (
+                router.pathname === "/whatsapp" ||
+                router.pathname === "/use-cases" ? (
                   <a href="https://connect.vajra.ai">
                     <Button variant="secondarySm" sx={styles.mobMenuGreen}>
                       Login
