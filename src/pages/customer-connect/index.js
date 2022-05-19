@@ -31,6 +31,8 @@ import WhatsappForm from '../../sections/whatsapp/contact'
 import WaBgContainer from '../../assets/images/Icon-Grid.svg'
 // import '../../../public/script.js'
 import $ from 'jquery'
+// import WAChatVideo from '../../assets/animations/wa-chat-vajra2.mp4'
+import WAChatGif from '../../assets/animations/WAChat.gif'
 
 
 const navigation = [
@@ -82,7 +84,7 @@ export default function Example() {
         <Layout>
             <SEO title="Vajra.ai - AI and ML Business Solutions" /> 
 
-            <section className="text-gray-600 body-font bg-green-50" style={styles.waContainer}>
+            <section className="text-gray-600 body-font">
               <div className="container mx-auto flex px-5 py-36 md:flex-row flex-col items-center bg-gradient-to-r from-cyan-500 to-blue-500">
                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                   <h1 className="leading-6 title-font font-bold sm:text-5xl text-3xl mb-4 font-medium text-gray-900">Meet your customers where they<span className="text-green-500"> already are!</span>
@@ -100,7 +102,12 @@ export default function Example() {
                   </div>
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                <Lottie className="py-5 mt-20" options={chatWa} height={480} width={320} /><br />
+                {/* <Lottie className="py-5 mt-20" options={chatWa} height={480} width={320} /><br /> */}
+                
+                {/* <video autoPlay loop>
+                  <source src={WAChatVideo} />
+                </video> */}
+                <img src={WAChatGif} />
                 </div>
               </div>
             </section>
