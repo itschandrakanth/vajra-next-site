@@ -98,7 +98,7 @@ export default function Example() {
                   Scalable, Reliable & Affordable Fully Managed WhatsApp Official Messaging Solution.</p><br />
                   <p className="mb-8">We take care <span className="text-green-600 font-bold">Onboarding, Support, Billing and fully managed services.</span></p>
                   <div className="flex justify-center mt-10">
-                  <a href="https://api.whatsapp.com/send?phone=916302396226">
+                  <a href="https://meetings.hubspot.com/vajra-connect">
                       <button className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Request Demo</button>
                     </a>
                     <a href="https://api.whatsapp.com/send?phone=916302396226">
@@ -304,7 +304,7 @@ export default function Example() {
                   </div>
                 </div>
                 <div className="flex justify-center mt-10">
-                    <a href="https://api.whatsapp.com/send?phone=916302396226">
+                    <a href="https://meetings.hubspot.com/vajra-connect">
                       <button className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Request Demo</button>
                     </a>
                     <a href="https://api.whatsapp.com/send?phone=916302396226">
@@ -437,7 +437,7 @@ export default function Example() {
                 </div>
               
                 <div className="flex justify-center mt-10">
-                    <a href="https://api.whatsapp.com/send?phone=916302396226">
+                    <a href="https://meetings.hubspot.com/vajra-connect">
                       <button className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Request Demo</button>
                     </a>
                     <a href="https://api.whatsapp.com/send?phone=916302396226">

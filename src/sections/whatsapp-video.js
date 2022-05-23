@@ -53,7 +53,7 @@ const IntroVideo = () => {
           </Button>
         </Box>
         <div class="flex justify-center mt-10">
-                <Link href="https://api.whatsapp.com/send?phone=916302396226">
+                <Link href="https://meetings.hubspot.com/vajra-connect">
                   <button class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Request Demo</button>
                 </Link>
                 <Link href="https://api.whatsapp.com/send?phone=916302396226">
