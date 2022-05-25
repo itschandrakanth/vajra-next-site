@@ -120,7 +120,7 @@ export default function Header() {
                 </Button>
               ) : (
                 <>
-                  <a href="https://api.whatsapp.com/send?phone=916302396226">
+                  <a href="https://vajra.ai/services">
                     {/* <Button variant="primarySm" sx={styles.explore}>Try Free</Button> */}
                     <button class="gradient-button example-8">
                       <span>Try Free</span>
