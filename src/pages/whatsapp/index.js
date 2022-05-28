@@ -101,7 +101,7 @@ export default function Example() {
                   <a href="https://meetings.hubspot.com/vajra-connect">
                       <button className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Request Demo</button>
                     </a>
-                    <a href="https://api.whatsapp.com/send?phone=916302396226">
+                    <a href="https://connect.vajra.ai/register">
                       <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Try for Free</button>
                     </a>
                   </div>
@@ -307,7 +307,7 @@ export default function Example() {
                     <a href="https://meetings.hubspot.com/vajra-connect">
                       <button className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Request Demo</button>
                     </a>
-                    <a href="https://api.whatsapp.com/send?phone=916302396226">
+                    <a href="https://connect.vajra.ai/register">
                       <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Try for Free</button>
                     </a>
                   </div>
@@ -440,7 +440,7 @@ export default function Example() {
                     <a href="https://meetings.hubspot.com/vajra-connect">
                       <button className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Request Demo</button>
                     </a>
-                    <a href="https://api.whatsapp.com/send?phone=916302396226">
+                    <a href="https://connect.vajra.ai/register">
                       <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Try for Free</button>
                     </a>
                   </div>
