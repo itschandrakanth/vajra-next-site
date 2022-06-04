@@ -32,7 +32,7 @@ import WaBgContainer from '../../assets/images/Icon-Grid.svg'
 // import '../../../public/script.js'
 import $ from 'jquery'
 // import WAChatVideo from '../../assets/animations/wa-chat-vajra2.mp4'
-import WAChatGif from '../../assets/animations/WAChat.gif'
+import WAChatGif from '../../assets/animations/wa-chat2.gif'
 import Link from "next/link";
 import educationImage from "../../assets/images/icons/education.png";
 import healthcareImage from "../../assets/images/icons/healthcare.png";
