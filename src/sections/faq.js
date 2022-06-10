@@ -108,7 +108,7 @@ export default function Faq() {
           <Accordion items={faqs} />
         </Box>
         <div class="flex justify-center mt-10">
-                <Link href="https://meetings.hubspot.com/vajra-connect">
+                <Link href="/request-demo">
                   <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Request Demo</button>
                 </Link>
                 <Link href="https://app.vajra.ai/?utm_source=vajra-page">

@@ -88,8 +88,7 @@ export default function Example() {
     <ThemeProvider theme={theme}>
         <Layout>
             <SEO title="Vajra.ai - AI and ML Business Solutions" /> 
-
-            <section className="text-gray-600 body-font">
+            <section className="text-gray-600 body-font" style={{ backgroundColor: "#F9F9FA"}}>
               <div className="container mx-auto flex px-5 py-36 md:flex-row flex-col items-center bg-gradient-to-r from-cyan-500 to-blue-500">
                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                   <h1 className="leading-6 title-font font-bold sm:text-5xl text-3xl mb-4 font-medium text-gray-900">Meet your customers where they<span className="text-green-500"> already are!</span>
@@ -98,10 +97,10 @@ export default function Example() {
                   Scalable, Reliable & Affordable Fully Managed WhatsApp Official Messaging Solution.</p><br />
                   <p className="mb-8">We take care <span className="text-green-600 font-bold">Onboarding, Support, Billing and fully managed services.</span></p>
                   <div className="flex justify-center mt-10">
-                  <a href="https://api.whatsapp.com/send?phone=916302396226">
+                  <a href="/request-demo">
                       <button className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Request Demo</button>
                     </a>
-                    <a href="https://api.whatsapp.com/send?phone=916302396226">
+                    <a href="https://connect.vajra.ai/register">
                       <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Try for Free</button>
                     </a>
                   </div>
@@ -275,6 +274,14 @@ export default function Example() {
                 
               </div>
             </section>
+            <div className="flex justify-center mt-10">
+                    <a href="/request-demo">
+                      <button className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Request Demo</button>
+                    </a>
+                    <a href="https://connect.vajra.ai/register">
+                      <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Try for Free</button>
+                    </a>
+                  </div>
             <Video />
             
             {/* 3rd */}
@@ -304,10 +311,10 @@ export default function Example() {
                   </div>
                 </div>
                 <div className="flex justify-center mt-10">
-                    <a href="https://api.whatsapp.com/send?phone=916302396226">
+                    <a href="/request-demo">
                       <button className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Request Demo</button>
                     </a>
-                    <a href="https://api.whatsapp.com/send?phone=916302396226">
+                    <a href="https://connect.vajra.ai/register">
                       <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Try for Free</button>
                     </a>
                   </div>
@@ -437,10 +444,10 @@ export default function Example() {
                 </div>
               
                 <div className="flex justify-center mt-10">
-                    <a href="https://api.whatsapp.com/send?phone=916302396226">
+                    <a href="/request-demo">
                       <button className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Request Demo</button>
                     </a>
-                    <a href="https://api.whatsapp.com/send?phone=916302396226">
+                    <a href="https://connect.vajra.ai/register">
                       <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Try for Free</button>
                     </a>
                   </div>
@@ -528,9 +535,18 @@ export default function Example() {
                   
                 </div>
               </div>
+              <div className="flex justify-center mt-10">
+                    <a href="/request-demo">
+                      <button className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Request Demo</button>
+                    </a>
+                    <a href="https://connect.vajra.ai/register">
+                      <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Try for Free</button>
+                    </a>
+                  </div>
             </section>
+            
             <section class="text-gray-600 body-font">
-          <div class="container px-5 mx-auto mb-10">
+          <div class="container px-5 mx-auto mb-10 mt-20">
             <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
               <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
                 Vajra Whatsapp - Business Use Cases
@@ -623,7 +639,7 @@ export default function Example() {
             {/* Form */}
             <WhatsappForm />
             <div>
-              <div className="vfloating_btn">
+              <div className="vfloating_btn" style={{ zIndex: '99999999999999' }}>
                 <a className="va" target="_blank" href="https://wa.me/916302396226?text=hello">
                   <div className="vcontact_icon">
                   <svg width="30" viewBox="0 0 24 24"><defs/><path fill="#fff" d="M20.5 3.4A12.1 12.1 0 0012 0 12 12 0 001.7 17.8L0 24l6.3-1.7c2.8 1.5 5 1.4 5.8 1.5a12 12 0 008.4-20.3z"/><path fill="#4caf50" d="M12 21.8c-3.1 0-5.2-1.6-5.4-1.6l-3.7 1 1-3.7-.3-.4A9.9 9.9 0 012.1 12a10 10 0 0117-7 9.9 9.9 0 01-7 16.9z"/><path fill="#fafafa" d="M17.5 14.3c-.3 0-1.8-.8-2-.9-.7-.2-.5 0-1.7 1.3-.1.2-.3.2-.6.1s-1.3-.5-2.4-1.5a9 9 0 01-1.7-2c-.3-.6.4-.6 1-1.7l-.1-.5-1-2.2c-.2-.6-.4-.5-.6-.5-.6 0-1 0-1.4.3-1.6 1.8-1.2 3.6.2 5.6 2.7 3.5 4.2 4.2 6.8 5 .7.3 1.4.3 1.9.2.6 0 1.7-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.3-.6-.4z"/></svg>

@@ -162,7 +162,7 @@ const OfferHeading = () => {
       </div>
     </div>
     <div class="flex justify-center">
-      <a href="https://meetings.hubspot.com/vajra-connect">
+      <a href="/request-demo">
         <button class="mt-12 text-white bg-indigo-500 border-0 mx-2 my-2 p-3 focus:outline-none hover:bg-indigo-600 rounded text-lg">Request Demo</button>
       </a>
       <a href="https://app.vajra.ai?utm_source=vajra-offer-page" target="_blank">

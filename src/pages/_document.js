@@ -51,7 +51,7 @@ class CustomDocument extends Document {
               }}
             />
           {/* Hotjar Heatmaps */}
-          <script
+          {/* <script
             dangerouslySetInnerHTML={{
             __html: `
             (function(h,o,t,j,a,r){
@@ -64,7 +64,7 @@ class CustomDocument extends Document {
             })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=')
             `,
               }}
-          />
+          /> */}
 
             {/* <noscript><img height="1" width="1" style="display:none"
             src="https://www.facebook.com/tr?id=264700875575907&ev=PageView&noscript=1"
