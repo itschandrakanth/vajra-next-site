@@ -40,12 +40,12 @@ export default function RequestDemo() {
             <div className="container px-5 py-24 mx-auto">
                 <div className="lg:w-4/5 mx-auto flex flex-wrap">
                 <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
-                    <h2 className="text-sm title-font text-indigo-500 mb-1">This will be an 1-1 Demo session on</h2>
-                    <h1 className="text-gray-900 text-2xl title-font font-medium mb-4">How Vajra.ai can help you sell more and better support your customers with our All New WhatsApp Business Automation.</h1>
+                    <h2 className="text-lg font-bold title-font text-indigo-500 mb-1">This will be an 1-1 Demo session</h2>
+                    <p className="text-gray-900 title-font font-medium mb-4">Learn How Vajra.ai can help you sell more and better support your customers with our All New WhatsApp Business Automation.</p>
                     <p className="leading-relaxed mb-4">We will showcase a presentation where we talk about Whatsapp API, WhatsApp Business Automation followed by a live demo of Vajra Sales CRM.</p>
                     <div className="flex mb-4">
                     
-                    <a className="flex-grow text-indigo-500 border-b-2 border-indigo-500 py-2 text-lg px-1">Key Takeaways</a>
+                    <a className="flex-grow font-bold text-indigo-500 border-b-2 border-indigo-500 py-2 text-lg px-1">Key Takeaways</a>
                     {/* <a className="flex-grow border-b-2 border-gray-300 py-2 text-lg px-1">Reviews</a>
                     <a className="flex-grow border-b-2 border-gray-300 py-2 text-lg px-1">Details</a> */}
                     </div>
@@ -66,17 +66,17 @@ export default function RequestDemo() {
                     <span className="text-gray-800">5. Learn How you can Delight customers with Fast & Secure WhatsApp Customer Support</span>
                     </div>
                     <div className="flex flex-col border-b mb-2 border-gray-200 py-2">
-                    <span className="text-gray-800 font-bold">Reach ~ 2Billion Customers</span>
+                    <span className="text-indigo-500 font-bold">Reach ~ 2Billion Customers</span>
                     </div>
                     <p>Two billion active monthly WhatsApp users in 182 countries, Reach Globally with our WhatsApp Business Automation messages each day.</p>
 
                     <div className="flex flex-col border-b mb-2 border-gray-200 py-2">
-                    <span className="text-gray-800 font-bold">Engagement</span>
+                    <span className="text-indigo-500 font-bold">Engagement</span>
                     </div>
                     <p>75% of WhatsApp users are Daily Active Users(DAU) & Average time spent on whatsApp is 63 Minutes per Day .</p>
 
                     <div className="flex flex-col border-b mb-2 border-gray-200 py-2">
-                    <span className="text-gray-800 font-bold">Connect ~ Convert </span>
+                    <span className="text-indigo-500 font-bold">Connect ~ Convert </span>
                     </div>
                     <p>175 million people message a WhatsApp Business account every day.</p>
 
