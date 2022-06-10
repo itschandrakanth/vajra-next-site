@@ -89,7 +89,7 @@ export default function RequestDemo() {
             </div>
             <div className="flex items-center flex-col">
             <h2 className="text-center text-2xl font-bold p-2 mb-4 ">Provide faster, seamless customer care 24/7 with our Vajra.ai WhatsApp Business Automation </h2>
-            <a href="https://api.whatsapp.com/send?phone=916302396226?text=hi">
+            <a href="https://api.whatsapp.com/send/?phone=916302396226&text=hi">
             <button className="flex items-center text-white bg-gray-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded-full p-2">Whatsapp Now</button>
             </a>
             
