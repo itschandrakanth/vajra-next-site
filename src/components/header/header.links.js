@@ -164,6 +164,10 @@ export const menuItems = [
       label: 'Whatsapp',
     },
     {
+      path: 'https://vajra.ai/truecaller-business',
+      label: 'Truecaller',
+    },
+    {
       path: 'https://vajra.ai/use-cases',
       label: 'Use Cases',
     },
@@ -171,10 +175,10 @@ export const menuItems = [
         path: 'https://vajra.ai/#ultimate-features',
         label: 'Features',
     },
-    {
-        path: 'https://vajra.ai/#how-it-works',
-        label: 'How it Works',
-    },
+    // {
+    //     path: 'https://vajra.ai/#how-it-works',
+    //     label: 'How it Works',
+    // },
     {
         path: 'https://vajra.ai/#pricing',
         label: 'Pricing',
