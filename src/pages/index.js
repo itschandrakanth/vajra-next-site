@@ -31,7 +31,7 @@ export default function IndexPage() {
         
         <Faq />
         <Pricing />
-        <VajraPricing />
+        {/* <VajraPricing /> */}
         {/* <VajraPricingNew /> */}
         <Contact id="section1" />
         <script src="https://cloud.vajra.ai/vajra-support-demo.js"></script> 
