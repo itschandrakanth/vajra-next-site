@@ -5,9 +5,16 @@ import FooterWidget from 'components/footer-widget';
 import { menuItems, footerNav } from './footer.data';
 import { rgba } from 'polished';
 import Link from 'next/link'
+import isoImage from '../../assets/images/ISO_Certified_Vajra.png'
 
 export default function Footer() {
   return (
+    <div>
+      <div style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '350px', marginBottom: '20px', marginTop: '20px'}}>
+        <div className="items-center">
+          <img src={isoImage} />
+        </div>
+      </div>
     <Box as="footer" variant="layout.footer">
       {/* <Container>
         <Box sx={styles.footerTopInner}>
@@ -17,6 +24,9 @@ export default function Footer() {
         </Box>
       </Container> */}
       <Container>
+        
+
+        
         <Box sx={styles.footerInner}>
           <Box sx={styles.copyright}>
             <Logo />
@@ -37,6 +47,8 @@ export default function Footer() {
         </Box>
       </Container>
     </Box>
+    </div>
+      
   );
 }
 
