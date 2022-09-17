@@ -24,11 +24,11 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.content}>
             <Heading sx={styles.title}>
-              Build & Deploy a Custom Chatbot on your Website or App in just 20 minutes.
+              Delight Customers with Smarter Conversations
             </Heading>
             <div id="open-vajra"></div>
             <Text as="p" sx={styles.text}>
-            Our Expert Team Technology innovations in Artificial Intelligence Helps your business to generate 200% Increase in LEADS and Double your SALES with our VajraX Business solutions.
+            Easy to use WhatsApp API marketing suite with <br /> AI powered Chatbots.
             </Text>
             {/* <Link href="https://app.vajra.ai">
               <Button variant="primary" sx={styles.button}>
