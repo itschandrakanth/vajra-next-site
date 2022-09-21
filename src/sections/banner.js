@@ -24,11 +24,13 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.content}>
             <Heading sx={styles.title}>
-              Delight Customers with Smarter Conversations
+              Delight Customers with <br /><span className="text-2xl" sx={styles.spanColor}>AI  powered </span> <span className="text-2xl">Smarter Conversations</span>
             </Heading>
             <div id="open-vajra"></div>
             <Text as="p" sx={styles.text}>
-            Easy to use WhatsApp API marketing suite with <br /> AI powered Chatbots.
+            Easy To use WhatsApp API suite, <br /> AI Live chatbots, Bulk Messaging tools etc
+            <br />
+            <span className="font-bold" sx={styles.spanColor}>Happy Customers = Happy Business</span>
             </Text>
             {/* <Link href="https://app.vajra.ai">
               <Button variant="primary" sx={styles.button}>
@@ -114,5 +116,8 @@ const styles = {
     img: {
       maxWidth: ['100%', '100%', '100%', '100%', '90%', '90%', '100%'],
     },
+  },
+  spanColor: {
+    color: "primary",
   },
 };
