@@ -32,8 +32,9 @@ const IntroVideo = () => {
               size="24px"
               color="#fff"
             />
+
             <ResponsiveIframe
-              src="https://player.vimeo.com/video/689254974?autoplay=1&color=28DDB2&title=0&byline=0&portrait=0"
+              src="https://www.youtube.com/embed/EVL1VRTmaks"
               allow="autoplay; fullscreen"
               allowFullScreen
             />
