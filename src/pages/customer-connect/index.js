@@ -652,6 +652,12 @@ export default function Example() {
               </div>
             </div>
             {/* <script src="https://cloud.vajra.ai/regular-bot.js" vajraRegId="ES3gNLH4yMbagE0r3Hfm"></script> */}
+            <script
+              id="show-collectchat"
+              dangerouslySetInnerHTML={{
+                __html: `(function(w, d) { w.CollectId = "63859a594640ebe0301db206"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document)`,
+              }}
+            />
         </Layout>
     </ThemeProvider>
 
