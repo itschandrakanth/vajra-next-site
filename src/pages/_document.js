@@ -50,6 +50,34 @@ class CustomDocument extends Document {
             `,
               }}
             />
+  {/* ON 29 NOV 2022 */}
+          <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=AW-10990217379`}
+          />
+
+          <script
+            dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'AW-10990217379');
+            `,
+              }}
+            />
+
+
+            <script
+            dangerouslySetInnerHTML={{
+            __html: `
+            gtag('event', 'conversion', {'send_to': 'AW-10990217379/1u-MCMCGzIMYEKPRxfgo'})
+            `,
+              }}
+            />
+
+
           {/* Hotjar Heatmaps */}
           {/* <script
             dangerouslySetInnerHTML={{
