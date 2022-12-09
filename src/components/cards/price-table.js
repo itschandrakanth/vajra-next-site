@@ -28,7 +28,7 @@ const PriceTable = ({ price, isMonthly }) => {
             {price?.amount !== 0 && (
               <sub>
               <Text as="p" sx={styles.priceLabel}>
-                + GST
+                + GST /month
               </Text>
               </sub>
             )}

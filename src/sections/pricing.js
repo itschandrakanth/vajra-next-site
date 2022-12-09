@@ -19,255 +19,258 @@ const monthly = [
       {
         id: 1,
         isAvailable: true,
-        title: '100 Conversations /Bot/Month',
+        title: '300 conversations a month',
       },
       {
         id: 2,
         isAvailable: true,
-        title: `1 Bot`,
+        title: `100 Contacts`,
       },
       {
         id: 3,
         isAvailable: true,
-        title: `Email support`,
+        title: `300 Bulk Notifications`,
       },
       {
         id: 4,
         isAvailable: true,
-        title: `Analytics`,
+        title: `3 Groups`,
       },
       {
         id: 5,
         isAvailable: true,
-        title: `Lead Pipeline`,
+        title: `1 Admin`,
       },
       {
         id: 6,
         isAvailable: true,
-        title: `1 Unlocked Profile Card`,
+        title: `Limited Widgets`,
       },
       {
         id: 7,
-        isAvailable: false,
-        title: `Leads Validation(Email Only)`,
+        isAvailable: true,
+        title: `Live Chat`,
       },
       {
         id: 8,
         isAvailable: false,
-        title: `1 Live Agent`,
+        title: `Drip Messages`,
       },
       {
         id: 9,
         isAvailable: false,
-        title: `SmartMeet Bookings`,
+        title: `Lead Forms`,
       },
+      
       {
         id: 10,
         isAvailable: false,
-        title: `Android / ios App`,
+        title: `Gallery`,
       },
       {
         id: 11,
         isAvailable: false,
-        title: `AI Recommendations`,
+        title: `Additional Numbers`,
       },
     ],
   },
   {
     id: 2,
-    title: 'Plus',
+    title: 'Starter',
     subtitle: 'For startup',
-    amount: 1499,
+    amount: 999,
     isRecommended: false,
     buttonText: 'Get Started',
     features: [
       {
         id: 1,
         isAvailable: true,
-        title: '500 Conversations /Bot/Month',
+        title: '1000 conversations a month',
       },
       {
         id: 2,
         isAvailable: true,
-        title: `1 Custom Bot`,
+        title: `10,000 Contacts`,
       },
       {
         id: 3,
         isAvailable: true,
-        title: `Email & Chat support`,
+        title: `10,000 Bulk Notifications`,
       },
       {
         id: 4,
         isAvailable: true,
-        title: `Analytics`,
+        title: `10 Groups`,
       },
       {
         id: 5,
         isAvailable: true,
-        title: `Lead Pipeline`,
+        title: `1A + 2M + 2B`,
       },
       {
         id: 6,
         isAvailable: true,
-        title: `5 Unlocked Profile Cards`,
+        title: `All Widgets`,
       },
       {
         id: 7,
         isAvailable: true,
-        title: `Leads Validation(Email Only)`,
+        title: `Live Chat`,
       },
       {
         id: 8,
         isAvailable: true,
-        title: `1 Live Agent`,
+        title: `Drip Messages`,
       },
       {
         id: 9,
         isAvailable: true,
-        title: `SmartMeet Bookings`,
+        title: `Lead Forms`,
       },
+      
       {
         id: 10,
         isAvailable: true,
-        title: `Android / ios App`,
+        title: `25 MB Gallery`,
       },
       {
         id: 11,
         isAvailable: false,
-        title: `AI Recommendations`,
+        title: `Additional Numbers`,
       },
     ],
   },
   {
     id: 3,
-    title: 'Professional',
+    title: 'Growth',
     subtitle: 'For mid-size',
-    amount: 3499,
+    amount: 2899,
     isRecommended: true,
     buttonText: 'Get Started',
     features: [
       {
         id: 1,
         isAvailable: true,
-        title: '2000 Conversations /Bot/Month',
+        title: '10,000 conversations a month',
       },
       {
         id: 2,
         isAvailable: true,
-        title: `3 Custom Bots`,
+        title: `1,00,000 Contacts`,
       },
       {
         id: 3,
         isAvailable: true,
-        title: `Email & Chat support`,
+        title: `1,00,000 Bulk Notifications`,
       },
       {
         id: 4,
         isAvailable: true,
-        title: `Analytics`,
+        title: `25 Groups`,
       },
       {
         id: 5,
         isAvailable: true,
-        title: `Lead Pipeline`,
+        title: `1A + 2M + 2B`,
       },
       {
         id: 6,
         isAvailable: true,
-        title: `15 Unlocked Profile Cards`,
+        title: `All Widgets`,
       },
       {
         id: 7,
         isAvailable: true,
-        title: `Leads Validation(Email & OTP)`,
+        title: `Live Chat`,
       },
       {
         id: 8,
         isAvailable: true,
-        title: `3 Live Agents`,
+        title: `Drip Messages`,
       },
       {
         id: 9,
         isAvailable: true,
-        title: `SmartMeet Bookings`,
+        title: `Lead Forms`,
       },
+      
       {
         id: 10,
         isAvailable: true,
-        title: `Android / ios App`,
+        title: `100 MB Gallery`,
       },
       {
         id: 11,
         isAvailable: true,
-        title: `AI Recommendations`,
+        title: `1 Additional Number`,
       },
     ],
   },
-  {
-    id: 4,
-    title: 'Premium',
-    subtitle: 'For large enterprise',
-    amount: 8999,
-    isRecommended: false,
-    buttonText: 'Get Started',
-    features: [
-      {
-        id: 1,
-        isAvailable: true,
-        title: '5000 Conversations /Bot/Month',
-      },
-      {
-        id: 2,
-        isAvailable: true,
-        title: `10 Custom Bots`,
-      },
-      {
-        id: 3,
-        isAvailable: true,
-        title: `Email & Chat support`,
-      },
-      {
-        id: 4,
-        isAvailable: true,
-        title: `Analytics`,
-      },
-      {
-        id: 5,
-        isAvailable: true,
-        title: `Lead Pipeline`,
-      },
-      {
-        id: 6,
-        isAvailable: true,
-        title: `50 Unlocked Profile Cards`,
-      },
-      {
-        id: 7,
-        isAvailable: true,
-        title: `Leads Validation(Email & OTP)`,
-      },
-      {
-        id: 8,
-        isAvailable: true,
-        title: `10 Live Agents`,
-      },
-      {
-        id: 9,
-        isAvailable: true,
-        title: `SmartMeet Bookings`,
-      },
-      {
-        id: 10,
-        isAvailable: true,
-        title: `Android / ios App`,
-      },
-      {
-        id: 11,
-        isAvailable: true,
-        title: `AI Recommendations`,
-      },
-    ],
-  },
+  // {
+  //   id: 4,
+  //   title: 'Premium',
+  //   subtitle: 'For large enterprise',
+  //   amount: 8999,
+  //   isRecommended: false,
+  //   buttonText: 'Get Started',
+  //   features: [
+  //     {
+  //       id: 1,
+  //       isAvailable: true,
+  //       title: '5000 Conversations /Bot/Month',
+  //     },
+  //     {
+  //       id: 2,
+  //       isAvailable: true,
+  //       title: `10 Custom Bots`,
+  //     },
+  //     {
+  //       id: 3,
+  //       isAvailable: true,
+  //       title: `Email & Chat support`,
+  //     },
+  //     {
+  //       id: 4,
+  //       isAvailable: true,
+  //       title: `Analytics`,
+  //     },
+  //     {
+  //       id: 5,
+  //       isAvailable: true,
+  //       title: `Lead Pipeline`,
+  //     },
+  //     {
+  //       id: 6,
+  //       isAvailable: true,
+  //       title: `50 Unlocked Profile Cards`,
+  //     },
+  //     {
+  //       id: 7,
+  //       isAvailable: true,
+  //       title: `Leads Validation(Email & OTP)`,
+  //     },
+  //     {
+  //       id: 8,
+  //       isAvailable: true,
+  //       title: `10 Live Agents`,
+  //     },
+  //     {
+  //       id: 9,
+  //       isAvailable: true,
+  //       title: `SmartMeet Bookings`,
+  //     },
+  //     {
+  //       id: 10,
+  //       isAvailable: true,
+  //       title: `Android / ios App`,
+  //     },
+  //     {
+  //       id: 11,
+  //       isAvailable: true,
+  //       title: `AI Recommendations`,
+  //     },
+  //   ],
+  // },
 ];
 
 const annual = [
@@ -338,7 +341,7 @@ const annual = [
   },
   {
     id: 2,
-    title: 'Plus',
+    title: 'Starter',
     subtitle: 'For startup enterprise',
     amount: 14990,
     isRecommended: false,
@@ -403,7 +406,7 @@ const annual = [
   },
   {
     id: 3,
-    title: 'Professional',
+    title: 'Growth',
     subtitle: 'For startup enterprise',
     amount: 34990,
     isRecommended: true,
@@ -466,71 +469,71 @@ const annual = [
       },
     ],
   },
-  {
-    id: 4,
-    title: 'Premium',
-    subtitle: 'For startup enterprise',
-    amount: 89990,
-    isRecommended: false,
-    buttonText: 'Get Started',
-    features: [
-      {
-        id: 1,
-        isAvailable: true,
-        title: '5000 Conversations /Bot/Month',
-      },
-      {
-        id: 2,
-        isAvailable: true,
-        title: `10 Custom Bots`,
-      },
-      {
-        id: 3,
-        isAvailable: true,
-        title: `Email & Chat support`,
-      },
-      {
-        id: 4,
-        isAvailable: true,
-        title: `Analytics`,
-      },
-      {
-        id: 5,
-        isAvailable: true,
-        title: `Lead Pipeline`,
-      },
-      {
-        id: 6,
-        isAvailable: true,
-        title: `50 Unlocked Profile Cards`,
-      },
-      {
-        id: 7,
-        isAvailable: true,
-        title: `Leads Validation(Email & OTP)`,
-      },
-      {
-        id: 8,
-        isAvailable: true,
-        title: `10 Live Agents`,
-      },
-      {
-        id: 9,
-        isAvailable: true,
-        title: `SmartMeet Bookings`,
-      },
-      {
-        id: 10,
-        isAvailable: true,
-        title: `Android / ios App`,
-      },
-      {
-        id: 11,
-        isAvailable: true,
-        title: `AI Recommendations`,
-      },
-    ],
-  },
+  // {
+  //   id: 4,
+  //   title: 'Premium',
+  //   subtitle: 'For startup enterprise',
+  //   amount: 89990,
+  //   isRecommended: false,
+  //   buttonText: 'Get Started',
+  //   features: [
+  //     {
+  //       id: 1,
+  //       isAvailable: true,
+  //       title: '5000 Conversations /Bot/Month',
+  //     },
+  //     {
+  //       id: 2,
+  //       isAvailable: true,
+  //       title: `10 Custom Bots`,
+  //     },
+  //     {
+  //       id: 3,
+  //       isAvailable: true,
+  //       title: `Email & Chat support`,
+  //     },
+  //     {
+  //       id: 4,
+  //       isAvailable: true,
+  //       title: `Analytics`,
+  //     },
+  //     {
+  //       id: 5,
+  //       isAvailable: true,
+  //       title: `Lead Pipeline`,
+  //     },
+  //     {
+  //       id: 6,
+  //       isAvailable: true,
+  //       title: `50 Unlocked Profile Cards`,
+  //     },
+  //     {
+  //       id: 7,
+  //       isAvailable: true,
+  //       title: `Leads Validation(Email & OTP)`,
+  //     },
+  //     {
+  //       id: 8,
+  //       isAvailable: true,
+  //       title: `10 Live Agents`,
+  //     },
+  //     {
+  //       id: 9,
+  //       isAvailable: true,
+  //       title: `SmartMeet Bookings`,
+  //     },
+  //     {
+  //       id: 10,
+  //       isAvailable: true,
+  //       title: `Android / ios App`,
+  //     },
+  //     {
+  //       id: 11,
+  //       isAvailable: true,
+  //       title: `AI Recommendations`,
+  //     },
+  //   ],
+  // },
 ];
 
 const Pricing = () => {
@@ -565,10 +568,10 @@ const Pricing = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Pricing"
+          title="Whatsapp Pricing"
           description="Best Solution. Best Price. Get the plan that's suitable for your Business"
         />
-        <Flex sx={styles.priceSwitcher}>
+        {/* <Flex sx={styles.priceSwitcher}>
           <Text as="span" className="discount">
             Save 16.67%
           </Text>
@@ -586,7 +589,7 @@ const Pricing = () => {
           >
             Annually
           </Button>
-        </Flex>
+        </Flex> */}
         {/* <Flex sx={styles.priceSwitcher}>
           <Button
             variant="text"
@@ -616,9 +619,9 @@ const Pricing = () => {
           ))}
         </Grid>
         <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500 mt-8 text-center">We also offer Custom plans for Businesses. Please contact us.</p>
-        <Link href="plan-comparision">
+        {/* <Link href="plan-comparision">
                     <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Plan Comparision</button>
-                    </Link>
+                    </Link> */}
       </Container>
     </Box>
   );
@@ -692,7 +695,7 @@ const styles = {
       'repeat(1, 340px)',
       'repeat(1, 340px)',
       'repeat(1, 340px)',
-      'repeat(4,1fr)',
+      'repeat(3,1fr)',
       // 'repeat(4, 430px)',
       // 'repeat(4, 440px)',
       // 'repeat(4, 480px)',
