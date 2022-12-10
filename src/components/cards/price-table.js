@@ -61,7 +61,7 @@ const PriceTable = ({ price, isMonthly }) => {
       </Box>
       <Box sx={{ textAlign: 'center' }} className="priceButton">
         {price.buttonText === 'Start Free Trial' ? 
-          ( <a href="https://connect.vajra.ai/accounts/signin/">
+          ( <a href="https://connect.vajra.ai/">
             <Button sx={styles.button} variant="primaryMd">
             Start Free Trial
           </Button>
