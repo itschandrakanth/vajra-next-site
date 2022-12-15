@@ -100,7 +100,7 @@ export default function Header() {
                     </Button>
                   </a>
                 ) : (
-                  <a href="https://app.vajra.ai">
+                  <a href="https://connect.vajra.ai">
                     <Button variant="secondarySm" sx={styles.mobMenu}>
                       Login
                     </Button>
