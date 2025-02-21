@@ -164,10 +164,6 @@ export const menuItems = [
       label: 'Whatsapp',
     },
     {
-      path: 'https://vajra.ai/truecaller-business',
-      label: 'Truecaller',
-    },
-    {
       path: 'https://vajra.ai/use-cases',
       label: 'Use Cases',
     },
