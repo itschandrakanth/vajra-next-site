@@ -120,7 +120,7 @@ export default function Example() {
             {/* 2nd */}
             
 
-            <section className="text-gray-600 body-font">
+            <section className="text-gray-500 body-font">
               <div className="container px-5 py-10 mx-auto">
                 <div className="flex flex-col text-center w-full mb-20">
                   <div className="flex justify-center">
